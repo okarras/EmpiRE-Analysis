@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Analysis of the State of Empirical Research in
+  Requirements Engineering
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Oliver
+    family-names: Karras
+    email: oliver.karras@tib.eu
+    affiliation: >-
+      TIB - Leibniz Information Centre for Science
+      and Technology
+    orcid: 'https://orcid.org/0000-0001-5336-6899'
+repository-code: 'https://github.com/okarras/EmpiRE-Analysis'
+keywords:
+  - Python
+  - Jupyter notebook
+  - Analysis
+  - Empirical research
+  - Requirements engineering
+license: MIT

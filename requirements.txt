@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+nltk
+orkg
+rdflib
+sparql_dataframe
+SPARQLWrapper
+ipympl
+seaborn
+ipywidgets
+dataframe_image
