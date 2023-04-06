@@ -1,5 +1,5 @@
 # Analysis of the State and Evolution of Empirical Research in Requirements Engineering
-The project contains the jupyter notebook for the analysis of the state and evolution of empirical research in requirements engineering and is supplementary material for the paper "*Divide and Conquer the EmpiRE: A Community-Maintained Body of Knowledge of Empirical Research in Requirements Engineering*", submitted to the [17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement](https://conf.researchr.org/home/esem-2023).
+The project contains the analysis of the state and evolution of empirical research in requirements engineering and is supplementary material for the paper "*Divide and Conquer the EmpiRE: A Community-Maintained Body of Knowledge of Empirical Research in Requirements Engineering*", submitted to the [17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement](https://conf.researchr.org/home/esem-2023).
 
 <!--Binder link to the tailored forming analysis notebook:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/Jupyter-Notebooks/HEAD?labpath=%2FTailoredFormingAnalysis%2Ftf_orkg.ipynb)--> 
