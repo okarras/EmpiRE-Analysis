@@ -1,8 +1,8 @@
 # Analysis of the State and Evolution of Empirical Research in Requirements Engineering
 The project contains an analysis of the state and evolution of empirical research in requirements engineering and is supplementary material for the accepted paper "O. Karras et al.: *Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering*, In Proceedings of the [17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement](https://conf.researchr.org/home/esem-2023) (ESEM'23).".
 
-<!--Binder link to the interactive, reproducible and reusable analysis:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/Jupyter-Notebooks/HEAD?labpath=%2FTailoredFormingAnalysis%2Ftf_orkg.ipynb)--> 
+Binder link to the interactive, reproducible and reusable analysis:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb)
 
 ## Background
 Empirical research in Requirements Engineering (RE) is a constantly evolving topic. Over the years, several publications examined how empirical research in RE is conducted and how it should be conducted in the future by presenting snapshots of the "current" state of empirical research in RE and, more generally, in Software Engineering (SE). These researchers share the same goal of synthesizing a comprehensive, up-to-date, and long-term available overview of the state and evolution of empirical research in RE and SE. Although they share the same goal, use similar methods, i.a., (systematic) literature reviews, and even examine overlapping periods, venues, and themes, they have not collaborated to build on and update earlier works. **Lack of collaboration among researchers** and **updating literature revuews** are two well-known challenges of literature reviews. Overcoming these challenges is critical to ensure the quality, reliability, and timeliness of research findings from literature reviews.
