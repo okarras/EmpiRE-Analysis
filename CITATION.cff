@@ -3,7 +3,8 @@
 
 cff-version: 1.2.0
 title: >-
-  Analysis of the State and Evolution of Empirical Research in Requirements Engineering
+  Analysis of the State and Evolution of Empirical Research
+  in Requirements Engineering
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -13,10 +14,44 @@ authors:
     family-names: Karras
     email: oliver.karras@tib.eu
     affiliation: >-
-      TIB - Leibniz Information Centre for Science
-      and Technology
+      TIB - Leibniz Information Centre for Science and
+      Technology
     orcid: 'https://orcid.org/0000-0001-5336-6899'
 repository-code: 'https://github.com/okarras/EmpiRE-Analysis'
+abstract: >-
+  [Background.] Empirical research in requirements
+  engineering (RE) is a constantly evolving topic, with a
+  growing number of publications. Several papers address
+  this topic using literature reviews to provide a snapshot
+  of its "current" state and evolution. However, these
+  papers have never built on or updated earlier ones,
+  resulting in overlap and redundancy. The underlying
+  problem is the unavailability of data from earlier works.
+  Researchers need technical infrastructures to conduct
+  sustainable literature reviews. [Aims.] We examine the use
+  of the Open Research Knowledge Graph (ORKG) as such an
+  infrastructure to build and publish an initial Knowledge
+  Graph of Empirical research in RE (KG-EmpiRE) whose data
+  is openly available. Our long-term goal is to continuously
+  maintain KG-EmpiRE with the research community to
+  synthesize a comprehensive, up-to-date, and long-term
+  available overview of the state and evolution of empirical
+  research in RE. [Method.] We conduct a literature review
+  using the ORKG to build and publish KG-EmpiRE which we
+  evaluate against competency questions derived from a
+  published vision of empirical research in software
+  (requirements) engineering for 2020 -- 2025. [Results.]
+  From 570 papers of the IEEE International Requirements
+  Engineering Conference (2000 -- 2022), we extract and
+  analyze data on the reported empirical research and answer
+  16 out of 77 competency questions. These answers show a
+  positive development towards the vision, but also the need
+  for future improvements. [Conclusions.] The ORKG is a
+  ready-to-use and advanced infrastructure to organize data
+  from literature reviews as knowledge graphs. The resulting
+  knowledge graphs make the data openly available and
+  maintainable by research communities, enabling sustainable
+  literature reviews.
 keywords:
   - Python
   - Jupyter notebook
@@ -24,3 +59,4 @@ keywords:
   - Empirical research
   - Requirements engineering
 license: MIT
+date-released: '2023-06-26'
