@@ -1,6 +1,14 @@
 # Analysis of the State and Evolution of Empirical Research in Requirements Engineering
-The project contains an analysis of the state and evolution of empirical research in requirements engineering and is supplementary material for the accepted paper "O. Karras et al.: *Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering*, In Proceedings of the [17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement](https://conf.researchr.org/home/esem-2023) (ESEM'23).".
+The project contains an analysis of the state and evolution of empirical research in requirements engineering and is supplementary material for the paper "O. Karras et al.: *Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering*, In Proceedings of the [17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement](https://conf.researchr.org/home/esem-2023) (ESEM'23).".
 
+## Publication
+If you want to cite this project, we suggest to use either the citation provided above or the following reference:
+
+>Oliver Karras, Felix Wernlein, Jil Klünder, and Sören Auer<br/>
+>[  Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering__](https://doi.org/10.1109/ESEM56168.2023.10304795)<br/>
+>In: 2023 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM), New Orleans, LA, USA, 2023, pp. 1-12.
+
+## Interactive Jupyter Notebook
 Binder link to the interactive, reproducible, and reusable analysis:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb)
 
