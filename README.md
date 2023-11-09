@@ -2,7 +2,7 @@
 The project contains an analysis of the state and evolution of empirical research in requirements engineering and is supplementary material for the paper "O. Karras et al.: *Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering*, In Proceedings of the [17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement](https://doi.org/10.1109/ESEM56168.2023) (ESEM'23).".
 
 ## Publication
-If you want to cite this project, we suggest to use either the citation provided above or the following reference:
+If you want to cite this project, we suggest to use the following reference:
 
 >Oliver Karras, Felix Wernlein, Jil Klünder, and Sören Auer<br/>
 >[  Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering__](https://doi.org/10.1109/ESEM56168.2023.10304795)<br/>
