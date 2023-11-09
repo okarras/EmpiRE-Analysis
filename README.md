@@ -12,6 +12,7 @@ If you want to cite this project, we suggest to use the following reference:
 Binder link to the interactive, reproducible, and reusable analysis:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb)
 
+## Zenodo Release
 Zenodo link of the latest release:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8083529.svg)](https://doi.org/10.5281/zenodo.8083529)
 
