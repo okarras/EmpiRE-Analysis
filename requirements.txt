@@ -1,13 +1,13 @@
 numpy
 pandas
 matplotlib
+seaborn
 nltk
 orkg
 rdflib
 sparql_dataframe
 SPARQLWrapper
+ipykernel
 ipympl
-seaborn
 ipywidgets
 dataframe_image
-mpl_toolkits
