@@ -10,3 +10,4 @@ ipympl
 seaborn
 ipywidgets
 dataframe_image
+mpl_toolkits
