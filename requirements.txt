@@ -1,13 +1,9 @@
+ipykernel
+ipympl
+ipywidgets
+SPARQLWrapper
 numpy
 pandas
 matplotlib
 seaborn
-nltk
-orkg
-rdflib
-sparql_dataframe
-SPARQLWrapper
-ipykernel
-ipympl
-ipywidgets
 dataframe_image
