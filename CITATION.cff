@@ -17,7 +17,18 @@ authors:
       TIB - Leibniz Information Centre for Science and
       Technology
     orcid: 'https://orcid.org/0000-0001-5336-6899'
+identifiers:
+  - type: doi
+    value: 10.1109/ESEM56168.2023.10304795
+    description: >-
+      The DOI of the corresponding publication on IEEE
+      Xplore.
+  - type: doi
+    value: 10.48550/arXiv.2306.16791
+    description: The DOI of the corresponding publication on ArXiv.
 repository-code: 'https://github.com/okarras/EmpiRE-Analysis'
+url: >-
+  https://orkg.org/observatory/Empirical_Software_Engineering?sort=combined&classesFilter=Paper,Comparison,Visualization
 abstract: >-
   [Background.] Empirical research in requirements
   engineering (RE) is a constantly evolving topic, with a
@@ -58,5 +69,8 @@ keywords:
   - Analysis
   - Empirical research
   - Requirements engineering
+  - Open Research Knowledge Graph
 license: MIT
+commit: b7e06d1
+version: v1.0
 date-released: '2023-06-26'
