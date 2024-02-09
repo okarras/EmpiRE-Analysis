@@ -5,7 +5,7 @@ The project contains an analysis of the state and evolution of empirical researc
 If you want to cite this project, we suggest to use the following reference:
 
 >Oliver Karras, Felix Wernlein, Jil Klünder, and Sören Auer<br/>
->[  Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering__](https://doi.org/10.1109/ESEM56168.2023.10304795)<br/>
+>[  Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering](https://doi.org/10.1109/ESEM56168.2023.10304795)<br/>
 >In: 2023 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM), New Orleans, LA, USA, 2023, pp. 1-12.
 
 ## Interactive Jupyter Notebook
