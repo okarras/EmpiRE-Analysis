@@ -1,29 +1,72 @@
 # RE24 Artifact Track Criteria
- is a community-maintainable knowledge graph on empirical research in requirements engineering that consists of 626 papers from the IEEE International Conference on Requirement Engineering. The ORKG is an infrastructure with service for the organization of FAIR scientific knowledge from publications, software, and datasets. 
 
 ## Available
 
 ### Contentwise for 2-Pager
 - Permanently available for retrievel
+  - GitHub, Zenodo, mybinder, and ORKG
 - Publicly accessible archival repository such as Zenodo
-- DOI via archival repository with references in artifact and paper(?)
+  - Zenodo
+- DOI via archival repository with references in artifact and 2-page paper
+  - in Read.me of the project
+  - Will be cited in the 2-page paper
 
 ### Criteria
 1. The artifact is hosted online:
-    1. The URL to access the artifact is immutable and a DOI redirects to the immutable URL.
-
-        The artifact consists of two parts:
-        1. KG-EmpiRE: All papers curated in KG-EmpirRE are part of the Open Research Knowledge Graph (ORKG) that is accessible unter the following URL: https://orkg.org. All contents in the ORKG have https:// + Uniform Resource Identifiers (URIs) so that their are accessible on the web. The central accees point to all curated papers is accessible under the following URL: https://orkg.org/observatory/Empirical_Software_Engineering?sort=combined&classesFilter=Paper,Comparison,Visualization. The ORKG is a permanent service of TIB - Leibniz Information Centre for Science and Technology, which has committed itself to long-term archiving of the data and regularly performs RDF dumps as backups.
-        2. Jupyter notebook: The data analysis is implemented as a Jupyter notebook that is accessible on GitHub: https://github.com/okarras/EmpiRE-Analysis. We also publish the releases on Zenodo: https://doi.org/10.5281/zenodo.8083529. In this way, we obtain a DOI that redirects to the immutable URL of the GitHub repository. These releases also include the newest RDF dump of the ORKG from TIB. The interactive version is hosted on mybinder.
+   
+   1. GitHub Project: The GitHub project contains the data analysis of KG-EmpiRE which is implemented as a [Jupyter Notebook](empire-analysis.ipynb) that is hosted on [GitHub](https://github.com/okarras/EmpiRE-Analysis). We also publish the releases on [Zenodo](https://doi.org/10.5281/zenodo.8083529). These releases also contain an [RDF dump](Supplementary%20materials/rdf-export-orkg-2023-06-26.nt) of the ORKG to include the most recent data from KG-EmpiRE. The project is also hosted on [mybinder](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb) for interactive reproduction and (re-)use, always using the most recent data from KG-EmpiRE.
+   
+   2. KG-EmpiRE: The scientific date extracted form all papers curated in KG-EmpiRE is part of the [Open Research Knowledge Graph (ORKG)](https://orkg.org). As a central accees point to all curated papers in KG-EmpiRE, we establish a more general [ORKG observatory](https://orkg.org/observatory/Empirical_Software_Engineering) on empirical research in software engineering. The [TIB - Leibniz Information Centre for Science and Technology](https://www.tib.eu/en/research-development/open-research-knowledge-graph) developes and maintains the ORKG permanently and has committed itself to the long-term archiving of all data. In addition, we add a [RDF dump](Supplementary%20materials/rdf-export-orkg-2023-06-26.nt) of the ORKG that includes the most recent data from KG-EmpiRE to every release that is published on [Zenodo](https://doi.org/10.5281/zenodo.8083529).
 
 2. The artifact contains a README.md file summarizing:
-    1. "Summary of the Artifact":
-        - What does the artifact?
-        - What are the expected inputs and outputs?
-        - What is the motivcation for developing the artifact?
+
+   1. "Summary of the Artifact":
+
+      - What does the artifact?
+
+        The project contains the constantly update analysis and results of a sustainable literature review on the state and evolution of empirical research in RE using the developed KG-EmpiRE. KG-EmpiRE is a community-maintainable knowledge graph of empirical research in RE, which is maintained in the Open Research Knowledge Graph (ORKG). The ORKG with its technical infrastructure and services makes the data of the literature review openly available in the long term according to the FAIR data principles.
+
+      - What are the expected inputs and outputs?
+
+        Inputs: Based on 16 competency questions, the corresponding scientific data extracted from *currently* 634 papers curated in KG-EmpiRE is used as input for the individual analyses.
+        
+        Outputs: For each competency question, we provide the corresponding scientific data with visualizations and explanations as output of the individual analysis.
+
+      - What is the motivation for developing the artifact?
+
+        Overall, this project serves to make the data, analyses, and results openly accessible in the long term to enable a reproducible, (re-)usable and thus sustainable literature review.
+
+          In this way, the project can be used to:
+
+          1. Reproduce the results from the related Publication: O. Karras et al.:[Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering](https://doi.org/10.1109/ESEM56168.2023.10304795), In: 2023 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM), New Orleans, LA, USA, 2023, pp. 1-12.
+
+          2. (Re-)use KG-EmpiRE with its data for other research on empirical research in RE.
+
+          3. Replicate our research approach for sustainable literature reviews on other topics.
+
     2. "Authors' Information":
-        - List all authors
+        - Author of the project:
+  
+          [Dr. rer. nat. Oliver Karras](https://www.oliver-karras.de)
+
+          TIB - Leibniz Information Centre for Science and Technology
+
+          Department Research and Development
+
+          Data Science & Digital Libraries Research Group
+
+          Welfengarten 1B
+
+          30167 Hannover
+
+          E-Mail: [oliver.karras@tib.eu](mailto:oliver.karras@tib.eu)
+
         - List how to cite a work that uses the artifact
+  
+          1. Included [CFF-file](CITATION.cff) for "cite this repository" in the menu on the top right.
+          
+          2. Added reference to the related publication.
+
     3. "Artifact Loction":
         - Describe at which URL and DOI the artifact can be obtained
 3. The artifact contains a LICENSE file with a propoer open-source license.
