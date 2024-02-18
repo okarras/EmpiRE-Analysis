@@ -8,12 +8,11 @@
 <i>A Sustainable Literature Review for Analyzing the State and Evolution of Empirical Research in Requirements Engineering</i></h2>
 
   <p align="center">
-  <br />
-    <a href="https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb">Interactive Analysis</a>
-    ·
-    <a href="https://github.com/okarras/EmpiRE-Analysis/issues">Bug Report</a>
-    ·
-    <a href="https://github.com/okarras/EmpiRE-Analysis/issues">Feature Request</a>
+      <a href="https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb">Interactive Analysis</a>
+      ·
+      <a href="https://github.com/okarras/EmpiRE-Analysis/issues">Bug Report</a>
+      ·
+      <a href="https://github.com/okarras/EmpiRE-Analysis/issues">Feature Request</a>
   </p>
 </div>
 
