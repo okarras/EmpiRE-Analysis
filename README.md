@@ -4,7 +4,7 @@
     <img src="Supplementary%20materials/logo.jpg" alt="Logo" width="250" height="250">
   </a>
 
-<h2 align="center">Divide and Conquer the EmpiRE: A Community-Maintainable <b>K</b>nowledge <b>G</b>raph of <b>Empi</b>rical <b>RE</b>search in Requirements Engineering<br/>
+<h2 align="center"><span>Divide and Conquer the EmpiRE: A Community-Maintainable <b>K</b>nowledge <b>G</b>raph of <b>Empi</b>rical <b>RE</b>search in Requirements Engineering</span><br/>
 <i>A Sustainable Literature Review for Analyzing the State and Evolution of Empirical Research in Requirements Engineering</i></h2>
 
   <p align="center">
