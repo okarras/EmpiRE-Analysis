@@ -4,12 +4,13 @@
 cff-version: 1.2.0
 title: >-
   Divide and Conquer the EmpiRE: A Community-Maintainable
-  Knowledge Graph of Empirical Research in Requirements
-  Engineering
+  Knowledge Graph of Empirical REsearch in Requirements
+  Engineering - A Sustainable Literature Review for
+  Analyzing the State and Evolution of Empirical Research in
+  Requirements Engineering
 message: >-
-  A Sustainable Literature Review for Analyzing the State
-  and Evolution of Empirical Research in Requirements
-  Engineering
+  If you use this software, please cite it using the
+  metadata from this file.
 type: software
 authors:
   - given-names: Oliver

@@ -56,7 +56,9 @@ In this way, this project can be used to:
 
 3. Replicate our research approach for sustainable literature reviews on other topics.
 
-## Related Publication
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# Related Publication
 The first version of KG-EmpiRE based on **570 papers** from the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 2000 to 2022 and the first analysis of the sustainanle literature review on the state and evolution of empirical research in RE have been published in:
 
 >Oliver Karras, Felix Wernlein, Jil Klünder, and Sören Auer:<br/>
@@ -66,20 +68,20 @@ The first version of KG-EmpiRE based on **570 papers** from the [IEEE Internatio
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Executive Summary
+# Executive Summary
 <details>
 <summary>TL;DR</summary>
 
-### Background
+## Background
 Empirical research in RE is a constantly evolving topic. Over the years, several publications examined how empirical research in RE is conducted and how it should be conducted in the future by presenting snapshots of the "current" state of empirical research in RE and, more generally, in Software Engineering (SE). These publications share the same goal of synthesizing a comprehensive, up-to-date, and long-term available overview of the state and evolution of empirical research in RE and SE. Although they share the same goal, use similar methods, i.a., (systematic) literature reviews, and even examine overlapping periods, venues, and themes, they have not collaborated to build on and update earlier works. **Lack of collaboration among researchers** and **updating literature reviews** are two well-known challenges of literature reviews. Overcoming these challenges is crucial to ensure the quality, reliability, and timeliness of research findings from literature reviews and thus enable sustainable literature reviews.
 
-### Motivation
+## Motivation
 Recent research addresses the above challenges by focusing on when and how to update (systematic) literature reviews in SE and its subfields. While these works provide social and economic decision support and guidance for updating literature reviews, **the central problem is the unavailability of the extracted and analyzed data**, corresponding to open science in SE. Unavailable data complicates **collaboration among researchers** and **updating literature reviews** as the entire data collection, extraction, and analysis must be repeated and expanded for a comprehensive review. Researchers need support in the form of technical infrastructures and services to conduct sustainable literature reviews so that all data is openly available in the long term according to the FAIR data principles. For this purpose, the data must be organized in a flexible, fine-grained, context-sensitive, and semantic representation to be understandable, processable, and usable by humans and machines. Over the last decade, Knowledge Graphs (KGs) have become an emerging technology in industry and academia as they enable this versatile data representation. Besides well-known KGs for encyclopedic and factual data, such as [DBpedia](https://www.dbpedia.org/) and [WikiData](https://www.wikidata.org), using so-called Research Knowledge Graphs (RKGs) for scientific data is a rather new approach. RKGs include bibliographic metadata, e.g., titles, authors, and venues, as well as scientific data, e.g., research designs, methods, and results. They are a promising technology to sustainably organize scientific data so that the data is openly available for long-term collaborations.
 
-### Objective
+## Objective
 **Our longterm objective is to constantly maintain a KG-EmpiRE with the research community to synthesize a comprehensive, up-to-date, and long-term available overview of the state and evolution of empirical research in RE**. For this purpose, we use the [ORKG](https://orkg.org/) with its technical infrastructure and services to build and publish KG-EmpiRE that the research community can constantly maintain, (re-)use, update, and expand by *dividing* the efforts to *conquer* the EmpiRE. With this work, we lay the foundation for such a comprehensive, up-to-date, and long-term available overview of the state and evolution of empirical research in RE by building, publishing, and analyzing KG-EmpiRE.
 
-### Method
+## Method
 Our research approach consists of three steps: Data collection, Data extraction, and Data analysis. So far, **we collected 634 papers** published in the research track of the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 1996 to 2022. **We extracted and organized their scientific data** on the six themes *research paradigm*, *research design*, *research method*, *data collection*, *data analysis* and *bibliographic metadata* using a developed [ORKG template](https://orkg.org/template/R186491). ORKG templates are an implementation of a subset of SHACL and allow specifying the structure of descriptions of papers. In this way, we determined which data to extract and ensured that all the descriptions of papers are consistent and comparable to **build and publish KG-EmpiRE**. In the supplementary materials, we provide a comprehensive overview of [all contents for data extraction](Supplementary%20materials/Overview%20of%20all%20content%20for%20data%20extraction.pdf) and the [ORKG template](Supplementary%20materials/Detailed%20ORKG%20template%20structure.pdf).
 
 <p align="center">
@@ -98,7 +100,7 @@ With this project, we perform the data analysis of KG-EmpiRE, which has two purp
 
 The data analysis is based on competency questions regarding empirical research in SE, including RE, derived from the vision of [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30). [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30) describe their vision of the role of empirical methods in SE, including RE, for the period of 2020 – 2025 by comparing the **"current" state of practice (2007)** with their **target state (2020 - 2025)**. We analyzed these descriptions and derived a total of [77 competency questions](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx). The number of competency questions answered reflects the **coverage of the curated topic in KG-EmpiRE** (1), and the answers to competency questions provide **insights into the state and evolution of empirical research in RE** (2). For each competency question that can be answered with KG-EmpiRE, we specified a [SPARQL](https://www.w3.org/TR/sparql11-query/) query to retrieve and analyze the data of KG-EmpiRE from the ORKG. We provide all details of the analysis with its [data](SPARQL-Data/), [visualizations](Figures/), and explanations in the [Jupyter Notebook](empire-analysis.ipynb) hosted on [mybinder](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb) for interactive reproduction and (re-)use, always using the most recent data from KG-EmpiRE.
 
-### Results
+## Results
 **Coverage:**
 
 Regarding the coverage of the curated topic of empirical research in RE by KG-EmpiRE, we can state that we are able to answer 16 of the 77 competence questions (21%) using the extracted data. While this number of answered competency questions represents an acceptable coverage of the curated topic, the need to expand the [ORKG template](https://orkg.org/template/R186491) to extract and organize more data required to answer the open competency questions is clearly evident. Our work lays the foundation for a sustainable literature review on the state and evoluation of emirical research in RE by building, publishing, and analyzing KG-EmpiRE which can be constantly and collaboratively updated. In this way, we demonstrate how researchers can use the ORKG with its technical infrastructure and services for organizing scientific data in an openly available and long-term way to build and publish KGs that the research community can constantly maintain, (re-)use, update, and expand.
@@ -112,7 +114,7 @@ Regarding the state and evolution of empirical research in RE by analyzing KG-Em
 
 Despite the positive developments towards the vision of [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30), we also identified the need for future improvements of empirical research in RE. While [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30) envisioned an increased use of *action research*, we found that the proportion of *action research* is small over the entire timeframe analyzed (2000 - 2022) with an average proportion of only 2%. For the **target state (2020 - 2025)**, no paper reported the use of *action research*. According to [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30), more *case studies* and *action research* are needed to ensure the industrial relevance of empirical research. This part of the vision is not yet nearly achieved. Regarding the reporting of threats to validity, we found two issues for future improvement. First, a proportion of 33.6% of the analyzed papers reporting threats to validity *only mentioned threats to validity* without any further classification of the types of validity. Although the general reporting of threats to validity is useful, the lack of classification of the reported threats to validity makes it difficult for a reader to have a clear overview of whether the threats to validity have been discussed comprehensively. In the future, researchers need to communicate their threats to validity comprehensively and transparently by discussing all type of validity equally and naming the type of validity addressed. Second, the proportion of papers reporting threats to *conclusion validity* with 18.2% is small compared to the other mainly discussed types of valdity (*external validity*: 60.4%, *internal validity*: 56.1%, and *construct validity*: 47.9%). Therefore, researchers need to make more effort to comprehensively discuss the validity of their empirical research by also addressing the conclusion valditiy similar to the other types of validity. Regarding data analysis, the proportion of paper using *inferential statistics* is small with a proportion of only 26.2% for the **target state (2020 - 2025)**. For a mature use of statistical methods as envisioned by [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30), researchers have to deal more with *inferential statistics* and include them in the data analysis of their empirical research.
 
-### Conclusions
+## Conclusions
 First of all, we want to remark that the generalizability of our findings is limited as KG-EmpiRE is in a first stage due to the limited analysis of the 570 papers from the research track of the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 2000 to 2022. This conference is the largest international conference in the research field of RE where a large number of established researchers in this field regularly publish high-quality, peer-reviewed (empirical) research papers. Therefore, the papers analyzed are a representative for the target population of all papers in RE, but they still form only a small subset. Nevertheless, the results provide important insights into the state and evolution of empirical research in RE, especially published in [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/). For this reason, we consider our research approach suitable to enable a sustainable literature review on the state and evoluation of emirical research in RE by using the ORKG with its technical infrastructure and services to build and publish KG-EmpiRE that the research community can constantly maintain, (re-)use, update, and expand by *dividing* the efforts to *conquer* the EmpiRE.
 
 Using the ORKG, the extracted data is not encapsulated in a file as usual, which is, at best, published on a data repository, but in a openly available knowledge graph, which, to put it simply, is nothing more than a graph-based database. Overall, the ORKG offers an ready-to-use and sustainably governed infrastructure that implements best practices, such as FAIR principles and versioning, with services to support researchers in organizing (acquiring, curating, publishing, and processing) FAIR scientific data. As a result, the FAIR scientific data is openly available in the long term and can be understood, processed, and used by humans and machines. Thus, the research community can constantly maintain, (re-)use, update, and expand KG-EmpiRE, that we have built, published, and analyzed, in a long-term and collaborative manner. For example, in case of errors in data extraction, anyone, and in the best case the authors themselves, can update the data. It is also possible to expand KG-EmpiRE by curating more papers using or even expanding the [ORKG template](https://orkg.org/template/R186491) to extract more data in a structured, consistent, and comparable way. In all these cases, anyone can (re-)use this project to reproduce this constantly updated data analysis and its results. Using the ORKG to organize scientific data helps to address two of the key challenges of literature reviews: **Lack of collaboration among researchers** and **updating literature reviews**. For this reason, we conclude that using the ORKG represents a step in the right direction towards sustainable literature reviews to ensure the quality, reliability, and timeliness of research findings for a successful long-term collaboration of researchers.
@@ -122,9 +124,7 @@ For our future work, we have a plan with short-, mid-, and long-term actions. As
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Corresponding Author
+# Corresponding Author
 
 [Dr. rer. nat. Oliver Karras](https://www.oliver-karras.de)
 
@@ -140,27 +140,30 @@ Welfengarten 1B
 
 E-Mail: [oliver.karras@tib.eu](mailto:oliver.karras@tib.eu)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Artifact Location
+# How to Cite
+If you want to cite this project, we suggest to use the following reference:
+>Oliver Karras:<br/>
+>[__Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical REsearch in Requirements Engineering - A Sustainable Literature Review for Analyzing the State and Evolution of Empirical Research in Requirements Engineering__](https://zenodo.org/doi/10.5281/zenodo.8083528)<br/>
+>Computer Software, Version v1.0, https://github.com/okarras/EmpiRE-Analysis, 2023.
+
+Or you can use the "**Cite this repository**" function in the top right menu resulting from the included [citation file format file](CITATION.cff) for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).
+
+If you want to cite the related publication, use the reference in <a href="#related-publication">Related Publication</a>.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# Artifact Location
 [KG-EmpiRE](https://orkg.org/observatory/Empirical_Software_Engineering?sort=combined&classesFilter=Paper,Comparison,Visualization)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## How to Cite
-> Oliver Karras: "Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical REsearch in Requirements Engineering", (Version v1.0) [Computer software]. https://github.com/okarras/EmpiRE-Analysis, 2023.
-
-
-If you want to cite this project, we suggest to use the following reference:
-
->Oliver Karras, Felix Wernlein, Jil Klünder, and Sören Auer<br/>
->[__Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering__](https://doi.org/10.1109/ESEM56168.2023.10304795)<br/>
->In: 2023 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM), New Orleans, LA, USA, 2023, pp. 1-12.
-
-## Interactive Jupyter Notebook
+# Interactive Jupyter Notebook
 Binder link to the interactive, reproducible, and reusable analysis:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb)
 
-## Zenodo Release
+# Zenodo Release
 Zenodo link of the latest release:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8083529.svg)](https://doi.org/10.5281/zenodo.8083529)
 
