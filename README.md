@@ -48,15 +48,23 @@ In this project, we perform the data analysis of KG-EmpiRE, which has two purpos
 
 The data analysis is based on [competency questions](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx) regarding empirical research in SE, including RE, derived from the vision of [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30). [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30) describe their vision of the role of empirical methods in SE, including RE, for the period of 2020 – 2025 by comparing the **"current" state of practice (2007)** with their **target state (2020 - 2025)**. We analyzed these descriptions and derived a total of [77 competency questions](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx). The number of competency questions answered reflects the **coverage of the curated topic in KG-EmpiRE** (1), and the answers to competency questions provide **insights into the state and evolution of empirical research in RE** (2). For each competency question that can be answered with KG-EmpiRE (*currently* 16 of 77), we specified a [SPARQL](https://www.w3.org/TR/sparql11-query/) query to retrieve and analyze the data of KG-EmpiRE from the ORKG. We provide all details of the analysis with its SPARQL queries, [data](SPARQL-Data/), [visualizations](Figures/), and explanations in the [Jupyter Notebook](empire-analysis.ipynb) hosted on [binder](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb) for interactive reproduction and (re-)use, always using the most recent data from KG-EmpiRE.
 
+The [analysis](empire-analysis.ipynb) of the individual competence questions to be answered always follow the same structure:
+
+1. Data Selection: Explaining the competency question and the required data for the analysis.
+2. Data Collection: Executing the specified SPARQL query to retrieve the data.
+3. Data Exploration: Exploring the data, including its cleaning and validation, to prepare the data for data analysis.
+4. Data Analysis: Analyzing the data and creating visualizations.
+5. Data Interpretation: Interpreting the data and derive insights.
+
 Overall, this project serves to make the [data](SPARQL-Data/), [analysis](empire-analysis.ipynb), and [results](Figures/) openly available in the long term according to the [FAIR data principles](https://doi.org/10.1038/sdata.2016.18) to enable a reproducible, (re-)usable and thus sustainable literature review.
 
 In this way, this project can be used to:
 
-1. Reproduce the results from the <a href="#related-publication">Related Publication</a>.
+1. Replicate the results from the <a href="#related-publication">Related Publication</a>.
 
-2. (Re-)use KG-EmpiRE with its data for other research on empirical research in RE.
+2. (Re-)use KG-EmpiRE with its scientific data for other research on empirical research in RE.
 
-3. Replicate our research approach for sustainable literature reviews on other topics.
+3. Reproduce our research approach for sustainable literature reviews on other topics.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -235,6 +243,25 @@ EmpiRE-Analysis/
 | [README.md](README.md)| README file of the project.|
 |[requirements.txt](requirements.txt)| A list of packages or libraries needed to work on a project that can all be installed with the file.|
 |[runtime.txt](runtime.txt)| Specification of the Python runtime to declare the exact version number to use.|
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# System Requirements
+The following system requirements must be met to run this project:
+
+<div align="center">
+
+[![OS - Windows](https://img.shields.io/badge/OS-Windows-blue?logo=windows&logoColor=white)](https://www.microsoft.com/)
+[![Anaconda3 - 23.7.4](https://img.shields.io/badge/Anaconda3-conda_23.7.4-blue)](https://www.anaconda.com/)
+[![Made with Python](https://img.shields.io/badge/Python->=3.10-blue?logo=python&logoColor=white)](https://python.org)
+[![pip - >=23.2.1](https://img.shields.io/badge/pip->=23.2.1-blue)](https://pypi.org/project/pip/)
+
+</div>
+All required libraries are installed automatically when running:
+
+    pip install -r requirements.txt
+
+I use [Visual Studio Code](https://code.visualstudio.com/) for developing and can recommend the [YouTube Tutorial](https://www.youtube.com/watch?v=h1sAzPojKMg) for setting up [Jupyter Notebooks](https://jupyter.org/) in [Visual Studio Code](https://code.visualstudio.com/). 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
