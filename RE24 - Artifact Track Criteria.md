@@ -71,11 +71,9 @@
 
 ### Criteria
 1. Test usability of the artifact on a fresh environment.
-   
    - Tested successful with 3 differnt systems.
 
 2. Fulfill all criteria for "Available".
-
    - Done, see above. 
    
 3. The artifact has an extended README.md file:
