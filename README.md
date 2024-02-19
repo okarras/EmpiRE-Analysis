@@ -159,15 +159,20 @@ If you want to cite the related publication, use the reference in <a href="#rela
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # Artifact Location
-[KG-EmpiRE](https://orkg.org/observatory/Empirical_Software_Engineering?sort=combined&classesFilter=Paper,Comparison,Visualization)
+
+## Interactive Analysis
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb)
+
+## Zenodo Release
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8083529.svg)](https://doi.org/10.5281/zenodo.8083529)
+
+## GitHub Project
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/okarras/EmpiRE-Analysis/)
+
+## KG-EmpiRE in the Open Research Knowledge Graph (ORKG)
+[![ORKG](https://orkg.org/strapi/uploads/Primary_Logo_Lockup_27d073499a.svg)](https://orkg.org/observatory/Empirical_Software_Engineering?sort=combined&classesFilter=Paper,Comparison,Visualization)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-# Interactive Jupyter Notebook
-Binder link to the interactive, reproducible, and reusable analysis:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb)
 
-# Zenodo Release
-Zenodo link of the latest release:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8083529.svg)](https://doi.org/10.5281/zenodo.8083529)
 
