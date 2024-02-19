@@ -2,15 +2,6 @@
 
 ## Available
 
-### Contentwise for 2-Pager
-- Permanently available for retrievel
-  - GitHub, Zenodo, mybinder, and ORKG
-- Publicly accessible archival repository such as Zenodo
-  - Zenodo
-- DOI via archival repository with references in artifact and 2-page paper
-  - in Read.me of the project
-  - Will be cited in the 2-page paper
-
 ### Criteria
 1. The artifact is hosted online:
    
@@ -20,7 +11,7 @@
 
 2. The artifact contains a README.md file summarizing:
 
-   1. "Summary of the Artifact":
+   1. Summary of the Artifact:
 
       - What does the artifact?
 
@@ -44,7 +35,7 @@
 
           3. Replicate our research approach for sustainable literature reviews on other topics.
 
-    2. "Authors' Information":
+    2. Author' Information:
         - Author of the project:
   
           [Dr. rer. nat. Oliver Karras](https://www.oliver-karras.de)
@@ -67,24 +58,26 @@
           
           2. Added reference to the related publication.
 
-    3. "Artifact Loction":
-        - Describe at which URL and DOI the artifact can be obtained
-3. The artifact contains a LICENSE file with a propoer open-source license.
-4. Anyone must be able to access the artifact, without the need for registration.
+    3. Artifact Loction:
+<div align="center">
+
+[![GitHub - Project](https://img.shields.io/badge/GitHub-Project-2ea44f)](https://github.com/okarras/EmpiRE-Analysis) [![Issues - Bug Report](https://img.shields.io/badge/Issues-Bug_Report-2ea44f)](https://github.com/okarras/EmpiRE-Analysis/issues)  [![Issues - Feature Request](https://img.shields.io/badge/Issues-Feature_Request-2ea44f)](https://github.com/okarras/EmpiRE-Analysis/issues) [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8083529.svg)](https://doi.org/10.5281/zenodo.8083529) [![ORKG - KG-EmpiRE](https://img.shields.io/badge/ORKG-KG--EmpiRE-e86161)](https://orkg.org/observatory/Empirical_Software_Engineering?sort=combined&classesFilter=Paper,Comparison,Visualization)
+</div>
 
 ## Reusable
 
-### Contentwise for 2-Pager
-- well-documented, exercisable, complete, includes appropriate evidence of verification
-- facilitate reuse and repurpose
-- Norms and standards of the research community should be strictly adhered to 
-
 ### Criteria
 1. Test usability of the artifact on a fresh environment.
-
-   Tested successful with 3 differnt systems.
+   
+   - Tested successful with 3 differnt systems.
 
 2. Fulfill all criteria for "Available".
+
+   - Done, see above. 
+   
 3. The artifact has an extended README.md file:
     1. Same points as for "Available"
     2. "Description of the Artifact":
@@ -111,4 +104,22 @@
 
 ## 2-pager
 1. Describe how the artifact builds on the previous paper or previous artifact.
-2. Use IEEE format 
+2. Use IEEE format
+
+## Available
+
+### Contentwise for 2-Pager
+- Permanently available for retrievel
+  - GitHub, Zenodo, mybinder, and ORKG
+- Publicly accessible archival repository such as Zenodo
+  - Zenodo
+- DOI via archival repository with references in artifact and 2-page paper
+  - in Read.me of the project
+  - Will be cited in the 2-page paper
+
+## Reusable
+
+### Contentwise for 2-Pager
+- well-documented, exercisable, complete, includes appropriate evidence of verification
+- facilitate reuse and repurpose
+- Norms and standards of the research community should be strictly adhered to 
