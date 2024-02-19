@@ -21,6 +21,7 @@
     <li><a href="#executive-summary">Executive Summary</a></li>
     <li><a href="#corresponding-author">Corresponding Author</a></li>
     <li><a href="#how-to-cite">How to Cite</a></li>
+    <li><a href="#folder-structure-and-files">Folder Structure and Files</a></li>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Usage</a></li>
@@ -99,7 +100,7 @@ With this project, we perform the data analysis of KG-EmpiRE, which has two purp
 
 (2) We gain insights into the state and evolution of empirical research in RE.
 
-The data analysis is based on competency questions regarding empirical research in SE, including RE, derived from the vision of [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30). [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30) describe their vision of the role of empirical methods in SE, including RE, for the period of 2020 – 2025 by comparing the **"current" state of practice (2007)** with their **target state (2020 - 2025)**. We analyzed these descriptions and derived a total of [77 competency questions](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx). The number of competency questions answered reflects the **coverage of the curated topic in KG-EmpiRE** (1), and the answers to competency questions provide **insights into the state and evolution of empirical research in RE** (2). For each competency question that can be answered with KG-EmpiRE, we specified a [SPARQL](https://www.w3.org/TR/sparql11-query/) query to retrieve and analyze the data of KG-EmpiRE from the ORKG. We provide all details of the analysis with its [data](SPARQL-Data/), [visualizations](Figures/), and explanations in the [Jupyter Notebook](empire-analysis.ipynb) hosted on [binder](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb) for interactive reproduction and (re-)use, always using the most recent data from KG-EmpiRE.
+The data analysis is based on competency questions regarding empirical research in SE, including RE, derived from the vision of [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30). [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30) describe their vision of the role of empirical methods in SE, including RE, for the period of 2020 – 2025 by comparing the **"current" state of practice (2007)** with their **target state (2020 - 2025)**. We analyzed these descriptions and derived a total of [77 competency questions](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx). The number of competency questions answered reflects the **coverage of the curated topic in KG-EmpiRE** (1), and the answers to competency questions provide **insights into the state and evolution of empirical research in RE** (2). For each competency question that can be answered with KG-EmpiRE, we specified [SPARQL](https://www.w3.org/TR/sparql11-query/) queries to retrieve and analyze the data of KG-EmpiRE from the ORKG. We provide all details of the analysis with its SPARQL queries, [data](SPARQL-Data/), [visualizations](Figures/), and explanations in the [Jupyter Notebook](empire-analysis.ipynb) hosted on [binder](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb) for interactive reproduction and (re-)use, always using the most recent data from KG-EmpiRE.
 
 ## Results
 **Coverage:**
@@ -154,6 +155,87 @@ Or you can use the "**Cite this repository**" function in the top right menu res
 If you want to cite the related publication, use the reference in <a href="#related-publication">Related Publication</a>.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+# Folder Structure and Files
+In the following, we first show a graphical overview of the folder structure and files of the project before we describe the folders and files in more detail.
+
+## Graphical Overview
+```bash
+EmpiRE-Analysis/
+┣━ .vscode/
+┃   ┗━ settings.json
+┣━ Figures/
+┃   ┣━ CQ1/...contains 2 visualizations
+┃   ┣━ CQ2/...contains 8 visualizations
+┃   ┣━ CQ3/...contains 2 visualizations
+┃   ┣━ CQ4/...contains 4 visualizations
+┃   ┣━ CQ5/...contains 2 visualizations
+┃   ┣━ CQ6/...contains 3 visualizations
+┃   ┣━ CQ7/...contains 6 visualizations
+┃   ┣━ CQ8/...contains 2 visualizations
+┃   ┣━ CQ9/...contains 2 visualizations
+┃   ┣━ CQ10/...contains 2 visualizations
+┃   ┣━ CQ11/...contains 2 visualizations
+┃   ┣━ CQ12/...contains 4 visualizations
+┃   ┣━ CQ13/...contains 2 visualizations
+┃   ┣━ CQ14/...contains 2 visualizations
+┃   ┣━ CQ15/...contains 2 visualizations
+┃   ┗━ CQ16/...contains 2 visualizations
+┣━ SPARQL-Data/...contains 22 CSV files of the data retrieved with the SPARQL queries
+┣━ Supplementary materials/
+┃   ┣━ approach.png
+┃   ┣━ Detailed list of all 77 competency questions.xlsx
+┃   ┣━ Detailed ORKG template structure.pdf
+┃   ┣━ logo.jpg
+┃   ┣━ Overview of all content for data extraction.pdf
+┃   ┗━ rdf-export-orkg-2023-06-26.nt
+┣━ .gitattributes
+┣━ CITATION.cff
+┣━ empire-analysis.ipynb
+┣━ LICENSE
+┣━ RE24 - Artifact Track Criteria.md
+┣━ README.md
+┣━ requirements.txt
+┗━ runtime.txt
+```
+
+## Description of the Folders and Files 
+| **Directory** | **Description** |
+|---------------|-----------------|
+| [.vscode/](.vscode/)[settings.json](.vscode/settings.json)| Storage location of the workspace settings file for [Visual Studio Code](https://code.visualstudio.com/).|
+| [Figures/](Figures/)|Storage location of all visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) organized in individual subfolders per competence question.|
+| [Figures/](Figures/)[CQ1/](Figures/CQ1)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 1.|
+| [Figures/](Figures/)[CQ2/](Figures/CQ2)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 2.|
+| [Figures/](Figures/)[CQ3/](Figures/CQ3)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 3.|
+| [Figures/](Figures/)[CQ4/](Figures/CQ4)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 4.|
+| [Figures/](Figures/)[CQ5/](Figures/CQ5)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 5.|
+| [Figures/](Figures/)[CQ6/](Figures/CQ6)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 6.|
+| [Figures/](Figures/)[CQ7/](Figures/CQ7)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 7.|
+| [Figures/](Figures/)[CQ8/](Figures/CQ8)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 8.|
+| [Figures/](Figures/)[CQ9/](Figures/CQ9)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 9.|
+| [Figures/](Figures/)[CQ10/](Figures/CQ10)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 10.|
+| [Figures/](Figures/)[CQ11/](Figures/CQ11)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 11.|
+| [Figures/](Figures/)[CQ12/](Figures/CQ12)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 12.|
+| [Figures/](Figures/)[CQ13/](Figures/CQ13)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 13.|
+| [Figures/](Figures/)[CQ14/](Figures/CQ14)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 14.|
+| [Figures/](Figures/)[CQ15/](Figures/CQ15)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 15.|
+| [Figures/](Figures/)[CQ16/](Figures/CQ16)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 16.|
+| [SPARQL-Data/](SPARQL-Data/)| Storage location of the data  retreived by the correpsonding SPARQL queries of the competency questions.|
+| [Supplementary materials/](Supplementary%20materials/)| Storage location of the supplementary materials of the [analysis](empire-analysis.ipynb) and the <a href="#related-publication">Related Publication</a>.|
+| [Supplementary materials/](Supplementary%20materials/)[approach.png](Supplementary%20materials/approach.png)| Visualization of the research approach for building, publishing, and analyzing KG-EmpiRE.|
+| [Supplementary materials/](Supplementary%20materials/)[Detailed list of all 77 competency questions.xlsx](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx)| The detailed list of all 77 competency questions derived from the vision of [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30) of regarding the role of empirical methods in all fields of SE, including RE.|
+| [Supplementary materials/](Supplementary%20materials/)[Detailed ORKG template structure.pdf](Supplementary%20materials/Detailed%20ORKG%20template%20structure.pdf)| The detailed overview of the developed ORKG template for structuring the scientific data extracted from the *currently* 634 papers|.
+| [Supplementary materials/](Supplementary%20materials/)[logo.jpg](Supplementary%20materials/logo.jpg)| Logo of the project.|
+| [Supplementary materials/](Supplementary%20materials/)[Overview of all content for data extraction.pdf](Supplementary%20materials/Overview%20of%20all%20content%20for%20data%20extraction.pdf)| The detailed overview of all content identified for data extraction.|
+| [Supplementary materials/](Supplementary%20materials/)[rdf-export-orkg-2023-06-26.nt](Supplementary%20materials/rdf-export-orkg-2023-06-26.nt)| RDF dump of the ORKG that belongs to the latest release of the project published on [Zenodo](https://doi.org/10.5281/zenodo.8083529) and includes the most recent analyzed data from KG-EmpiRE.|
+| [.gitattributes](.gitattributes)| Needed for using Git LFS, as the RDF dump must be handled as LFS files due to its size.|
+| [CITATION.cff](CITATION.cff)| The file contains for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).|
+| [empire-analysis.ipynb](empire-analysis.ipynb)| Jupyter Notebook that contains the entire data analysis of KG-EmpiRE for answering the 16 competency questions.|
+| [LICENSE](LICENSE)| License of the project|
+| [RE24 - Artifact Track Criteria.md](RE24%20-%20Artifact%20Track%20Criteria.md)| Documentation of the fulfillment of all criteria of the RE24 Artifact Track for Available and Reusable badges to assist the reviewers.|
+| [README.md](README.md)| README file of the project.|
+|[requirements.txt](requirements.txt)| A list of packages or libraries needed to work on a project that can all be installed with the file.|
+|[runtime.txt](runtime.txt)| Specification of the Python runtime to declare the exact version number to use.|
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

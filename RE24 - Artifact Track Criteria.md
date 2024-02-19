@@ -74,12 +74,15 @@
    - Tested successful with 3 differnt systems.
 
 2. Fulfill all criteria for "Available".
-   - Done, see above. 
+      - Done, see above. 
    
 3. The artifact has an extended README.md file:
     1. Same points as for "Available"
-    2. "Description of the Artifact":
-        - Describe each file in the artifact
+         - Done, see above.
+
+    2. Description of the Artifact:
+        - We provide a graphical overview and a tabular overview with descriptions for each folder and file in the project.
+
     3. "System Requirements":
         - State the required system needed to run the artifact
         - State the required programs needed to run the artifact
