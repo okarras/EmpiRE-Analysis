@@ -22,8 +22,8 @@
     <li><a href="#corresponding-author">Corresponding Author</a></li>
     <li><a href="#how-to-cite">How to Cite</a></li>
     <li><a href="#folder-structure-and-files">Folder Structure and Files</a></li>
-    <li><a href="#built-with">Built With</a></li>
-    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#system-requirements">System Requirements</a></li>
+    <li><a href="#installation-instructions">Installation Instructions</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#publications">Publications</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -254,7 +254,7 @@ The following system requirements must be met to run this project:
 [![OS - Windows](https://img.shields.io/badge/OS-Windows-blue?logo=windows&logoColor=white)](https://www.microsoft.com/)
 [![Anaconda3 - 23.7.4](https://img.shields.io/badge/Anaconda3-conda_23.7.4-blue)](https://www.anaconda.com/)
 [![Made with Python](https://img.shields.io/badge/Python->=3.10-blue?logo=python&logoColor=white)](https://python.org)
-[![pip - >=23.2.1](https://img.shields.io/badge/pip->=23.2.1-blue)](https://pypi.org/project/pip/)
+[![pip - 23.2.1](https://img.shields.io/badge/pip->=23.2.1-blue)](https://pypi.org/project/pip/)
 
 </div>
 All required libraries are installed automatically when running:
@@ -262,6 +262,18 @@ All required libraries are installed automatically when running:
     pip install -r requirements.txt
 
 I use [Visual Studio Code](https://code.visualstudio.com/) for developing and can recommend the [YouTube Tutorial](https://www.youtube.com/watch?v=h1sAzPojKMg) for setting up [Jupyter Notebooks](https://jupyter.org/) in [Visual Studio Code](https://code.visualstudio.com/). 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# Installation Instructions
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# Executable Machine and Environment
+We use [binder](https://mybinder.org/) to provide an interactive version of the analysis.
+
+> [!WARNING]  
+> Currently, we face issues with the executable version of the interactive analysis on binder. We are working on a solution.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
