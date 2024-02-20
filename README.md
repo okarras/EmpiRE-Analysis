@@ -262,7 +262,7 @@ All required libraries are installed automatically when running:
 
     pip install -r requirements.txt
 
-I use [Visual Studio Code](https://code.visualstudio.com/) for developing and can recommend the [YouTube Tutorial](https://www.youtube.com/watch?v=h1sAzPojKMg) for setting up [Jupyter Notebooks](https://jupyter.org/) in [Visual Studio Code](https://code.visualstudio.com/). 
+We use [Visual Studio Code](https://code.visualstudio.com/) for developing and can recommend the following [YouTube Tutorial](https://www.youtube.com/watch?v=h1sAzPojKMg) for setting up [Jupyter Notebooks](https://jupyter.org/) in [Visual Studio Code](https://code.visualstudio.com/). 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -273,8 +273,18 @@ I use [Visual Studio Code](https://code.visualstudio.com/) for developing and ca
 # Executable Machine and Environment
 We use [binder](https://mybinder.org/) to provide an interactive version of the analysis.
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/okarras/EmpiRE-Analysis?quickstart=1)
+
 > [!WARNING]  
 > Currently, we face issues with the executable version of the interactive analysis on binder. We are working on a solution.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# Usage Instructions:
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# Replication Instructions:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
