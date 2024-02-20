@@ -83,10 +83,10 @@
     2. Description of the Artifact:
         - We provide a graphical overview and a tabular overview with descriptions for each folder and file in the project.
 
-    3. "System Requirements":
-        - State the required system needed to run the artifact
-        - State the required programs needed to run the artifact
-        - State the required libraries needed to run the artifact
+    3. System Requirements:
+        - OS Windows
+        - Anaconda 3 - 23.7.4, Python >= 3.10, pip  23.2.1
+        - Libraries are automatically installed with requirements.txt
     4. "Installation Instructions":
         - Detailed description of how to run the artifact from scratch
     5. "Executable machine & environment":
