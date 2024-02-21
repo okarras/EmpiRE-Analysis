@@ -11,6 +11,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8083529.svg)](https://doi.org/10.5281/zenodo.8083529) [![ORKG - KG-EmpiRE](https://img.shields.io/badge/ORKG-KG--EmpiRE-e86161)](https://orkg.org/observatory/Empirical_Software_Engineering?sort=combined&classesFilter=Paper,Comparison,Visualization)
+[![ORKG - RDF dump](https://img.shields.io/badge/ORKG-RDF_dump-e86161)](https://orkg.org/api/rdf/dump)
 </div>
 
 <details>
@@ -38,7 +39,7 @@ This project contains the constantly updated [data](SPARQL-Data/), [analysis](em
 
 KG-EmpiRE is a community-maintainable knowledge graph (KG) of empirical research in requirements engineering based on scientific data extracted from *currently* **634 papers** published in the research track of the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 1996 to 2022. We are *currently* organizing scientific data in KG-EmpiRE using a defined [template](Supplementary%20materials/Detailed%20ORKG%20template%20structure.pdf) for the six [themes](Supplementary%20materials/Overview%20of%20all%20content%20for%20data%20extraction.pdf) *research paradigm*, *research design*, *research method*, *data collection*, *data analysis* and *bibliographic metadata* with the long-term plan to expand the themes.
 
-KG-EmpiRE itself is maintained in the [Open Research Knowledge Graph (ORKG)](https://orkg.org). The ORKG is a cross-domain and cross-topic research knowledge graph (RKG) with a corresponding technical infrastructure and services for the organization of Findable, Accessible, Interoperable, and Reusable (FAIR) scientific data from papers in accordance with the [FAIR data principles](https://doi.org/10.1038/sdata.2016.18). The [TIB - Leibniz Information Centre for Science and Technology](https://www.tib.eu/en/research-development/open-research-knowledge-graph) developes and maintains the ORKG permaently and has committed itself to the long-term archiving of all data. As a central accees point to all curated papers in KG-EmpiRE, we established a more general [ORKG observatory](https://orkg.org/observatory/Empirical_Software_Engineering) on empirical research in software engineering. In addition, we add a [RDF dump](Supplementary%20materials/rdf-export-orkg-2023-06-26.nt) of the ORKG to each release of the project published on [Zenodo](https://doi.org/10.5281/zenodo.8083529), which includes the most recent analyzed data from KG-EmpiRE.
+KG-EmpiRE itself is maintained in the [Open Research Knowledge Graph (ORKG)](https://orkg.org). The ORKG is a cross-domain and cross-topic research knowledge graph (RKG) with a corresponding technical infrastructure and services for the organization of Findable, Accessible, Interoperable, and Reusable (FAIR) scientific data from papers in accordance with the [FAIR data principles](https://doi.org/10.1038/sdata.2016.18). The [TIB - Leibniz Information Centre for Science and Technology](https://www.tib.eu/en/research-development/open-research-knowledge-graph) developes and maintains the ORKG permaently and has committed itself to the long-term archiving of all data. As a central accees point to all curated papers in KG-EmpiRE, we established a more general [ORKG observatory](https://orkg.org/observatory/Empirical_Software_Engineering) on empirical research in software engineering. In addition, the ORKG provides a [RDF dump](Supplementary%20materials/rdf-export-orkg-2023-06-26.nt) of all its data that includes the most recent data from KG-EmpiRE. We also store the [data](SPARQL-Data/) used for analysis as CSV files, which can be distinguished by date. The CSV files with the date "*2023-06-26*" enable the replication of the results of the <a href="#related-publication">related publication</a>.
 
 In this project, we perform the data analysis of KG-EmpiRE, which has two purposes:
 
@@ -48,7 +49,7 @@ In this project, we perform the data analysis of KG-EmpiRE, which has two purpos
 
 The data analysis is based on competency questions regarding empirical research in SE, including RE, derived from the vision of [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30). They describe their vision of the role of empirical methods in SE, including RE, for the period of 2020 – 2025 by comparing the **"current" state of practice (2007)** with their **target state (2020 - 2025)**. We analyzed these descriptions and derived a total of [77 competency questions](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx). The number of competency questions answered reflects the **coverage of the curated topic in KG-EmpiRE** (1), and the answers to competency questions provide **insights into the state and evolution of empirical research in RE** (2). For each competency question that can be answered with KG-EmpiRE (*currently* 16 of 77), we specified [SPARQL](https://www.w3.org/TR/sparql11-query/) queries to retrieve and analyze the data of KG-EmpiRE from the ORKG. We provide all details of the analysis with its SPARQL queries, [data](SPARQL-Data/), [visualizations](Figures/), and explanations in the [Jupyter Notebook](empire-analysis.ipynb) hosted on [binder](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb) for interactive reproduction and (re-)use, always using the most recent data from KG-EmpiRE.
 
-The [analysis](empire-analysis.ipynb) of the individual competence questions always follows the same structure:
+The [analysis](empire-analysis.ipynb) of the individual competency questions always follows the same structure:
 
 1. *Data Selection*: Explaining the competency question and the required data for the analysis.
 2. *Data Collection*: Executing the specified SPARQL query to retrieve the data.
@@ -60,11 +61,11 @@ Overall, this project serves to make the [data](SPARQL-Data/), [analysis](empire
 
 In this way, this project can be used to:
 
-1. Replicate the results from the <a href="#related-publication">Related Publication</a>.
+1. Replication of the results from the <a href="#related-publication">Related Publication</a>.
 
-2. (Re-)use KG-EmpiRE with its data for other research on empirical research in RE.
+2. (Re-)use of KG-EmpiRE with its data by other researchers.
 
-3. Reproduce our research approach for sustainable literature reviews on other topics.
+3. Reproduction of our research approach for sustainable literature reviews on other topics by other researchers.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -72,8 +73,9 @@ In this way, this project can be used to:
 The first version of KG-EmpiRE based on **570 papers** from the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 2000 to 2022 and the first analysis of the sustainanle literature review on the state and evolution of empirical research in RE have been published in:
 
 >Oliver Karras, Felix Wernlein, Jil Klünder, and Sören Auer:<br/>
->[__Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering__](https://doi.org/10.1109/ESEM56168.2023.10304795)<br/>
+>[__Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering__](https://doi.org/10.1109/ESEM56168.2023.10304795),
 >In: 2023 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM), New Orleans, LA, USA, 2023, pp. 1-12.<br/>
+>
 >The paper received the [__Best Paper Award__](https://www.oliver-karras.de/wp-content/uploads/2023/10/acm_ieee_esem2023_certificate_best_paper_award.pdf) of the 17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement 2023.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -129,7 +131,7 @@ First of all, we want to remark that the generalizability of our findings is lim
 
 Using the ORKG, the extracted data is not encapsulated in a file as usual, which is, at best, published on a data repository, but in a openly available knowledge graph, which, to put it simply, is nothing more than a graph-based database. Overall, the ORKG offers an ready-to-use and sustainably governed infrastructure that implements best practices, such as FAIR principles and versioning, with services to support researchers in organizing (acquiring, curating, publishing, and processing) FAIR scientific data. As a result, the FAIR scientific data is openly available in the long term and can be understood, processed, and used by humans and machines. Thus, the research community can constantly maintain, (re-)use, update, and expand KG-EmpiRE, that we have built, published, and analyzed, in a long-term and collaborative manner. For example, in case of errors in data extraction, anyone, and in the best case the authors themselves, can update the data. It is also possible to expand KG-EmpiRE by curating more papers using or even expanding the [ORKG template](https://orkg.org/template/R186491) to extract more data in a structured, consistent, and comparable way. In all these cases, anyone can (re-)use this project to reproduce this constantly updated data analysis and its results. Using the ORKG to organize scientific data helps to address two of the key challenges of literature reviews: **Lack of collaboration among researchers** and **updating literature reviews**. For this reason, we conclude that using the ORKG represents a step in the right direction towards sustainable literature reviews to ensure the quality, reliability, and timeliness of research findings for a successful long-term collaboration of researchers.
 
-For our future work, we have a plan with short-, mid-, and long-term actions. As short-term actions, we expand KG-EmpiRE by describing more papers of the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) with our [ORKG template](https://orkg.org/template/R186491). Our goal over the coming months is to cover the entire research track of the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 1993 - 2023 to get a comprehensive overview of the state and evolution of empirical research in RE at this conference. We also establish a more general [ORKG observatory](https://orkg.org/observatory/Empirical_Software_Engineering) as a central access point to all curated papers. The observatory is an open group that anyone can join to contribute to the topic. As mid-term actions, we write and publish an [ORKG review](https://orkg.org/about/16/Reviews) about the state and evolution of empirical research in RE, based on the complete collection of all papers from the research track of the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 1993 - 2022. An [ORKG review](https://orkg.org/about/16/Reviews) is a special kind of literature review article that the research community can constantly maintain when underlying content in the ORKG changes due to updates or expansions. Besides the [ORKG review](https://orkg.org/about/16/Reviews), we expand KG-EmpiRE by including more papers from other important venues, such as the journal [Requirements Engineering](https://link.springer.com/journal/766/volumes-and-issues) or the [International Working Conference on Requirement Engineering: Foundation for Software Quality](https://link.springer.com/conference/refsq), to gain a more comprehensive overview of the state and evolution of empirical research in RE. As long-term action, we extend the [ORKG template](https://orkg.org/template/R186491) to organize more extensive scientific data about empirical resarch in a structured, consistent, and comparable manner and thus to address the 61 still open [competency questions](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx). With this plan, we work towards maintaining, updating, and expanding KG-EmpiRE togehter with the research community by *dividing* the efforts to *conquer* the EmpiRE.
+For our future work, we have a plan with short-, mid-, and long-term actions. As short-term actions, we expand KG-EmpiRE by describing more papers of the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) with our [ORKG template](https://orkg.org/template/R186491). Our goal over the coming months is to cover the entire research track of the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 1993 - 2023 to get a comprehensive overview of the state and evolution of empirical research in RE at this conference. We also establish a more general [ORKG observatory](https://orkg.org/observatory/Empirical_Software_Engineering) on empirical research in software engineering as a central access point to all curated papers. The observatory is an open group that anyone can join to contribute to the topic. As mid-term actions, we write and publish an [ORKG review](https://orkg.org/about/16/Reviews) about the state and evolution of empirical research in RE, based on the complete collection of all papers from the research track of the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 1993 - 2022. An [ORKG review](https://orkg.org/about/16/Reviews) is a special kind of literature review article that the research community can constantly maintain when underlying content in the ORKG changes due to updates or expansions. Besides the [ORKG review](https://orkg.org/about/16/Reviews), we expand KG-EmpiRE by including more papers from other important venues, such as the journal [Requirements Engineering](https://link.springer.com/journal/766/volumes-and-issues) or the [International Working Conference on Requirement Engineering: Foundation for Software Quality](https://link.springer.com/conference/refsq), to gain a more comprehensive overview of the state and evolution of empirical research in RE. As long-term action, we extend the [ORKG template](https://orkg.org/template/R186491) to organize more extensive scientific data about empirical resarch in a structured, consistent, and comparable manner and thus to address the 61 still open [competency questions](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx). With this plan, we work towards maintaining, updating, and expanding KG-EmpiRE togehter with the research community by *dividing* the efforts to *conquer* the EmpiRE.
 </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -155,12 +157,11 @@ E-Mail: [oliver.karras@tib.eu](mailto:oliver.karras@tib.eu)
 # How to Cite
 If you want to cite this project, we suggest to use the following reference:
 >Oliver Karras:<br/>
->[__Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical REsearch in Requirements Engineering - A Sustainable Literature Review for Analyzing the State and Evolution of Empirical Research in Requirements Engineering__](https://zenodo.org/doi/10.5281/zenodo.8083528)<br/>
->Computer Software, Version v1.0, https://github.com/okarras/EmpiRE-Analysis, 2023.
+>[__Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical REsearch in Requirements Engineering - A Sustainable Literature Review for Analyzing the State and Evolution of Empirical Research in Requirements Engineering__](https://zenodo.org/doi/10.5281/zenodo.8083528), Computer Software, Version v1.0, https://github.com/okarras/EmpiRE-Analysis, 2023.
 
-Or you can use the "**Cite this repository**" function in the top right menu resulting from the included [citation file format file](CITATION.cff) for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).
+You can also use the "**Cite this repository**" function in the top right menu resulting from the included [citation file format file](CITATION.cff) for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).
 
-If you want to cite the related publication, use the reference in <a href="#related-publication">Related Publication</a>.
+If you want to cite the related publication, use the reference in the section <a href="#related-publication">Related Publication</a>.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -189,15 +190,13 @@ EmpiRE-Analysis/
 ┃   ┣━ CQ14/...contains 2 visualizations
 ┃   ┣━ CQ15/...contains 2 visualizations
 ┃   ┗━ CQ16/...contains 2 visualizations
-┣━ SPARQL-Data/...contains 22 CSV files of the data retrieved with the SPARQL queries
+┣━ SPARQL-Data/...contains two sets of 22 CSV files from the SPARQL queries (most recent and the release).
 ┣━ Supplementary materials/
 ┃   ┣━ approach.png
 ┃   ┣━ Detailed list of all 77 competency questions.xlsx
 ┃   ┣━ Detailed ORKG template structure.pdf
 ┃   ┣━ logo.jpg
-┃   ┣━ Overview of all content for data extraction.pdf
-┃   ┗━ rdf-export-orkg-2023-06-26.nt
-┣━ .gitattributes
+┃   ┗━ Overview of all content for data extraction.pdf
 ┣━ CITATION.cff
 ┣━ empire-analysis.ipynb
 ┣━ LICENSE
@@ -211,38 +210,37 @@ EmpiRE-Analysis/
 | **Directory** | **Description** |
 |---------------|-----------------|
 | [.vscode/](.vscode/)[settings.json](.vscode/settings.json)| Storage location of the workspace settings file for [Visual Studio Code](https://code.visualstudio.com/).|
-| [Figures/](Figures/)|Storage location of all visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) organized in individual subfolders per competence question.|
-| [Figures/](Figures/)[CQ1/](Figures/CQ1)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 1.|
-| [Figures/](Figures/)[CQ2/](Figures/CQ2)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 2.|
-| [Figures/](Figures/)[CQ3/](Figures/CQ3)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 3.|
-| [Figures/](Figures/)[CQ4/](Figures/CQ4)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 4.|
-| [Figures/](Figures/)[CQ5/](Figures/CQ5)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 5.|
-| [Figures/](Figures/)[CQ6/](Figures/CQ6)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 6.|
-| [Figures/](Figures/)[CQ7/](Figures/CQ7)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 7.|
-| [Figures/](Figures/)[CQ8/](Figures/CQ8)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 8.|
-| [Figures/](Figures/)[CQ9/](Figures/CQ9)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 9.|
-| [Figures/](Figures/)[CQ10/](Figures/CQ10)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 10.|
-| [Figures/](Figures/)[CQ11/](Figures/CQ11)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 11.|
-| [Figures/](Figures/)[CQ12/](Figures/CQ12)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 12.|
-| [Figures/](Figures/)[CQ13/](Figures/CQ13)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 13.|
-| [Figures/](Figures/)[CQ14/](Figures/CQ14)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 14.|
-| [Figures/](Figures/)[CQ15/](Figures/CQ15)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 15.|
-| [Figures/](Figures/)[CQ16/](Figures/CQ16)| Storage location of the visualizations (as PNG files) generated by the [analysis](empire-analysis.ipynb) for competency question 16.|
-| [SPARQL-Data/](SPARQL-Data/)| Storage location of the data  retreived by the correpsonding SPARQL queries of the competency questions.|
+| [Figures/](Figures/)|Storage location of all visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) organized in individual subfolders per competence question.|
+| [Figures/](Figures/)[CQ1/](Figures/CQ1)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 1.|
+| [Figures/](Figures/)[CQ2/](Figures/CQ2)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 2.|
+| [Figures/](Figures/)[CQ3/](Figures/CQ3)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 3.|
+| [Figures/](Figures/)[CQ4/](Figures/CQ4)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 4.|
+| [Figures/](Figures/)[CQ5/](Figures/CQ5)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 5.|
+| [Figures/](Figures/)[CQ6/](Figures/CQ6)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 6.|
+| [Figures/](Figures/)[CQ7/](Figures/CQ7)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 7.|
+| [Figures/](Figures/)[CQ8/](Figures/CQ8)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 8.|
+| [Figures/](Figures/)[CQ9/](Figures/CQ9)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 9.|
+| [Figures/](Figures/)[CQ10/](Figures/CQ10)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 10.|
+| [Figures/](Figures/)[CQ11/](Figures/CQ11)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 11.|
+| [Figures/](Figures/)[CQ12/](Figures/CQ12)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 12.|
+| [Figures/](Figures/)[CQ13/](Figures/CQ13)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 13.|
+| [Figures/](Figures/)[CQ14/](Figures/CQ14)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 14.|
+| [Figures/](Figures/)[CQ15/](Figures/CQ15)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 15.|
+| [Figures/](Figures/)[CQ16/](Figures/CQ16)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 16.|
+| [SPARQL-Data/](SPARQL-Data/)| Storage location of the data  retreived by the correpsonding SPARQL queries of the competency questions. The folder contians two sets of 22 CSV files of the data retrieved with the SPARQL queries, differentiated by date: the most recent and the release date for reproduction("*2023-06-26*").|
 | [Supplementary materials/](Supplementary%20materials/)| Storage location of the supplementary materials of the [analysis](empire-analysis.ipynb) and the <a href="#related-publication">Related Publication</a>.|
 | [Supplementary materials/](Supplementary%20materials/)[approach.png](Supplementary%20materials/approach.png)| Visualization of the research approach for building, publishing, and analyzing KG-EmpiRE.|
 | [Supplementary materials/](Supplementary%20materials/)[Detailed list of all 77 competency questions.xlsx](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx)| The detailed list of all 77 competency questions derived from the vision of [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30) of regarding the role of empirical methods in all fields of SE, including RE.|
 | [Supplementary materials/](Supplementary%20materials/)[Detailed ORKG template structure.pdf](Supplementary%20materials/Detailed%20ORKG%20template%20structure.pdf)| The detailed overview of the developed ORKG template for structuring the scientific data extracted from the *currently* 634 papers|.
 | [Supplementary materials/](Supplementary%20materials/)[logo.jpg](Supplementary%20materials/logo.jpg)| Logo of the project.|
 | [Supplementary materials/](Supplementary%20materials/)[Overview of all content for data extraction.pdf](Supplementary%20materials/Overview%20of%20all%20content%20for%20data%20extraction.pdf)| The detailed overview of all content identified for data extraction.|
-| [Supplementary materials/](Supplementary%20materials/)[rdf-export-orkg-2023-06-26.nt](Supplementary%20materials/rdf-export-orkg-2023-06-26.nt)| RDF dump of the ORKG that belongs to the latest release of the project published on [Zenodo](https://doi.org/10.5281/zenodo.8083529) and includes the most recent analyzed data from KG-EmpiRE.|
 | [.gitattributes](.gitattributes)| Needed for using Git LFS, as the RDF dump must be handled as LFS files due to its size.|
 | [CITATION.cff](CITATION.cff)| The file contains for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).|
 | [empire-analysis.ipynb](empire-analysis.ipynb)| Jupyter Notebook that contains the entire data analysis of KG-EmpiRE for answering the 16 competency questions.|
 | [LICENSE](LICENSE)| License of the project|
 | [RE24 - Artifact Track Criteria.md](RE24%20-%20Artifact%20Track%20Criteria.md)| Documentation of the fulfillment of all criteria of the RE24 Artifact Track for Available and Reusable badges to assist the reviewers.|
 | [README.md](README.md)| README file of the project.|
-|[requirements.txt](requirements.txt)| A list of packages or libraries needed to work on a project that can all be installed with the file.|
+|[requirements.txt](requirements.txt)| A list of packages or libraries needed to work on the project that can all be installed with the file.|
 |[runtime.txt](runtime.txt)| Specification of the Python runtime to declare the exact version number to use.|
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -258,7 +256,11 @@ The following system requirements must be met to run this project:
 [![pip - 23.2.1](https://img.shields.io/badge/pip->=23.2.1-blue)](https://pypi.org/project/pip/)
 
 </div>
-All required libraries are installed automatically when running:
+
+> **NOTE:**  
+> We have only tested the analysis on systems with Windows operating system, which is why we specify Windows as a necessary system requirement.
+
+All required packages and libraries are installed automatically when running:
 
     pip install -r requirements.txt
 
@@ -275,8 +277,8 @@ We use [binder](https://mybinder.org/) to provide an interactive version of the 
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/okarras/EmpiRE-Analysis?quickstart=1)
 
-> [!WARNING]  
-> Currently, we face issues with the executable version of the interactive analysis on binder. We are working on a solution.
+> [!IMPORTANT]  
+> Change DATE varialbe in section 2 of notebook to replicate results from related publication.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
