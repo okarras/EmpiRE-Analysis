@@ -5,9 +5,9 @@
 ### Criteria
 1. The artifact is hosted online:
    
-   1. GitHub Project: The GitHub project contains the data analysis of KG-EmpiRE which is implemented as a [Jupyter Notebook](empire-analysis.ipynb) that is hosted on [GitHub](https://github.com/okarras/EmpiRE-Analysis). We also publish the releases on [Zenodo](https://doi.org/10.5281/zenodo.8083529). These releases also contain an [RDF dump](Supplementary%20materials/rdf-export-orkg-2023-06-26.nt) of the ORKG to include the most recent data from KG-EmpiRE. The project is also hosted on [mybinder](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb) for interactive reproduction and (re-)use, always using the most recent data from KG-EmpiRE.
+   1. GitHub Project: The GitHub project contains the data analysis of KG-EmpiRE which is implemented as a [Jupyter Notebook](empire-analysis.ipynb) that is hosted on [GitHub](https://github.com/okarras/EmpiRE-Analysis). We also publish the releases on [Zenodo](https://doi.org/10.5281/zenodo.8083529). The project is also hosted on [mybinder](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb) for interactive reproduction and (re-)use, always using the most recent data from KG-EmpiRE. We provide the [data](SPARQL-Data/) used for the analysis as CSV files, which can be distinguished by date. The CSV files with the date *2023-06-26* allow the replication of the results of the related publication. A detailed description of the replication procedure is provided below.
    
-   2. KG-EmpiRE: The scientific date extracted form all papers curated in KG-EmpiRE is part of the [Open Research Knowledge Graph (ORKG)](https://orkg.org). As a central accees point to all curated papers in KG-EmpiRE, we establish a more general [ORKG observatory](https://orkg.org/observatory/Empirical_Software_Engineering) on empirical research in software engineering. The [TIB - Leibniz Information Centre for Science and Technology](https://www.tib.eu/en/research-development/open-research-knowledge-graph) developes and maintains the ORKG permanently and has committed itself to the long-term archiving of all data. In addition, we add a [RDF dump](Supplementary%20materials/rdf-export-orkg-2023-06-26.nt) of the ORKG that includes the most recent data from KG-EmpiRE to every release that is published on [Zenodo](https://doi.org/10.5281/zenodo.8083529).
+   2. KG-EmpiRE: The scientific date extracted form all papers curated in KG-EmpiRE is part of the [Open Research Knowledge Graph (ORKG)](https://orkg.org). As a central accees point to all curated papers in KG-EmpiRE, we establish a more general [ORKG observatory](https://orkg.org/observatory/Empirical_Software_Engineering) on empirical research in software engineering. The [TIB - Leibniz Information Centre for Science and Technology](https://www.tib.eu/en/research-development/open-research-knowledge-graph) developes and maintains the ORKG permanently and has committed itself to the long-term archiving of all data. In addition, the ORKG provides a [RDF dump](Supplementary%20materials/rdf-export-orkg-2023-06-26.nt) of all its data that includes the most recent data from KG-EmpiRE.
 
 2. The artifact contains a README.md file summarizing:
 
@@ -61,10 +61,9 @@
     3. Artifact Loction:
 <div align="center">
 
-[![GitHub - Project](https://img.shields.io/badge/GitHub-Project-2ea44f)](https://github.com/okarras/EmpiRE-Analysis) [![Issues - Bug Report](https://img.shields.io/badge/Issues-Bug_Report-2ea44f)](https://github.com/okarras/EmpiRE-Analysis/issues)  [![Issues - Feature Request](https://img.shields.io/badge/Issues-Feature_Request-2ea44f)](https://github.com/okarras/EmpiRE-Analysis/issues) [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb)
+[![GitHub - Project](https://img.shields.io/badge/GitHub-Project-2ea44f)](https://github.com/okarras/EmpiRE-Analysis) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8083529.svg)](https://doi.org/10.5281/zenodo.8083529) [![ORKG - KG-EmpiRE](https://img.shields.io/badge/ORKG-KG--EmpiRE-e86161)](https://orkg.org/observatory/Empirical_Software_Engineering?sort=combined&classesFilter=Paper,Comparison,Visualization)
+[![ORKG - RDF dump](https://img.shields.io/badge/ORKG-RDF_dump-e86161)](https://orkg.org/api/rdf/dump) [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 </div>
 
 ## Reusable
@@ -84,9 +83,14 @@
         - We provide a graphical overview and a tabular overview with descriptions for each folder and file in the project.
 
     3. System Requirements:
-        - OS Windows
-        - Anaconda 3 - 23.7.4, Python >= 3.10, pip  23.2.1
-        - Libraries are automatically installed with requirements.txt
+      
+        [![OS - Windows](https://img.shields.io/badge/OS-Windows-blue?logo=windows&logoColor=white)](https://www.microsoft.com/)
+      [![Anaconda3 - 23.7.4](https://img.shields.io/badge/Anaconda3-conda_23.7.4-blue)](https://www.anaconda.com/)
+      [![Made with Python](https://img.shields.io/badge/Python->=3.10-blue?logo=python&logoColor=white)](https://python.org)
+      [![pip - 23.2.1](https://img.shields.io/badge/pip->=23.2.1-blue)](https://pypi.org/project/pip/)
+
+        All packages and libraries are automatically installed with requirements.txt.
+      
     4. "Installation Instructions":
         - Detailed description of how to run the artifact from scratch
     5. "Executable machine & environment":
