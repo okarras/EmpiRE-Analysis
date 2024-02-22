@@ -373,7 +373,7 @@ If you want to cite this project, we suggest to use the following reference:
 
 You can also use the "**Cite this repository**" function in the top right menu resulting from the included [citation file format file](CITATION.cff) for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).
 
-If you want to cite the related publication, use the reference in the section <a href="#related-publication">Related Publication</a>.
+If you want to cite the related publication, use the reference in the section <a href="#related-publication">related publication</a>.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
