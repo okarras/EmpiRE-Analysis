@@ -18,19 +18,15 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About the Project</a></li>
+    <li><a href="#folder-structure-and-files">Folder Structure and Files</a></li>
+    <li><a href="#system-requirements">System Requirements</a></li>
+    <li><a href="#installation-instructions">Installation Instructions</a></li>
+    <li><a href="#executable-machines-and-environments">Executable Machines and Environments</a></li>
+    <li><a href="#usage-instructions">Usage Instructions</a></li>
     <li><a href="#related-publication">Related Publication</a></li>
     <li><a href="#executive-summary">Executive Summary</a></li>
     <li><a href="#corresponding-author">Corresponding Author</a></li>
     <li><a href="#how-to-cite">How to Cite</a></li>
-    <li><a href="#folder-structure-and-files">Folder Structure and Files</a></li>
-    <li><a href="#system-requirements">System Requirements</a></li>
-    <li><a href="#installation-instructions">Installation Instructions</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#publications">Publications</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -39,7 +35,10 @@ This project contains the constantly updated [data](SPARQL-Data/), [analysis](em
 
 KG-EmpiRE is a community-maintainable knowledge graph (KG) of empirical research in requirements engineering based on scientific data extracted from *currently* **634 papers** published in the research track of the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 1996 to 2022. We are *currently* organizing scientific data in KG-EmpiRE using a defined [template](Supplementary%20materials/Detailed%20ORKG%20template%20structure.pdf) for the six [themes](Supplementary%20materials/Overview%20of%20all%20content%20for%20data%20extraction.pdf) *research paradigm*, *research design*, *research method*, *data collection*, *data analysis* and *bibliographic metadata* with the long-term plan to expand the themes.
 
-KG-EmpiRE itself is maintained in the [Open Research Knowledge Graph (ORKG)](https://orkg.org). The ORKG is a cross-domain and cross-topic research knowledge graph (RKG) with a corresponding technical infrastructure and services for the organization of Findable, Accessible, Interoperable, and Reusable (FAIR) scientific data from papers in accordance with the [FAIR data principles](https://doi.org/10.1038/sdata.2016.18). The [TIB - Leibniz Information Centre for Science and Technology](https://www.tib.eu/en/research-development/open-research-knowledge-graph) developes and maintains the ORKG permaently and has committed itself to the long-term archiving of all data. As a central accees point to all curated papers in KG-EmpiRE, we established a more general [ORKG observatory](https://orkg.org/observatory/Empirical_Software_Engineering) on empirical research in software engineering. In addition, the ORKG provides a [RDF dump](Supplementary%20materials/rdf-export-orkg-2023-06-26.nt) of all its data that includes the most recent data from KG-EmpiRE. We also store the [data](SPARQL-Data/) used for analysis as CSV files, which can be distinguished by date. The CSV files with the date "*2023-06-26*" enable the replication of the results of the <a href="#related-publication">related publication</a>.
+KG-EmpiRE itself is maintained in the [Open Research Knowledge Graph (ORKG)](https://orkg.org). The ORKG is a cross-domain and cross-topic research knowledge graph (RKG) with a corresponding technical infrastructure and services for the organization of Findable, Accessible, Interoperable, and Reusable (FAIR) scientific data from papers in accordance with the [FAIR data principles](https://doi.org/10.1038/sdata.2016.18). The [TIB - Leibniz Information Centre for Science and Technology](https://www.tib.eu/en/research-development/open-research-knowledge-graph) developes and maintains the ORKG permaently and has committed itself to the long-term archiving of all data. As a central accees point to all curated papers in KG-EmpiRE, we established a more general [ORKG observatory](https://orkg.org/observatory/Empirical_Software_Engineering) on empirical research in software engineering. In addition, the ORKG provides a [RDF dump](Supplementary%20materials/rdf-export-orkg-2023-06-26.nt) of all its data that includes the most recent data from KG-EmpiRE. We also store the [data](SPARQL-Data/) used for analysis as CSV files, which can be distinguished by date.
+
+> [!NOTE]  
+> The CSV files with the date "*2023-06-26*" enable the replication of the results of the <a href="#related-publication">related publication</a>. The details on the replication of the results can be found in the <a href="#replication-instructions">replication instructions</a>.
 
 In this project, we perform the data analysis of KG-EmpiRE, which has two purposes:
 
@@ -59,13 +58,229 @@ The [analysis](empire-analysis.ipynb) of the individual competency questions alw
 
 Overall, this project serves to make the [data](SPARQL-Data/), [analysis](empire-analysis.ipynb), and [results](Figures/) openly available in the long term according to the [FAIR data principles](https://doi.org/10.1038/sdata.2016.18) to enable a reproducible, (re-)usable and thus sustainable literature review.
 
-In this way, this project can be used to:
+In this way, this project can be used for:
 
-1. Replication of the results from the <a href="#related-publication">Related Publication</a>.
+1. Replication of the results from the <a href="#related-publication">related publication</a>.
 
-2. (Re-)use of KG-EmpiRE with its data by other researchers.
+2. (Re-)use of KG-EmpiRE with its most recent data.
 
-3. Reproduction of our research approach for sustainable literature reviews on other topics by other researchers.
+3. Reproduction of our research approach for sustainable literature reviews on other topics.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# Folder Structure and Files
+In the following, we first show a graphical overview of the folder structure and files of the project before we describe them in more detail.
+
+## Graphical Overview
+```bash
+EmpiRE-Analysis/
+┣━ .vscode/
+┃   ┗━ settings.json
+┣━ Figures/
+┃   ┣━ CQ1/...contains 2 visualizations
+┃   ┣━ CQ2/...contains 8 visualizations
+┃   ┣━ CQ3/...contains 2 visualizations
+┃   ┣━ CQ4/...contains 4 visualizations
+┃   ┣━ CQ5/...contains 2 visualizations
+┃   ┣━ CQ6/...contains 3 visualizations
+┃   ┣━ CQ7/...contains 6 visualizations
+┃   ┣━ CQ8/...contains 2 visualizations
+┃   ┣━ CQ9/...contains 2 visualizations
+┃   ┣━ CQ10/...contains 2 visualizations
+┃   ┣━ CQ11/...contains 2 visualizations
+┃   ┣━ CQ12/...contains 4 visualizations
+┃   ┣━ CQ13/...contains 2 visualizations
+┃   ┣━ CQ14/...contains 2 visualizations
+┃   ┣━ CQ15/...contains 2 visualizations
+┃   ┗━ CQ16/...contains 2 visualizations
+┣━ SPARQL-Data/...contains two sets of 22 CSV files from the SPARQL queries (most recent and the release).
+┣━ Supplementary materials/
+┃   ┣━ approach.png
+┃   ┣━ Detailed list of all 77 competency questions.xlsx
+┃   ┣━ Detailed ORKG template structure.pdf
+┃   ┣━ logo.jpg
+┃   ┗━ Overview of all content for data extraction.pdf
+┣━ CITATION.cff
+┣━ empire-analysis.ipynb
+┣━ LICENSE
+┣━ RE24 - Artifact Track Criteria.md
+┣━ README.md
+┣━ requirements.txt
+┗━ runtime.txt
+```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Description of the Folders and Files 
+| **Directory** | **Description** |
+|---------------|-----------------|
+| [.vscode/](.vscode/)[settings.json](.vscode/settings.json)| Storage location of the workspace settings file for [Visual Studio Code](https://code.visualstudio.com/).|
+| [Figures/](Figures/)|Storage location of all visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) organized in individual subfolders per competence question.|
+| [Figures/](Figures/)[CQ1/](Figures/CQ1)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 1.|
+| [Figures/](Figures/)[CQ2/](Figures/CQ2)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 2.|
+| [Figures/](Figures/)[CQ3/](Figures/CQ3)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 3.|
+| [Figures/](Figures/)[CQ4/](Figures/CQ4)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 4.|
+| [Figures/](Figures/)[CQ5/](Figures/CQ5)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 5.|
+| [Figures/](Figures/)[CQ6/](Figures/CQ6)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 6.|
+| [Figures/](Figures/)[CQ7/](Figures/CQ7)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 7.|
+| [Figures/](Figures/)[CQ8/](Figures/CQ8)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 8.|
+| [Figures/](Figures/)[CQ9/](Figures/CQ9)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 9.|
+| [Figures/](Figures/)[CQ10/](Figures/CQ10)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 10.|
+| [Figures/](Figures/)[CQ11/](Figures/CQ11)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 11.|
+| [Figures/](Figures/)[CQ12/](Figures/CQ12)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 12.|
+| [Figures/](Figures/)[CQ13/](Figures/CQ13)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 13.|
+| [Figures/](Figures/)[CQ14/](Figures/CQ14)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 14.|
+| [Figures/](Figures/)[CQ15/](Figures/CQ15)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 15.|
+| [Figures/](Figures/)[CQ16/](Figures/CQ16)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 16.|
+| [SPARQL-Data/](SPARQL-Data/)| Storage location of the data  retreived by the correpsonding SPARQL queries of the competency questions. The folder contians two sets of 22 CSV files of the data retrieved with the SPARQL queries, differentiated by date: the most recent and the release date for replication("*2023-06-26*").|
+| [Supplementary materials/](Supplementary%20materials/)| Storage location of the supplementary materials of the [analysis](empire-analysis.ipynb) and the <a href="#related-publication">Related Publication</a>.|
+| [Supplementary materials/](Supplementary%20materials/)[approach.png](Supplementary%20materials/approach.png)| Visualization of the research approach for building, publishing, and analyzing KG-EmpiRE.|
+| [Supplementary materials/](Supplementary%20materials/)[Detailed list of all 77 competency questions.xlsx](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx)| The detailed list of all 77 competency questions derived from the vision of [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30) of regarding the role of empirical methods in all fields of SE, including RE.|
+| [Supplementary materials/](Supplementary%20materials/)[Detailed ORKG template structure.pdf](Supplementary%20materials/Detailed%20ORKG%20template%20structure.pdf)| The detailed overview of the developed ORKG template for structuring the scientific data extracted from the *currently* 634 papers|.
+| [Supplementary materials/](Supplementary%20materials/)[logo.jpg](Supplementary%20materials/logo.jpg)| Logo of the project.|
+| [Supplementary materials/](Supplementary%20materials/)[Overview of all content for data extraction.pdf](Supplementary%20materials/Overview%20of%20all%20content%20for%20data%20extraction.pdf)| The detailed overview of all content identified for data extraction.|
+| [.gitattributes](.gitattributes)| Needed for using Git LFS, as the RDF dump must be handled as LFS files due to its size.|
+| [CITATION.cff](CITATION.cff)| The file contains for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).|
+| [empire-analysis.ipynb](empire-analysis.ipynb)| Jupyter Notebook that contains the entire data analysis of KG-EmpiRE for answering the 16 competency questions.|
+| [LICENSE](LICENSE)| License of the project|
+| [RE24 - Artifact Track Criteria.md](RE24%20-%20Artifact%20Track%20Criteria.md)| Documentation of the fulfillment of all criteria of the RE24 Artifact Track for Available and Reusable badges to assist the reviewers.|
+| [README.md](README.md)| README file of the project.|
+|[requirements.txt](requirements.txt)| A list of packages or libraries needed to work on the project that can all be installed with the file.|
+|[runtime.txt](runtime.txt)| Specification of the Python runtime to declare the exact version number to use.|
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# System Requirements
+The following system requirements must be met to run this project:
+
+<div align="center">
+
+[![OS - Windows](https://img.shields.io/badge/OS-Windows-blue?logo=windows&logoColor=white)](https://www.microsoft.com/)
+[![Anaconda3 - 23.7.4](https://img.shields.io/badge/Anaconda3-conda_23.7.4-blue)](https://www.anaconda.com/)
+[![Made with Python](https://img.shields.io/badge/Python->=3.11-blue?logo=python&logoColor=white)](https://python.org)
+[![pip - 23.2.1](https://img.shields.io/badge/pip->=23.2.1-blue)](https://pypi.org/project/pip/)
+
+</div>
+
+> [!NOTE]  
+> We have only tested the analysis on systems with Windows operating system, which is why we specify Windows as a necessary system requirement.
+
+All required packages and libraries are installed automatically when running:
+
+    pip install -r requirements.txt
+
+We use [Visual Studio Code](https://code.visualstudio.com/) for developing and can recommend the following [YouTube Tutorial](https://www.youtube.com/watch?v=h1sAzPojKMg) for setting up [Jupyter Notebooks](https://jupyter.org/) in [Visual Studio Code](https://code.visualstudio.com/). 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# Installation Instructions
+In the following, we explain how to install the project for execution on a local machine using a terminal, assuming that the system requirements are met.
+
+## 1. Clone the repository.
+```sh
+git clone https://github.com/okarras/EmpiRE-Analysis
+```
+
+## 2. Navigate to the main directory of the project.
+```sh
+cd EmpiRE-Analysis
+```
+
+## 3. Create a virtual environment with Anaconda.
+```sh
+conda create --name empire_venv
+```
+
+## 4. Activate the virtual environment.
+```sh
+conda activate empire_venv
+```
+
+## 5. Install the required packages and libraries.
+```sh
+pip install -r requirements.txt
+```
+
+## 6. Start the Jupyter Notebook.
+```sh
+jupyter notebook empire-analysis.ipynb
+```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# Executable Machines and Environments
+
+## Binder (Recommended)
+We use [binder](https://mybinder.org/) to provide an executable machine and environment where the project is hosted for interactive reproduction and (re-)use. 
+
+> [!IMPORTANT]  
+> If you follow the link below, the project will start on [binder](https://mybinder.org/) to run it in a [JupyterLab](https://jupyter.org/). If a built image already exists, the start should take about 1 - 2 minutes. If a built image needs to be created, the start can take about 5 minutes.
+
+<div align="center">
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb)
+
+</div>
+
+Once the project has been started in [JupyterLab](https://jupyter.org/), carry out the following steps:
+
+1. Restart kernel and clear all outputs.
+2. Run all cells.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## GitHub Codespaces
+If you have a GitHub account, you can use [GitHub Codespaces](https://github.com/features/codespaces) to execute the project. 
+
+<div align="center">
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/okarras/EmpiRE-Analysis?quickstart=1)
+
+</div>
+
+> [!IMPORTANT]  
+> You can use [GitHub Codespaces](https://github.com/features/codespaces) to start the project either in Visual Studio Code or JupyterLab, depending on your preferences.
+
+Once the project has been started, carry out the following steps:
+
+1. Open a terminal and install the required packages and libraries.
+    ```sh
+    pip install -r requirements.txt
+    ```
+2. Open the analysis script: [empire-analysis.ipynb](empire-analysis.ipynb).
+3. Restart kernel and clear all outputs.
+4. Run all cells.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# Usage Instructions
+In the following, we explain the steps for using the project for the two cases of *replication of results from the <a href="#related-publication">related publication</a> and (re-)use of KG-EmpiRE with its most recent data, assuming that the project is executed either <a href="#installation-instructions">locally</a> or on one of the <a href="#executable-machines-and-environments">executable machines and environments</a>. 
+
+## Replication of the results from the <a href="#related-publication">related publication</a>.
+
+1. In section "*2. Reusable Functions for Data Analysis*" of the [Jupyter Notebook](empire-analysis.ipynb), change the **DATE** variable from "*now*" to "*2023-06-26*" to use the corresponding CSV files with the data of the <a href="#related-publication">related publication</a>.
+
+    ```python
+    #DATE = now.strftime('%Y-%m-%d')
+    #For reproduction of the related publication use the following date.
+    DATE = '2023-06-26'
+    ```
+2. Restart kernel and clear all outputs.
+3. Run all cells.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## (Re-)use of KG-EmpiRE with its most recent data.
+
+1. In section "*2. Reusable Functions for Data Analysis*" of the [Jupyter Notebook](empire-analysis.ipynb),, ensure that the **DATE** variable is set to "*now*".
+
+    ```python
+    DATE = now.strftime('%Y-%m-%d')
+    #For reproduction of the related publication use the following date.
+    #DATE = '2023-06-26'
+    ```
+2. Restart kernel and clear all outputs.
+3. Run all cells.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -162,131 +377,6 @@ If you want to cite this project, we suggest to use the following reference:
 You can also use the "**Cite this repository**" function in the top right menu resulting from the included [citation file format file](CITATION.cff) for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).
 
 If you want to cite the related publication, use the reference in the section <a href="#related-publication">Related Publication</a>.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-# Folder Structure and Files
-In the following, we first show a graphical overview of the folder structure and files of the project before we describe the folders and files in more detail.
-
-## Graphical Overview
-```bash
-EmpiRE-Analysis/
-┣━ .vscode/
-┃   ┗━ settings.json
-┣━ Figures/
-┃   ┣━ CQ1/...contains 2 visualizations
-┃   ┣━ CQ2/...contains 8 visualizations
-┃   ┣━ CQ3/...contains 2 visualizations
-┃   ┣━ CQ4/...contains 4 visualizations
-┃   ┣━ CQ5/...contains 2 visualizations
-┃   ┣━ CQ6/...contains 3 visualizations
-┃   ┣━ CQ7/...contains 6 visualizations
-┃   ┣━ CQ8/...contains 2 visualizations
-┃   ┣━ CQ9/...contains 2 visualizations
-┃   ┣━ CQ10/...contains 2 visualizations
-┃   ┣━ CQ11/...contains 2 visualizations
-┃   ┣━ CQ12/...contains 4 visualizations
-┃   ┣━ CQ13/...contains 2 visualizations
-┃   ┣━ CQ14/...contains 2 visualizations
-┃   ┣━ CQ15/...contains 2 visualizations
-┃   ┗━ CQ16/...contains 2 visualizations
-┣━ SPARQL-Data/...contains two sets of 22 CSV files from the SPARQL queries (most recent and the release).
-┣━ Supplementary materials/
-┃   ┣━ approach.png
-┃   ┣━ Detailed list of all 77 competency questions.xlsx
-┃   ┣━ Detailed ORKG template structure.pdf
-┃   ┣━ logo.jpg
-┃   ┗━ Overview of all content for data extraction.pdf
-┣━ CITATION.cff
-┣━ empire-analysis.ipynb
-┣━ LICENSE
-┣━ RE24 - Artifact Track Criteria.md
-┣━ README.md
-┣━ requirements.txt
-┗━ runtime.txt
-```
-
-## Description of the Folders and Files 
-| **Directory** | **Description** |
-|---------------|-----------------|
-| [.vscode/](.vscode/)[settings.json](.vscode/settings.json)| Storage location of the workspace settings file for [Visual Studio Code](https://code.visualstudio.com/).|
-| [Figures/](Figures/)|Storage location of all visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) organized in individual subfolders per competence question.|
-| [Figures/](Figures/)[CQ1/](Figures/CQ1)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 1.|
-| [Figures/](Figures/)[CQ2/](Figures/CQ2)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 2.|
-| [Figures/](Figures/)[CQ3/](Figures/CQ3)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 3.|
-| [Figures/](Figures/)[CQ4/](Figures/CQ4)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 4.|
-| [Figures/](Figures/)[CQ5/](Figures/CQ5)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 5.|
-| [Figures/](Figures/)[CQ6/](Figures/CQ6)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 6.|
-| [Figures/](Figures/)[CQ7/](Figures/CQ7)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 7.|
-| [Figures/](Figures/)[CQ8/](Figures/CQ8)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 8.|
-| [Figures/](Figures/)[CQ9/](Figures/CQ9)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 9.|
-| [Figures/](Figures/)[CQ10/](Figures/CQ10)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 10.|
-| [Figures/](Figures/)[CQ11/](Figures/CQ11)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 11.|
-| [Figures/](Figures/)[CQ12/](Figures/CQ12)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 12.|
-| [Figures/](Figures/)[CQ13/](Figures/CQ13)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 13.|
-| [Figures/](Figures/)[CQ14/](Figures/CQ14)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 14.|
-| [Figures/](Figures/)[CQ15/](Figures/CQ15)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 15.|
-| [Figures/](Figures/)[CQ16/](Figures/CQ16)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 16.|
-| [SPARQL-Data/](SPARQL-Data/)| Storage location of the data  retreived by the correpsonding SPARQL queries of the competency questions. The folder contians two sets of 22 CSV files of the data retrieved with the SPARQL queries, differentiated by date: the most recent and the release date for reproduction("*2023-06-26*").|
-| [Supplementary materials/](Supplementary%20materials/)| Storage location of the supplementary materials of the [analysis](empire-analysis.ipynb) and the <a href="#related-publication">Related Publication</a>.|
-| [Supplementary materials/](Supplementary%20materials/)[approach.png](Supplementary%20materials/approach.png)| Visualization of the research approach for building, publishing, and analyzing KG-EmpiRE.|
-| [Supplementary materials/](Supplementary%20materials/)[Detailed list of all 77 competency questions.xlsx](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx)| The detailed list of all 77 competency questions derived from the vision of [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30) of regarding the role of empirical methods in all fields of SE, including RE.|
-| [Supplementary materials/](Supplementary%20materials/)[Detailed ORKG template structure.pdf](Supplementary%20materials/Detailed%20ORKG%20template%20structure.pdf)| The detailed overview of the developed ORKG template for structuring the scientific data extracted from the *currently* 634 papers|.
-| [Supplementary materials/](Supplementary%20materials/)[logo.jpg](Supplementary%20materials/logo.jpg)| Logo of the project.|
-| [Supplementary materials/](Supplementary%20materials/)[Overview of all content for data extraction.pdf](Supplementary%20materials/Overview%20of%20all%20content%20for%20data%20extraction.pdf)| The detailed overview of all content identified for data extraction.|
-| [.gitattributes](.gitattributes)| Needed for using Git LFS, as the RDF dump must be handled as LFS files due to its size.|
-| [CITATION.cff](CITATION.cff)| The file contains for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).|
-| [empire-analysis.ipynb](empire-analysis.ipynb)| Jupyter Notebook that contains the entire data analysis of KG-EmpiRE for answering the 16 competency questions.|
-| [LICENSE](LICENSE)| License of the project|
-| [RE24 - Artifact Track Criteria.md](RE24%20-%20Artifact%20Track%20Criteria.md)| Documentation of the fulfillment of all criteria of the RE24 Artifact Track for Available and Reusable badges to assist the reviewers.|
-| [README.md](README.md)| README file of the project.|
-|[requirements.txt](requirements.txt)| A list of packages or libraries needed to work on the project that can all be installed with the file.|
-|[runtime.txt](runtime.txt)| Specification of the Python runtime to declare the exact version number to use.|
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-# System Requirements
-The following system requirements must be met to run this project:
-
-<div align="center">
-
-[![OS - Windows](https://img.shields.io/badge/OS-Windows-blue?logo=windows&logoColor=white)](https://www.microsoft.com/)
-[![Anaconda3 - 23.7.4](https://img.shields.io/badge/Anaconda3-conda_23.7.4-blue)](https://www.anaconda.com/)
-[![Made with Python](https://img.shields.io/badge/Python->=3.10-blue?logo=python&logoColor=white)](https://python.org)
-[![pip - 23.2.1](https://img.shields.io/badge/pip->=23.2.1-blue)](https://pypi.org/project/pip/)
-
-</div>
-
-> **NOTE**  
-> We have only tested the analysis on systems with Windows operating system, which is why we specify Windows as a necessary system requirement.
-
-All required packages and libraries are installed automatically when running:
-
-    pip install -r requirements.txt
-
-We use [Visual Studio Code](https://code.visualstudio.com/) for developing and can recommend the following [YouTube Tutorial](https://www.youtube.com/watch?v=h1sAzPojKMg) for setting up [Jupyter Notebooks](https://jupyter.org/) in [Visual Studio Code](https://code.visualstudio.com/). 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-# Installation Instructions
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-# Executable Machine and Environment
-We use [binder](https://mybinder.org/) to provide an interactive version of the analysis.
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/okarras/EmpiRE-Analysis?quickstart=1)
-
-> [!IMPORTANT]  
-> Change DATE varialbe in section 2 of notebook to replicate results from related publication.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-# Usage Instructions:
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-# Replication Instructions:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
