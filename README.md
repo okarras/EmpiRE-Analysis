@@ -103,7 +103,6 @@ EmpiRE-Analysis/
 ┣━ CITATION.cff
 ┣━ empire-analysis.ipynb
 ┣━ LICENSE
-┣━ RE24 - Artifact Track Criteria.md
 ┣━ README.md
 ┣━ requirements.txt
 ┗━ runtime.txt
@@ -142,7 +141,6 @@ EmpiRE-Analysis/
 | [CITATION.cff](CITATION.cff)| The file contains for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).|
 | [empire-analysis.ipynb](empire-analysis.ipynb)| Jupyter Notebook that contains the entire data analysis of KG-EmpiRE for answering the 16 competency questions.|
 | [LICENSE](LICENSE)| License of the project|
-| [RE24 - Artifact Track Criteria.md](RE24%20-%20Artifact%20Track%20Criteria.md)| Documentation of the fulfillment of all criteria of the RE24 Artifact Track for Available and Reusable badges to assist the reviewers.|
 | [README.md](README.md)| README file of the project.|
 |[requirements.txt](requirements.txt)| A list of packages or libraries needed to work on the project that can all be installed with the file.|
 |[runtime.txt](runtime.txt)| Specification of the Python runtime to declare the exact version number to use.|
