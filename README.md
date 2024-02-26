@@ -64,7 +64,7 @@ In this way, this project can be used for:
 
 2. (Re-)use of KG-EmpiRE with its most recent data.
 
-3. Reproduction of our research approach for sustainable literature reviews on other topics.
+3. Repetition of our research approach for sustainable literature reviews on other topics.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
