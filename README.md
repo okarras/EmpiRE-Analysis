@@ -269,7 +269,7 @@ In the following, we explain the steps for using the project for the two cases o
 
 ## (Re-)use of KG-EmpiRE with its most recent data.
 
-1. In section "*2. Reusable Functions for Data Analysis*" of the [Jupyter Notebook](empire-analysis.ipynb),, ensure that the **DATE** variable is set to "*now*".
+1. In section "*2. Reusable Functions for Data Analysis*" of the [Jupyter Notebook](empire-analysis.ipynb), ensure that the **DATE** variable is set to "*now*".
 
     ```python
     DATE = now.strftime('%Y-%m-%d')
