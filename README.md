@@ -253,7 +253,7 @@ Once the project has been started, carry out the following steps:
 # Usage Instructions
 In the following, we explain the steps for using the project for the two cases of *replication of results from the <a href="#related-publication">related publication</a> and (re-)use of KG-EmpiRE with its most recent data, assuming that the project is executed either <a href="#installation-instructions">locally</a> or on one of the <a href="#executable-machines-and-environments">executable machines and environments</a>. 
 
-## Replication of the results from the related publication.
+## Replication of the results from the related publication
 
 1. In section "*2. Reusable Functions for Data Analysis*" of the [Jupyter Notebook](empire-analysis.ipynb), change the **DATE** variable from "*now*" to "*2023-06-26*" to use the corresponding CSV files with the data of the <a href="#related-publication">related publication</a>.
 
@@ -267,7 +267,7 @@ In the following, we explain the steps for using the project for the two cases o
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## (Re-)use of KG-EmpiRE with its most recent data.
+## (Re-)use of KG-EmpiRE with its most recent data
 
 1. In section "*2. Reusable Functions for Data Analysis*" of the [Jupyter Notebook](empire-analysis.ipynb), ensure that the **DATE** variable is set to "*now*".
 
