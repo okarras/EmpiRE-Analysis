@@ -72,7 +72,7 @@ In this way, this project can be used for:
 In the following, we first show a graphical overview of the folder structure and files of the project before we describe them in more detail.
 
 ## Graphical Overview
-```bash
+```
 EmpiRE-Analysis/
 ┣━ .vscode/
 ┃   ┗━ settings.json
