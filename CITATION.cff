@@ -45,9 +45,9 @@ abstract: >
 
   KG-EmpiRE is a community-maintainable knowledge graph (KG)
   of empirical research in requirements engineering based on
-  scientific data extracted from currently 634 papers
+  scientific data extracted from currently 680 papers
   published in the research track of the IEEE International
-  Conference on Requirement Engineering from 1996 to 2022.
+  Conference on Requirement Engineering from 1994 to 2022.
   We are currently organizing scientific data in KG-EmpiRE
   using a defined template for the six themes of research
   paradigm, research design, research method, data
@@ -80,6 +80,7 @@ abstract: >
 
       2. We gain insights into the state and evolution of empirical research in RE.
 
+
   The data analysis is based on competency questions
   regarding empirical research in SE, including RE, derived
   from the vision of Sjøberg et al. (2007). Sjøberg et al.
@@ -100,13 +101,12 @@ abstract: >
   and explanations in the Jupyter Notebook hosted on
   mybinder for interactive reproduction and (re-)use, always
   using the most recent data from KG-EmpiRE.
-
+  
 
   Overall, this project serves to make the data, analysis,
   and results openly available in the long term according to
   the FAIR data principles to enable a reproducible,
   (re-)usable and thus sustainable literature review.
-
 
   In this way, this project can be used to:
 
