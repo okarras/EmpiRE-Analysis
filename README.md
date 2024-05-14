@@ -31,7 +31,7 @@
 </details>
 
 > [!IMPORTANT]  
-> The content of this repository was reviewed on the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024) and assessed as <mark style="background-color: #cdb9f2; color: #8250DF" >&nbsp;Reusable&nbsp;</mark>.
+> The content of this repository was reviewed on the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024) and assessed as [![Badge - Reusable](https://img.shields.io/badge/Badge-Reusable-8250DF)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions).
 
 # About the Project
 This project contains the constantly updated [data](SPARQL-Data/), [analysis](empire-analysis.ipynb), and [results](Figures/) of a sustainable literature review on the state and evolution of empirical research in requirements engineering (RE) using the developed KG-EmpiRE. 
