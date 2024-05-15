@@ -15,7 +15,7 @@
 </div>
 
 > [!IMPORTANT]  
-> The content of this repository was reviewed on the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024) and awarded the [![Badge - Reusable](https://custom-icon-badges.demolab.com/badge/Badge-Reusable-8250DF?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions).
+> The content of this repository was reviewed on the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024) and received the [![Badge - Reusable](https://custom-icon-badges.demolab.com/badge/Badge-Reusable-8250DF?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions).
 > 
 
 # Table of Contents
@@ -28,7 +28,7 @@
     <li><a href="#installation-instructions">Installation Instructions</a></li>
     <li><a href="#executable-machines-and-environments">Executable Machines and Environments</a></li>
     <li><a href="#usage-instructions">Usage Instructions</a></li>
-    <li><a href="#related-publication">Related Publication</a></li>
+    <li><a href="#related-publications">Related Publications</a></li>
     <li><a href="#executive-summary">Executive Summary</a></li>
     <li><a href="#corresponding-author">Corresponding Author</a></li>
     <li><a href="#how-to-cite">How to Cite</a></li>
@@ -286,7 +286,7 @@ In the following, we explain the steps for using the project for the two cases o
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-# Related Publication
+# Related Publications
 The first version of KG-EmpiRE based on **570 papers** from the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 2000 to 2022 and the first analysis of the sustainable literature review on the state and evolution of empirical research in RE have been published in:
 
 >Oliver Karras, Felix Wernlein, Jil Klünder, and Sören Auer:<br/>
@@ -294,6 +294,14 @@ The first version of KG-EmpiRE based on **570 papers** from the [IEEE Internatio
 >In: 2023 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM), New Orleans, LA, USA, 2023, pp. 1-12.<br/>
 >
 >The paper received the [__Best Paper Award__](https://www.oliver-karras.de/wp-content/uploads/2023/10/acm_ieee_esem2023_certificate_best_paper_award.pdf) of the 17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement 2023.
+
+The second version KG-EmpiRE based on **680 papers** from the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 1994 to 2022 and the analysis of the sustainable literature review on the state and evolution of empirical research in RE have been published in:
+
+>Oliver Karras:<br/>
+>[__KG-EmpiRE: A Community-Maintainable Knowledge Graph for a Sustainable Literature Review on the State and Evolution of Empirical Research in Requirements Engineering__](https://arxiv.org/abs/2405.08351),
+>In: 2024 IEEE International Requirements Engineering Conference (RE), Reykjavík, Iceland, 2024.<br/>
+>
+>The artifacts received the [__Badge Reusable__](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions) from the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
