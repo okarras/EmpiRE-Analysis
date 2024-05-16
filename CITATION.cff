@@ -28,13 +28,13 @@ identifiers:
       Xplore.
   - type: doi
     value: 10.48550/arXiv.2306.16791
-    description: The DOI of the ESEM 2023 publication on ArXiv.
+    description: The DOI of the ESEM 2023 preprint on arXiv.
   - type: doi
     value: 10.5281/zenodo.8083528
     description: The DOI of the corresponding release on Zenodo.
   - type: doi
     value: 10.48550/arXiv.2405.08351
-    description: The DOI of the RE 2024 publication on ArXiv.
+    description: The DOI of the RE 2024 preprint on arXiv.
   
 repository-code: 'https://github.com/okarras/EmpiRE-Analysis'
 url: >-
