@@ -16,7 +16,6 @@
 
 > [!IMPORTANT]  
 > The content of this repository was reviewed on the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024) and received the [![Badge - Reusable](https://custom-icon-badges.demolab.com/badge/Badge-Reusable-8250DF?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions).
-> 
 
 # Table of Contents
 <details>
@@ -36,14 +35,14 @@
 </details>
 
 # About the Project
-This project contains the constantly updated [data](SPARQL-Data/), [analysis](empire-analysis.ipynb), and [results](Figures/) of a sustainable literature review on the state and evolution of empirical research in requirements engineering (RE) using the developed KG-EmpiRE. 
+This project contains the constantly updated [data](SPARQL-Data/), [analysis](empire-analysis.ipynb), and [results](Figures/) of a sustainable literature review on the state and evolution of empirical research in requirements engineering (RE) using the developed KG-EmpiRE.
 
 KG-EmpiRE is a community-maintainable knowledge graph (KG) of empirical research in requirements engineering based on scientific data extracted from *currently* **680 papers** published in the research track of the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 1994 to 2022. We are *currently* organizing scientific data in KG-EmpiRE using a defined [template](Supplementary%20materials/Detailed%20ORKG%20template%20structure.pdf) for the six [themes](Supplementary%20materials/Overview%20of%20all%20content%20for%20data%20extraction.pdf) *research paradigm*, *research design*, *research method*, *data collection*, *data analysis* and *bibliographic metadata* with the long-term plan to expand the themes.
 
-KG-EmpiRE itself is maintained in the [Open Research Knowledge Graph (ORKG)](https://orkg.org). The ORKG is a cross-domain and cross-topic research knowledge graph (RKG) with corresponding technical infrastructure and services for the organization of Findable, Accessible, Interoperable, and Reusable (FAIR) scientific data from papers in accordance with the [FAIR data principles](https://doi.org/10.1038/sdata.2016.18). The [TIB - Leibniz Information Centre for Science and Technology](https://www.tib.eu/en/research-development/open-research-knowledge-graph) develops and maintains the ORKG permanently and has committed itself to the long-term archiving of all data. As a central access point to all curated papers in KG-EmpiRE, we established a more general [ORKG observatory](https://orkg.org/observatory/Empirical_Software_Engineering) on empirical research in software engineering. In addition, the ORKG provides a [RDF dump](https://orkg.org/api/rdf/dump) of all its data, including the most recent data from KG-EmpiRE. We also store the [data](SPARQL-Data/) used for analysis as CSV files, which can be distinguished by date.
+KG-EmpiRE itself is maintained in the [Open Research Knowledge Graph (ORKG)](https://orkg.org). The ORKG is a cross-domain and cross-topic research knowledge graph (RKG) with corresponding technical infrastructure and services for the organization of Findable, Accessible, Interoperable, and Reusable (FAIR) scientific data from papers in accordance with the [FAIR data principles](https://doi.org/10.1038/sdata.2016.18). The [TIB - Leibniz Information Centre for Science and Technology](https://www.tib.eu/en/research-development/open-research-knowledge-graph) develops and maintains the ORKG permanently and has committed itself to the long-term archiving of all data. As a central access point to all curated papers in KG-EmpiRE, we established a more general [ORKG observatory](https://orkg.org/observatory/Empirical_Software_Engineering) on empirical research in software engineering. In addition, the ORKG provides a [RDF dump](https://orkg.org/api/rdf/dump) of all its data, including the most recent data from KG-EmpiRE. We also store the [data](SPARQL-Data/) used for analysis as CSV files.
 
 > [!NOTE]  
-> The CSV files with the date "*2023-06-26*" enable the replication of the results of the <a href="#related-publication">related publication</a>. The details on the replication of the results can be found in the <a href="#usage-instructions">usage instructions</a>.
+> For each <a href="#related-publications">related publication</a>, we provide a folder containing the respective CSV files to enable the replication of the results. The details on the replication of the results can be found in the <a href="#usage-instructions">usage instructions</a>.
 
 In this project, we perform the data analysis of KG-EmpiRE, which has two purposes:
 
@@ -65,7 +64,7 @@ Overall, this project serves to make the [data](SPARQL-Data/), [analysis](empire
 
 In this way, this project can be used for:
 
-1. Replication of the results from the <a href="#related-publication">related publication</a>.
+1. Replication of the results from the <a href="#related-publications">related publications</a>.
 
 2. (Re-)use of KG-EmpiRE with its most recent data.
 
@@ -98,7 +97,9 @@ EmpiRE-Analysis/
 ┃   ┣━ CQ14/...contains 2 visualizations
 ┃   ┣━ CQ15/...contains 2 visualizations
 ┃   ┗━ CQ16/...contains 2 visualizations
-┣━ SPARQL-Data/...contains two sets of 22 CSV files from the SPARQL queries (most recent and the release).
+┣━ SPARQL-Data/
+    ┣━ ESEM 2023/...contains 22 CSV files from the SPARQL queries to replicate the results from the ESEM 2023 publication 
+    ┗━ RE 2024/...contains 22 CSV files from the SPARQL queries to replicate the results from the RE 2024 publication
 ┣━ Supplementary materials/
 ┃   ┣━ approach.png
 ┃   ┣━ Detailed list of all 77 competency questions.xlsx
@@ -136,8 +137,10 @@ EmpiRE-Analysis/
 | [Figures/CQ14](Figures/CQ14)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 14.|
 | [Figures/CQ15](Figures/CQ15)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 15.|
 | [Figures/CQ16](Figures/CQ16)| Storage location of the visualizations as PNG files generated by the [analysis](empire-analysis.ipynb) for competency question 16.|
-| [SPARQL-Data/](SPARQL-Data/)| Storage location of the data  retrieved by the corresponding SPARQL queries of the competency questions. The folder contains two sets of 22 CSV files of the data retrieved with the SPARQL queries, differentiated by date: the most recent and the release date for replication("*2023-06-26*").|
-| [Supplementary materials/](Supplementary%20materials/)| Storage location of the supplementary materials of the [analysis](empire-analysis.ipynb) and the <a href="#related-publication">related publication</a>.|
+| [SPARQL-Data/](SPARQL-Data/)| Storage location of the data  retrieved by the corresponding SPARQL queries of the competency questions organized in individual folders per <a href="#related-publications">related publication</a>.|
+| [SPARQL-Data/ESEM 2023](SPARQL-Data/ESEM%202023/)| The folder contains a set of 22 CSV files of the data retrieved with the SPARQL queries to replicate the results from the ESEM 2023 publication.|
+| [SPARQL-Data/RE 2024](SPARQL-Data/RE%202024/)| The folder contains a set of 22 CSV files of the data retrieved with the SPARQL queries to replicate the results from the RE 2024 publication.|
+| [Supplementary materials/](Supplementary%20materials/)| Storage location of the supplementary materials of the [analysis](empire-analysis.ipynb) and the <a href="#related-publications">related publications</a>.|
 | [Supplementary materials/approach.png](Supplementary%20materials/approach.png)| Visualization of the research approach for building, publishing, and analyzing KG-EmpiRE.|
 | [Supplementary materials/Detailed list of all 77 competency questions.xlsx](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx)| The detailed list of all 77 competency questions derived from the vision of [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30) of regarding the role of empirical methods in all fields of SE, including RE.|
 | [Supplementary materials/Detailed ORKG template structure.pdf](Supplementary%20materials/Detailed%20ORKG%20template%20structure.pdf)| The detailed overview of the developed ORKG template for structuring the scientific data extracted from the *currently* **680 papers**|.
@@ -165,7 +168,7 @@ The following system requirements must be met to run this project:
 </div>
 
 > [!NOTE]  
-> We have only tested the analysis on systems with the Windows operating system, which is why we specify Windows as a necessary system requirement.
+> We have only tested the analysis on systems with the Windows operating system, which is why we specify Windows as a necessary system requirement. However, the analysis should also run on other operating systems.
 
 All required packages and libraries are installed automatically when running:
 
@@ -256,30 +259,44 @@ Once the project has been started, carry out the following steps:
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # Usage Instructions
-In the following, we explain the steps for using the project for the two cases of replication of results from the <a href="#related-publication">related publication</a> and (re-)use of KG-EmpiRE with its most recent data, assuming that the project is executed either <a href="#installation-instructions">locally</a> or on one of the <a href="#executable-machines-and-environments">executable machines and environments</a>. 
+In the following, we explain the steps for using the project for the two cases of replication of results from the <a href="#related-publications">related publications</a> and (re-)use of KG-EmpiRE with its most recent data, assuming that the project is executed either <a href="#installation-instructions">locally</a> or on one of the <a href="#executable-machines-and-environments">executable machines and environments</a>. 
 
-## Replication of the results from the related publication
+## Replication of the results from the related publications
 
-1. In the section "*2. Reusable Functions for Data Analysis*" of the [Jupyter Notebook](empire-analysis.ipynb), change the **DATE** variable from "*now*" to "*2023-06-26*" to use the corresponding CSV files with the data of the <a href="#related-publication">related publication</a>.
+1. In the section "*2. Reusable Functions for Data Analysis*" of the [Jupyter Notebook](empire-analysis.ipynb), change the **DATE** and **PATH** variables from "*now.strftime('%Y-%m-%d')*" and "*'SPARQL-Data/query_'*" to the date and path specified for the respective <a href="#related-publications">related publication</a> to use the corresponding CSV files. Below, we show the code example for the replication of the results from the RE 2024 publication. The results of ESEM 2023 publication can be replicated accordingly.
 
     ```python
     #DATE = now.strftime('%Y-%m-%d')
-    #For replication of the related publication use the following date.
-    DATE = '2023-06-26'
+    #PATH = 'SPARQL-Data/query_'
+
+    #For replication of the related publication from ESEM 2023 use the following date and path.
+    #DATE = '2023-06-26'
+    #PATH = 'SPARQL-Data/ESEM 2023/query_'
+
+    #For replication of the related publication from RE 2024 use the following date and path.
+    DATE = '2024-04-30'
+    PATH = 'SPARQL-Data/RE 2024/query_'
     ```
-2. Restart the kernel and clear all outputs.
-3. Run all cells.
+1. Restart the kernel and clear all outputs.
+2. Run all cells.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## (Re-)use of KG-EmpiRE with its most recent data
 
-1. In section "*2. Reusable Functions for Data Analysis*" of the [Jupyter Notebook](empire-analysis.ipynb), ensure that the **DATE** variable is set to "*now*".
+1. In section "*2. Reusable Functions for Data Analysis*" of the [Jupyter Notebook](empire-analysis.ipynb), ensure that the **DATE** and **PATH** variables are set to "*now.strftime('%Y-%m-%d')*" and "*'SPARQL-Data/query_'*".
 
     ```python
     DATE = now.strftime('%Y-%m-%d')
-    #For replication of the related publication use the following date.
+    PATH = 'SPARQL-Data/query_'
+
+    #For replication of the related publication from ESEM 2023 use the following date and path.
     #DATE = '2023-06-26'
+    #PATH = 'SPARQL-Data/ESEM 2023/query_'
+
+    #For replication of the related publication from RE 2024 use the following date and path.
+    #DATE = '2024-04-30'
+    #PATH = 'SPARQL-Data/RE 2024/query_'
     ```
 2. Restart the kernel and clear all outputs.
 3. Run all cells.
@@ -293,7 +310,7 @@ The first version of KG-EmpiRE based on **570 papers** from the [IEEE Internatio
 >[__Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering__](https://doi.org/10.1109/ESEM56168.2023.10304795),
 >In: 2023 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM), New Orleans, LA, USA, 2023, pp. 1-12.<br/>
 >
->The paper received the [__Best Paper Award__](https://www.oliver-karras.de/wp-content/uploads/2023/10/acm_ieee_esem2023_certificate_best_paper_award.pdf) of the 17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement 2023.
+>The publication received the [__Best Paper Award__](https://www.oliver-karras.de/wp-content/uploads/2023/10/acm_ieee_esem2023_certificate_best_paper_award.pdf) of the 17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement 2023.
 
 The second version KG-EmpiRE based on **680 papers** from the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 1994 to 2022 and the analysis of the sustainable literature review on the state and evolution of empirical research in RE have been published in:
 
@@ -386,7 +403,7 @@ If you want to cite this project, we suggest to use the following reference:
 
 You can also use the "**Cite this repository**" function in the top right menu resulting from the included [citation file format file](CITATION.cff) for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).
 
-If you want to cite the related publication, use the reference in the section <a href="#related-publication">related publication</a>.
+If you want to cite the related publications, use the references in the section <a href="#related-publications">related publications</a>.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

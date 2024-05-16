@@ -24,14 +24,18 @@ identifiers:
   - type: doi
     value: 10.1109/ESEM56168.2023.10304795
     description: >-
-      The DOI of the corresponding publication on IEEE
+      The DOI of the ESEM 2023 publication on IEEE
       Xplore.
   - type: doi
     value: 10.48550/arXiv.2306.16791
-    description: The DOI of the corresponding publication on ArXiv.
+    description: The DOI of the ESEM 2023 publication on ArXiv.
   - type: doi
     value: 10.5281/zenodo.8083528
     description: The DOI of the corresponding release on Zenodo.
+  - type: doi
+    value: 10.48550/arXiv.2405.08351
+    description: The DOI of the RE 2024 publication on ArXiv.
+  
 repository-code: 'https://github.com/okarras/EmpiRE-Analysis'
 url: >-
   https://orkg.org/observatory/Empirical_Software_Engineering?sort=combined&classesFilter=Paper,Comparison,Visualization
@@ -101,7 +105,21 @@ abstract: >
   and explanations in the Jupyter Notebook hosted on
   mybinder for interactive reproduction and (re-)use, always
   using the most recent data from KG-EmpiRE.
-  
+
+
+  The analysis of the individual competency questions always
+  follows the same structure:
+
+    1. Data Selection: Explaining the competency question and the required data for the analysis.
+    
+    2. Data Collection: Executing the specified SPARQL query to retrieve the data.
+    
+    3. Data Exploration: Exploring the data, including its cleaning and validation, to prepare the data for data analysis.
+    
+    4. Data Analysis: Analyzing the data and creating visualizations.
+    
+    5. Data Interpretation: Interpreting the data and derive insights.
+
 
   Overall, this project serves to make the data, analysis,
   and results openly available in the long term according to
@@ -123,6 +141,6 @@ keywords:
   - Requirements engineering
   - Open Research Knowledge Graph
 license: MIT
-commit: b7e06d1
-version: v1.0
-date-released: '2023-06-26'
+commit: 77e4cd8
+version: v1.1
+date-released: '2024-04-30'
