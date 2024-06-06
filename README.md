@@ -143,12 +143,12 @@ EmpiRE-Analysis/
 | [Supplementary materials/](Supplementary%20materials/)| Storage location of the supplementary materials of the [analysis](empire-analysis.ipynb) and the <a href="#related-publications">related publications</a>.|
 | [Supplementary materials/approach.png](Supplementary%20materials/approach.png)| Visualization of the research approach for building, publishing, and analyzing KG-EmpiRE.|
 | [Supplementary materials/Detailed list of all 77 competency questions.xlsx](Supplementary%20materials/Detailed%20list%20of%20all%2077%20competency%20questions.xlsx)| The detailed list of all 77 competency questions derived from the vision of [Sjøberg et al. (2007)](https://doi.org/10.1109/FOSE.2007.30) of regarding the role of empirical methods in all fields of SE, including RE.|
-| [Supplementary materials/Detailed ORKG template structure.pdf](Supplementary%20materials/Detailed%20ORKG%20template%20structure.pdf)| The detailed overview of the developed ORKG template for structuring the scientific data extracted from the *currently* **680 papers**|.
+| [Supplementary materials/Detailed ORKG template structure.pdf](Supplementary%20materials/Detailed%20ORKG%20template%20structure.pdf)| The detailed overview of the developed ORKG template for structuring the scientific data extracted from the *currently* **680 papers**.|
 | [Supplementary materials/logo.jpg](Supplementary%20materials/logo.jpg)| Logo of the project.|
 | [Supplementary materials/Overview of all content for data extraction.pdf](Supplementary%20materials/Overview%20of%20all%20content%20for%20data%20extraction.pdf)| The detailed overview of all content identified for data extraction.|
 | [CITATION.cff](CITATION.cff)| The file contains human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).|
 | [empire-analysis.ipynb](empire-analysis.ipynb)| Jupyter Notebook that contains the entire data analysis of KG-EmpiRE for answering the 16 competency questions.|
-| [LICENSE](LICENSE)| License of the project|
+| [LICENSE](LICENSE)| License of the project.|
 | [README.md](README.md)| README file of the project.|
 |[requirements.txt](requirements.txt)| A list of packages or libraries needed to work on the project that can all be installed with the file.|
 |[runtime.txt](runtime.txt)| Specification of the Python runtime to declare the exact version number to use.|
