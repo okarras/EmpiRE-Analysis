@@ -97,7 +97,7 @@ EmpiRE-Analysis/
 ┃   ┣━ CQ14/...contains 2 visualizations
 ┃   ┣━ CQ15/...contains 2 visualizations
 ┃   ┗━ CQ16/...contains 2 visualizations
-┣━ SPARQL-Data/
+┗━ SPARQL-Data/
     ┣━ ESEM 2023/...contains 22 CSV files from the SPARQL queries to replicate the results from the ESEM 2023 publication 
     ┗━ RE 2024/...contains 22 CSV files from the SPARQL queries to replicate the results from the RE 2024 publication
 ┣━ Supplementary materials/
