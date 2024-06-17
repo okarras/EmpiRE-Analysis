@@ -15,7 +15,7 @@
 </div>
 
 > [!IMPORTANT]  
-> The content of this repository was reviewed on the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024) and received the [![Badge - Reusable](https://custom-icon-badges.demolab.com/badge/Badge-Reusable-8250DF?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions).
+> The content of this repository was reviewed on the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024) and received the [![Badge - Available](https://custom-icon-badges.demolab.com/badge/Badge-Available-8250DF?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions) and [![Badge - Reusable](https://custom-icon-badges.demolab.com/badge/Badge-Reusable-8250DF?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions).
 
 # Table of Contents
 <details>
