@@ -15,7 +15,7 @@
 </div>
 
 > [!IMPORTANT]  
-> The content of this repository was reviewed on the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024) and received the [![Badge - Available](https://custom-icon-badges.demolab.com/badge/Badge-Available-8250DF?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions) and [![Badge - Reusable](https://custom-icon-badges.demolab.com/badge/Badge-Reusable-8250DF?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions).
+> The content of this repository was reviewed on the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024) and received the [![Badge - Available](https://custom-icon-badges.demolab.com/badge/Badge-Available-8250DF?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions) and the [![Badge - Reusable](https://custom-icon-badges.demolab.com/badge/Badge-Reusable-8250DF?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions).
 
 # Table of Contents
 <details>
@@ -318,7 +318,7 @@ The second version KG-EmpiRE based on **680 papers** from the [IEEE Internationa
 >[__KG-EmpiRE: A Community-Maintainable Knowledge Graph for a Sustainable Literature Review on the State and Evolution of Empirical Research in Requirements Engineering__](https://arxiv.org/abs/2405.08351),
 >In: 2024 IEEE International Requirements Engineering Conference (RE), Reykjavík, Iceland, 2024.<br/>
 >
->The artifacts received the [__Badge Reusable__](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions) from the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024).
+>The artifacts received the [__Badge Available__](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions) and the [__Badge Reusable__](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions) from the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
