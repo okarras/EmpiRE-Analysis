@@ -4,7 +4,7 @@
     <img src="Supplementary%20materials/logo.jpg" alt="Logo" width="250" height="250">
   </a>
 
-<h2 align="center" style="font-weight: normal">Divide and Conquer the EmpiRE: A Community-Maintainable <b>K</b>nowledge <b>G</b>raph of <b>Empi</b>rical Research in <b>R</b>equirements <b>E</b>ngineering<br/>
+<h2 align="center" style="font-weight: normal">Divide and Conquer the <b>EmpiRE</b>: A Community-Maintainable Knowledge Graph of <b>Empi</b>rical Research in <b>R</b>equirements <b>E</b>ngineering<br/>
 <i>A Sustainable Literature Review for Analyzing the State and Evolution of Empirical Research in Requirements Engineering</i></h2><br/>
 
 [![GitHub - Project](https://img.shields.io/badge/GitHub-Project-2ea44f)](https://github.com/okarras/EmpiRE-Analysis) [![Issues - Bug Report](https://img.shields.io/badge/Issues-Bug_Report-2ea44f)](https://github.com/okarras/EmpiRE-Analysis/issues)  [![Issues - Feature Request](https://img.shields.io/badge/Issues-Feature_Request-2ea44f)](https://github.com/okarras/EmpiRE-Analysis/issues) [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
