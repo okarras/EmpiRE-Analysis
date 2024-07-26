@@ -386,11 +386,9 @@ For our future work, we have a plan with short-, mid-, and long-term actions. As
 
 [Dr. rer. nat. Oliver Karras](https://www.oliver-karras.de)
 
+Researcher and Data Scientist - Open Research Knowledge Graph
+
 TIB - Leibniz Information Centre for Science and Technology
-
-Department Research and Development
-
-Data Science & Digital Libraries Research Group
 
 Welfengarten 1B
 
