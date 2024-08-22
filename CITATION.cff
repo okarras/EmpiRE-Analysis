@@ -33,6 +33,9 @@ identifiers:
     value: 10.5281/zenodo.8083528
     description: The DOI of the corresponding release on Zenodo.
   - type: doi
+    value: 10.1109/RE59067.2024.00063
+    description: The DOI of the RE 2024 publication on IEEE Xplore.
+  - type: doi
     value: 10.48550/arXiv.2405.08351
     description: The DOI of the RE 2024 preprint on arXiv.
   
