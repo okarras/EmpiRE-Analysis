@@ -401,7 +401,7 @@ E-Mail: [oliver.karras@tib.eu](mailto:oliver.karras@tib.eu)
 # How to Cite
 If you want to cite this project, we suggest to use the following reference:
 >Oliver Karras:<br/>
->[__Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering - A Sustainable Literature Review for Analyzing the State and Evolution of Empirical Research in Requirements Engineering__](https://zenodo.org/doi/10.5281/zenodo.8083528), Computer Software, Version v1.0, https://github.com/okarras/EmpiRE-Analysis, 2023.
+>[__Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering - A Sustainable Literature Review for Analyzing the State and Evolution of Empirical Research in Requirements Engineering__](https://doi.org/10.5281/zenodo.11092471), Computer Software, Version v1.1, https://github.com/okarras/EmpiRE-Analysis, 2024.
 
 You can also use the "**Cite this repository**" function in the top right menu resulting from the included [citation file format file](CITATION.cff) for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).
 
