@@ -236,6 +236,11 @@ Once the project has been started in [JupyterLab](https://jupyter.org/), carry o
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Codeanywhere
+
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/okarras/EmpiRE-Analysis)
+
+
 ## GitHub Codespaces
 If you have a GitHub account, you can use [GitHub Codespaces](https://github.com/features/codespaces) to execute the project. 
 
