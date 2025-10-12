@@ -15,7 +15,7 @@
 </div>
 
 > [!IMPORTANT]  
-> The content of this repository was reviewed on the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024) and received the [![Badge - Available](https://custom-icon-badges.demolab.com/badge/Badge-Available-B4CEA0?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions), the [![Badge - Reusable](https://custom-icon-badges.demolab.com/badge/Badge-Reusable-F09D9F?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions), and the [![Award - Best Artifact](https://custom-icon-badges.demolab.com/badge/Award-Best_Artifact-D4AF37?logo=trophy&logoColor=fff)](https://www.oliver-karras.de/wp-content/uploads/2024/06/IEEE_RE2024_Certifiacte_Best_Artifact_Award.pdf).
+> The content of this repository was reviewed on the [Artifact Evaluation Track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024) and received the [![Badge - Available](https://custom-icon-badges.demolab.com/badge/Badge-Available-B4CEA0?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions), the [![Badge - Reusable](https://custom-icon-badges.demolab.com/badge/Badge-Reusable-F09D9F?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions), and the [![Award - Best Artifact](https://custom-icon-badges.demolab.com/badge/Award-Best_Artifact-D4AF37?logo=trophy&logoColor=fff)](https://www.oliver-karras.de/wp-content/uploads/2024/06/IEEE_RE2024_Certifiacte_Best_Artifact_Award.pdf).
 
 # Table of Contents
 <details>
@@ -319,7 +319,7 @@ The first version of KG-EmpiRE based on **570 papers** from the [IEEE Internatio
 The second version KG-EmpiRE based on **680 papers** from the [IEEE International Conference on Requirement Engineering](https://requirements-engineering.org/) from 1994 to 2022 and the analysis of the sustainable literature review on the state and evolution of empirical research in RE have been published in:
 
 >Oliver Karras:<br/>
->[__KG-EmpiRE: A Community-Maintainable Knowledge Graph for a Sustainable Literature Review on the State and Evolution of Empirical Research in Requirements Engineering__](https://arxiv.org/abs/2405.08351),
+>[__KG-EmpiRE: A Community-Maintainable Knowledge Graph for a Sustainable Literature Review on the State and Evolution of Empirical Research in Requirements Engineering__](https://doi.org/10.1109/RE59067.2024.00063),
 >In: 2024 IEEE International Requirements Engineering Conference (RE), Reykjavík, Iceland, 2024.<br/>
 >
 >The artifact received the [![Badge - Available](https://custom-icon-badges.demolab.com/badge/Badge-Available-B4CEA0?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions), the [![Badge - Reusable](https://custom-icon-badges.demolab.com/badge/Badge-Reusable-F09D9F?logo=award&logoSource=feather)](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts#Submission-Instructions), and [![Award - Best Artifact](https://custom-icon-badges.demolab.com/badge/Award-Best_Artifact-D4AF37?logo=trophy&logoColor=fff)](https://www.oliver-karras.de/wp-content/uploads/2024/06/IEEE_RE2024_Certifiacte_Best_Artifact_Award.pdf) from the [Artifact Evaluation track](https://conf.researchr.org/track/RE-2024/RE-2024-artifacts) of the [32nd IEEE International Requirements Engineering Conference 2024](https://conf.researchr.org/home/RE-2024).
@@ -401,7 +401,7 @@ E-Mail: [oliver.karras@tib.eu](mailto:oliver.karras@tib.eu)
 # How to Cite
 If you want to cite this project, we suggest to use the following reference:
 >Oliver Karras:<br/>
->[__Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering - A Sustainable Literature Review for Analyzing the State and Evolution of Empirical Research in Requirements Engineering__](https://zenodo.org/doi/10.5281/zenodo.8083528), Computer Software, Version v1.0, https://github.com/okarras/EmpiRE-Analysis, 2023.
+>[__Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering - A Sustainable Literature Review for Analyzing the State and Evolution of Empirical Research in Requirements Engineering__](https://doi.org/10.5281/zenodo.11092471), Computer Software, Version v1.1, https://github.com/okarras/EmpiRE-Analysis, 2024.
 
 You can also use the "**Cite this repository**" function in the top right menu resulting from the included [citation file format file](CITATION.cff) for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).
 
