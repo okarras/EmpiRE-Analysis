@@ -1,11 +1,47 @@
 "paper","year","question","highlighted_q","highlighted_a"
+"http://orkg.org/orkg/resource/R758416",1993,"No question",0,0
+"http://orkg.org/orkg/resource/R759344",1993,"Can we make sense of such defaults in specifications?",1,0
+"http://orkg.org/orkg/resource/R759344",1993,"How formally can we allow one partially to override another, in the way that 4 partially overrides 5 in the example?",1,0
+"http://orkg.org/orkg/resource/R759344",1993,"How do we know what should override what, anyway?",1,0
+"http://orkg.org/orkg/resource/R108199",2017,"How accurate are machine learning techniques when automatically classifying tweets relevant to software evolution?",1,0
+"http://orkg.org/orkg/resource/R108199",2017,"How accurate is topic modeling for grouping tweets about software applications according to their content?",1,0
+"http://orkg.org/orkg/resource/R108199",2017,"How accurate is our ranking approach compared to the assessment of technical stakeholders (e.g., developers, requirements engineers and product owners)?",1,0
+"http://orkg.org/orkg/resource/R108199",2017,"Are the results from topic modeling coherent according to  technical stakeholders (e.g., developers, requirements engi- neers and product owners)?",0,0
+"http://orkg.org/orkg/resource/R111988",2016,"What are the relevant characteristics of the tweets in terms of frequency, length, popularity and duplication?",1,0
+"http://orkg.org/orkg/resource/R111988",2016,"What type of content is present in tweets related to software applications?",1,0
+"http://orkg.org/orkg/resource/R111988",2016,"Is the content relevant to software application stakeholders?",1,0
+"http://orkg.org/orkg/resource/R111988",2016,"What are the attitudes that users have when writing about specific content?",1,0
+"http://orkg.org/orkg/resource/R111988",2016,"What is the performance of supervised machine learning techniques when classifying tweets related to software applications according to its relevance for different stakeholders?",1,0
+"http://orkg.org/orkg/resource/R112434",2017,"What quality aspects of software products are raised by users in app reviews?",1,0
+"http://orkg.org/orkg/resource/R112434",2017,"How should language patterns be defined so that quality aspects of software products formulated by users can be automatically detected or extracted?",1,0
+"http://orkg.org/orkg/resource/R113008",2017,"What is the quality of the crowd-acquired annotations?",1,0
+"http://orkg.org/orkg/resource/R113008",2017,"How efficient is the annotation process for the crowd?",1,0
+"http://orkg.org/orkg/resource/R113067",2017,"How do users denote rationale in online reviews, and which concepts (information types) do they include?",1,0
+"http://orkg.org/orkg/resource/R113067",2017,"How is the frequency distribution of the various rationale concepts over the reviews?",1,0
+"http://orkg.org/orkg/resource/R113067",2017,"How accurately can different configurations of machine learning techniques mine rationale concepts from the user reviews and sentences?",1,0
+"http://orkg.org/orkg/resource/R113160",2018,"Can we predict apps’ rating from their claimed features?",1,1
+"http://orkg.org/orkg/resource/R113160",2018,"Does rating predictability vary across app stores’ categories?",1,1
+"http://orkg.org/orkg/resource/R113160",2018,"How robust is our approach to the choice of the number of apps, k, used to form the cases for predictive modelling?",1,1
+"http://orkg.org/orkg/resource/R113204",2018,"To what extent can CLAP help developers with improving the interpretability of explanation sentences?",0,0
+"http://orkg.org/orkg/resource/R74547",2016,"Does it take less time to elicit and elaborate requirements with our ReqVidA approach than by taking notes with a text editor?",1,1
+"http://orkg.org/orkg/resource/R74547",2016,"Can a higher average quality of the elicited and elaborated requirements be achieved with our ReqVidA approach than by taking notes with a text editor?",1,1
+"http://orkg.org/orkg/resource/R76792",2017,"How informative is Twitter data for software engineers?",1,0
+"http://orkg.org/orkg/resource/R76792",2017,"To what extent can informative software-relevant tweets be automatically classified?",1,0
+"http://orkg.org/orkg/resource/R76792",2017,"How can informative tweets be accurately summarized? ",1,0
+"http://orkg.org/orkg/resource/R76818",2018,"No question",0,0
+"http://orkg.org/orkg/resource/R78392",2015,"How should the review metadata, text classification, NLP, and sentiment analysis be combined for the classification of app reviews?",0,0
+"http://orkg.org/orkg/resource/R78392",2015,"Which classifier algorithm works better (N. Bayes vs. D. Tree, vs. MaxEnt)?",0,0
+"http://orkg.org/orkg/resource/R78392",2015,"How much time and training data are needed for an accurate classification and is there a difference when using various review data?",0,0
+"http://orkg.org/orkg/resource/R78432",2016,"How should text be preprocessed for SFR detection?",1,0
+"http://orkg.org/orkg/resource/R78432",2016,"Which combinations of MLFs derived from the NL and ITS meta-data should be used for SFRs detection on different levels of detail?",1,0
+"http://orkg.org/orkg/resource/R78432",2016,"How well can trained prediction models be reused?",1,0
 "http://orkg.org/orkg/resource/R158044",2006,"No question",0,0
-"http://orkg.org/orkg/resource/R159690",2011,"Can entities support effective focusing of feedback?",1,0
 "http://orkg.org/orkg/resource/R159690",2011,"Do students understand entity names?",1,0
 "http://orkg.org/orkg/resource/R159690",2011,"Are these the entities students want to feed back to?",1,0
 "http://orkg.org/orkg/resource/R159690",2011,"Are providers interested in entities nominated by students?",1,0
 "http://orkg.org/orkg/resource/R159690",2011,"Which criteria are included in the context vectors?",1,0
 "http://orkg.org/orkg/resource/R159690",2011,"Are entities technically distinguishable by context?",1,0
+"http://orkg.org/orkg/resource/R159690",2011,"Can entities support effective focusing of feedback?",1,0
 "http://orkg.org/orkg/resource/R192345",2021,"Do different user story templates have an impact on the creation of user stories?",1,0
 "http://orkg.org/orkg/resource/R192345",2021,"Do different user story templates have an impact on the understanding of user stories?",1,0
 "http://orkg.org/orkg/resource/R192386",2021,"What is the number of papers in the area of RE education published each year?",1,0
@@ -512,6 +548,279 @@
 "http://orkg.org/orkg/resource/R220898",2012,"What is the optimal granularity (e.g., the optimal number of resulting clusters) to do so?",0,0
 "http://orkg.org/orkg/resource/R220898",2012,"What is the most adequate heuristic in uncovering the quality of traceability link clusters?",0,0
 "http://orkg.org/orkg/resource/R220898",2012,"As the links in low-quality clusters are removed, what is the most appropriate way to arrange the remaining candidate links?",0,0
+"http://orkg.org/orkg/resource/R221137",2012,"What techniques exist to align requirements from multiple jurisdictions?",1,0
+"http://orkg.org/orkg/resource/R221137",2012,"How do these techniques scale?",1,0
+"http://orkg.org/orkg/resource/R221147",2012,"Can we model the changes that are made to two proposed rules, the HIPAA Security Rule and the EHR Certification Rule, during final rulemaking?",1,0
+"http://orkg.org/orkg/resource/R221147",2012,"Can requirements engineers predict changes that will be made to proposed rules?",1,0
+"http://orkg.org/orkg/resource/R221156",2012,"No question",0,0
+"http://orkg.org/orkg/resource/R221163",2012,"No question",0,0
+"http://orkg.org/orkg/resource/R221169",2012,"Why is certain information (not) shared? ",0,0
+"http://orkg.org/orkg/resource/R221169",2012,"Is it worthwhile to sacrifice a low-priority policy by enlarging the disclosed scope in exchange for some important functionality or gaining trust from friends? ",0,0
+"http://orkg.org/orkg/resource/R221169",2012,"Does information have different values at different times? ",0,0
+"http://orkg.org/orkg/resource/R221169",2012,"What preferences among different norms need to be traded off at runtime?",0,0
+"http://orkg.org/orkg/resource/R221176",2012,"No question",0,0
+"http://orkg.org/orkg/resource/R221183",2012,"No question",0,0
+"http://orkg.org/orkg/resource/R221187",2012,"No question",0,0
+"http://orkg.org/orkg/resource/R221801",2012,"What are typical artifact types that should be contained in an SRS from the viewpoint of downstream development roles in order to accomplish their tasks?",1,0
+"http://orkg.org/orkg/resource/R221801",2012,"Is there a difference between different roles regarding information needs?",1,0
+"http://orkg.org/orkg/resource/R221821",2012,"Does a mix of DIs and DAs perform a RE activity more effectively than only DAs?",1,0
+"http://orkg.org/orkg/resource/R221838",2012,"No question",0,0
+"http://orkg.org/orkg/resource/R222366",2012,"No question",0,0
+"http://orkg.org/orkg/resource/R222372",2012,"No question",0,0
+"http://orkg.org/orkg/resource/R222375",2012,"Can we also consider concepts that have traditionally been used in the i* culture (e.g. goals, soft-goals or goal alternatives), and use them as AHP concepts?",0,0
+"http://orkg.org/orkg/resource/R222375",2012,"If we populate the goal model with the numbers we acquire through AHP, is the visual result comprehensible in a way that it can, for instance, allow gauging the optimal decision?",0,0
+"http://orkg.org/orkg/resource/R222375",2012,"What influences the elicitation process?",0,0
+"http://orkg.org/orkg/resource/R222375",2012,"What effort does the elicitation process require and would it scale for larger examples? ",0,0
+"http://orkg.org/orkg/resource/R225574",2012,"No question",0,0
+"http://orkg.org/orkg/resource/R225580",2012,"What are the types of functional requirements that make up the requirements space in the domain of ES?",1,0
+"http://orkg.org/orkg/resource/R225580",2012,"What are the frequency distributions of the functional requirement types in the domain of ES?",1,0
+"http://orkg.org/orkg/resource/R225580",2012,"Can the shape of the frequency distributions of the functional requirements in a software project be indicative of underlying problems in the development process?",1,0
+"http://orkg.org/orkg/resource/R225580",2012,"Are there phenomena regarding the functional requirements space that are consistently and persistently observable within a software domain or across multiple domains?",1,0
+"http://orkg.org/orkg/resource/R225589",2012,"Can we identify patterns of clarification in requirements discussions?",1,0
+"http://orkg.org/orkg/resource/R225589",2012,"Can we detect and classify these clarification patterns automatically?",1,0
+"http://orkg.org/orkg/resource/R227465",2022,"How well can state-of-the-art machine learning predict the different link types in issue trackers?",1,0
+"http://orkg.org/orkg/resource/R227465",2022,"What are possible explanations for the performance differences between repositories and link types and what can we learn from the differences?",1,0
+"http://orkg.org/orkg/resource/R227482",2022,"How does a remote software organization that adopts CSE practices reach a shared understanding of NFRs?",1,1
+"http://orkg.org/orkg/resource/R227482",2022,"What are the limitations to the shared understanding of NFRs in a remote software organization that adopts CSE practices?",1,1
+"http://orkg.org/orkg/resource/R227501",2022,"Given a minimal reference model (i.e., matched element names), to what extent can we automatically merge the remaining attributes to create a single goal model? ",0,0
+"http://orkg.org/orkg/resource/R227514",2022,"Which text similarity metric is the most accurate for selecting context spans relevant to a given question?",1,1
+"http://orkg.org/orkg/resource/R227514",2022,"Which QA model yields the most accurate answer extraction results? ",1,1
+"http://orkg.org/orkg/resource/R227514",2022,"What is the execution time of our approach?",1,1
+"http://orkg.org/orkg/resource/R227533",2022,"How effectively does our noun phrase identification method extract requirements terms compared with baselines for requirements terminology extraction and general terminology extraction?",1,1
+"http://orkg.org/orkg/resource/R227533",2022,"How effectively does our adaption of TextRank rank more relevant terms in the top positions compared with other TextRank variants?",1,1
+"http://orkg.org/orkg/resource/R227533",2022,"How to use the ranked term list produced by our adaptation of TextRank to help the construction of feature models?",1,1
+"http://orkg.org/orkg/resource/R227551",2022,"In AIS perception tasks, how can we address the problem of specifying dataset requirements?",1,0
+"http://orkg.org/orkg/resource/R227551",2022,"Based on results from RQ1, how can we verify a dataset against the specifications?",1,0
+"http://orkg.org/orkg/resource/R228189",2022,"In what ways is the viewing behavior influenced by additional text information when watching vision videos?",1,1
+"http://orkg.org/orkg/resource/R228189",2022,"What type of text presentation is most suitable for the context of vision videos?",1,1
+"http://orkg.org/orkg/resource/R228211",2022,"How is the feasibility of HSA in distinguishing configurations with respect to safety requirements violations?",1,1
+"http://orkg.org/orkg/resource/R228211",2022,"Are the configurations identified as safer by HSA applicable to most scenarios in a given traffic situation?",1,1
+"http://orkg.org/orkg/resource/R228211",2022,"Can HSA provide useful information for configuring a safe ADS in an industrial setting?",1,1
+"http://orkg.org/orkg/resource/R228222",2022,"No question",0,0
+"http://orkg.org/orkg/resource/R228229",2022,"What are the software engineering use cases for mining app reviews?",1,0
+"http://orkg.org/orkg/resource/R228229",2022,"What reference architecture can realise these use cases?",1,0
+"http://orkg.org/orkg/resource/R228229",2022,"What partial implementations of this reference architecture already exist?",1,0
+"http://orkg.org/orkg/resource/R228262",2022,"To what extent do users discuss privacy in software product forums?",1,1
+"http://orkg.org/orkg/resource/R228262",2022,"What privacy concerns do users discuss in software product forums such as Reddit?",1,1
+"http://orkg.org/orkg/resource/R228262",2022,"How do the number of privacy discussions change over time?",1,1
+"http://orkg.org/orkg/resource/R229273",2022,"What external factors influence the requirements for explanations?",1,0
+"http://orkg.org/orkg/resource/R229273",2022,"What characteristics of explanations need to be observed in the design of explanations?",1,0
+"http://orkg.org/orkg/resource/R229273",2022,"How to evaluate the impact of an explanation on system quality?",1,0
+"http://orkg.org/orkg/resource/R229316",2022,"Is the information retrieved from the forums, including the problem definitions, discussions, conclusions, graphs, and flight logs, sufficient for specifying requirements and identifying time-series attributes needed to design and deploy DLMs capable of effectively detecting the targeted anomalies?",1,0
+"http://orkg.org/orkg/resource/R229316",2022,"Do the DLM’s constructed using data collected from both documentation and forums outperform the rule-based anomaly detectors based on guidance related to threshold values described in the documentation?",1,0
+"http://orkg.org/orkg/resource/R229340",2022,"Which use cases benefit from pre-RS traceability?",1,0
+"http://orkg.org/orkg/resource/R229340",2022,"What are the expected benefits?",1,0
+"http://orkg.org/orkg/resource/R229369",2022,"No question",0,0
+"http://orkg.org/orkg/resource/R229375",2022,"What characterization method is best able to describe and distinguish a cluster compared to a random baseline?",1,1
+"http://orkg.org/orkg/resource/R229375",2022,"What characterization method best communicates requirements relevant information from a cluster?",1,1
+"http://orkg.org/orkg/resource/R249016",2011,"No question",0,0
+"http://orkg.org/orkg/resource/R249021",2011,"The first concerns the size of model this approach can tackle.",0,0
+"http://orkg.org/orkg/resource/R249021",2011,"The second concerns the benefits to using an incremental algorithm for updates, to support requirements model revision.",0,0
+"http://orkg.org/orkg/resource/R249030",2011,"Across change domains is there a significant difference in change cost?",0,1
+"http://orkg.org/orkg/resource/R249030",2011,"Across change domains, is there a significant difference in change value?",0,1
+"http://orkg.org/orkg/resource/R249030",2011,"Across change domains, is there a significant difference in Proportion of opportunity vs. defect related change? ",0,1
+"http://orkg.org/orkg/resource/R249030",2011,"Across change domains, is there a significant difference in The activities during which changes are found? ",0,1
+"http://orkg.org/orkg/resource/R249030",2011,"Across change domains, is there a significant difference in The number of stakeholders involved? ",0,1
+"http://orkg.org/orkg/resource/R249030",2011,"Across change domains, is there a significant difference in The level of project management control? ",0,1
+"http://orkg.org/orkg/resource/R254495",2011,"what causes gaps that hinder the communication of requirements?",0,0
+"http://orkg.org/orkg/resource/R254495",2011,"what are the effects of these gaps?",0,0
+"http://orkg.org/orkg/resource/R254508",2011,"Are there patterns of communication in collaboration driven by work on interdependent requirements?",1,0
+"http://orkg.org/orkg/resource/R254508",2011,"How do the different roles interact in collaboration driven by work on interdependent requirements?",1,0
+"http://orkg.org/orkg/resource/R254521",2011,"What kind of problems do software product companies encounter during roadmapping?",0,0
+"http://orkg.org/orkg/resource/R254521",2011,"How can these problems be solved?",0,0
+"http://orkg.org/orkg/resource/R256580",2011,"How is QR prioritization performed?",1,0
+"http://orkg.org/orkg/resource/R256580",2011,"What criteria are used when QR are prioritized?",1,0
+"http://orkg.org/orkg/resource/R256580",2011,"How does QR prioritization at product and project levels differ?",1,0
+"http://orkg.org/orkg/resource/R263000",2011,"No question",0,0
+"http://orkg.org/orkg/resource/R264011",2011,"No question",0,0
+"http://orkg.org/orkg/resource/R265006",2011,"Can we specify LSs and extract their instances from real-world SRDs?",1,0
+"http://orkg.org/orkg/resource/R265006",2011,"How efficient is the extraction?",1,0
+"http://orkg.org/orkg/resource/R265006",2011,"How complex are the templates?",1,0
+"http://orkg.org/orkg/resource/R265006",2011,"How do instances of an LS vary?",1,0
+"http://orkg.org/orkg/resource/R265006",2011,"How does capturing variability affect the complexity of a template?",1,0
+"http://orkg.org/orkg/resource/R265006",2011,"How critical is the need for human-editable templates?",1,0
+"http://orkg.org/orkg/resource/R265019",2011,"Is the effect of the accuracy of the initial TM on the accuracy of the final TM statistically significant?",1,1
+"http://orkg.org/orkg/resource/R265019",2011,"Are the effects of any observed independent variables on the accuracy of the final TM statistically significant (when controlled by the initial TM accuracy)?",1,1
+"http://orkg.org/orkg/resource/R265019",2011,"Which group of independent variables has a higher effect on the accuracy of the final TM: the variables measuring accuracy of the initial TM or the observed independent variables?",1,1
+"http://orkg.org/orkg/resource/R265028",2011,"No question",0,0
+"http://orkg.org/orkg/resource/R276000",2011,"No question",0,0
+"http://orkg.org/orkg/resource/R276005",2011,"No question",0,0
+"http://orkg.org/orkg/resource/R276009",2011,"We need to investigate is whether the property is useful in terms of quality assurance for requirements resp. discovery of subtle specification errors.",0,0
+"http://orkg.org/orkg/resource/R276015",2011,"No question",0,0
+"http://orkg.org/orkg/resource/R276020",2011,"No question",0,0
+"http://orkg.org/orkg/resource/R276024",2011,"What specific challenges do cross-references present for compliance in requirements engineering?",1,0
+"http://orkg.org/orkg/resource/R276031",2011,"Is there a consensus among subject matter experts on which requirements are LIR?",1,1
+"http://orkg.org/orkg/resource/R276031",2011,"Is there a consensus among graduate students on which requirements are LIR?",1,1
+"http://orkg.org/orkg/resource/R276031",2011,"Can graduate students accurately assess which requirements are LIR?",1,1
+"http://orkg.org/orkg/resource/R276031",2011,"Can we predict which requirements are LIR using attributes of those requirements?",1,1
+"http://orkg.org/orkg/resource/R276031",2011,"How do the categories for the legal requirements metrics affect whether a given requirement is LIR?",1,1
+"http://orkg.org/orkg/resource/R276031",2011,"Can we use our legal requirements triage algorithm for automating the process of predicting whether a requirement is LIR?",1,1
+"http://orkg.org/orkg/resource/R276045",2011,"No question",0,0
+"http://orkg.org/orkg/resource/R276051",2011,"What classification algorithms, among the four we envisaged, generate the most valuable prediction models?",1,0
+"http://orkg.org/orkg/resource/R276051",2011,"What attributes of early feature requests discussions, if any, can be used as reliable predictors of later failures?",1,0
+"http://orkg.org/orkg/resource/R276051",2011,"Can feature request failures of the types defined in Section II be predicted from early discussions before the feature request is either assigned or rejected?",1,0
+"http://orkg.org/orkg/resource/R276059",2011,"No question",0,0
+"http://orkg.org/orkg/resource/R279079",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R279086",2010,"Does the UCA group describe a different number of goals than the FA group?",1,0
+"http://orkg.org/orkg/resource/R279086",2010,"Does the UCA group describe a different number of information elements than the FA group?",1,0
+"http://orkg.org/orkg/resource/R279086",2010,"Do the subjects in the UCA group judge the impact of their approach on the completeness of the specification differently than the subjects in the FA group?",1,0
+"http://orkg.org/orkg/resource/R279109",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R279116",2010,"Are end-users able to document their individual needs in situ with the help of mobile tools?",1,1
+"http://orkg.org/orkg/resource/R279116",2010,"Can analysts transcribe end-user needs into well-defined requirements?",1,1
+"http://orkg.org/orkg/resource/R279126",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R279133",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R279136",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R279141",2010,"What is the impact of an existing system’s architecture on RE decisions?",1,0
+"http://orkg.org/orkg/resource/R279141",2010,"What are the characteristics of the affected decisions?",1,0
+"http://orkg.org/orkg/resource/R279141",2010,"What is the impact of the affected RE decisions on the resultant system and downstream development activities?",1,0
+"http://orkg.org/orkg/resource/R279151",2010,"How the challenges of deciding on a product’s future requirements have evolved in the course of time?",0,0
+"http://orkg.org/orkg/resource/R279158",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R280299",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R280303",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R280308",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R280317",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R280329",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R280335",2010,"Who are the decision makers in the prioritization process?",1,0
+"http://orkg.org/orkg/resource/R280335",2010,"Which value-based criteria do companies use to perform value-driven decisions during agile prioritization?",1,0
+"http://orkg.org/orkg/resource/R280335",2010,"What are the characteristics of the project settings that are essential for the way a requirements prioritization process is carried out in a project?",1,0
+"http://orkg.org/orkg/resource/R280335",2010,"Are there any other ways (beyond the selection of requirements) through which the requirements prioritization process adds value to the project?",1,0
+"http://orkg.org/orkg/resource/R280347",2010,"From the given set of pre-selected product release plans, which of the plans is most robust against the assumed changes?",1,0
+"http://orkg.org/orkg/resource/R280375",2010,"How much does the presentation of requirements influence design?",1,0
+"http://orkg.org/orkg/resource/R280375",2010,"How much does the presentation of design influence requirements? ",1,0
+"http://orkg.org/orkg/resource/R280375",2010,"Are requirement–design traces useful for measuring how much requirements are understood by the requirements receiver?",1,0
+"http://orkg.org/orkg/resource/R280412",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R280448",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R280481",2010,"Does CRAC++ satisfy the criteria?",1,1
+"http://orkg.org/orkg/resource/R280481",2010,"How does CRAC++ compare to alternative treatments?",1,1
+"http://orkg.org/orkg/resource/R280481",2010,"In which contexts is CRAC++ usable?",1,1
+"http://orkg.org/orkg/resource/R280486",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R280498",2010,"Does code complexity impact trace recovery effort?",1,0
+"http://orkg.org/orkg/resource/R280498",2010,"Does code complexity impact the correctness of trace links?",1,0
+"http://orkg.org/orkg/resource/R280498",2010,"What is the impact of trace granularity on effort?",1,0
+"http://orkg.org/orkg/resource/R280498",2010,"What is the impact of trace granularity on quality?",1,0
+"http://orkg.org/orkg/resource/R280498",2010,"Does the correctness of trace links increase with higher tracing effort?",1,0
+"http://orkg.org/orkg/resource/R280511",2010,"How do human analysts transform the requirements traceability information produced by automated methods? ",0,0
+"http://orkg.org/orkg/resource/R280511",2010,"How does the accuracy change in that process?",0,0
+"http://orkg.org/orkg/resource/R280511",2010,"Does the amount of time an analyst spends impact the quality of the results?",0,0
+"http://orkg.org/orkg/resource/R280521",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R280526",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R280529",2010,"No question",0,0
+"http://orkg.org/orkg/resource/R280738",2009,"Which requirement characteristics were affected, and to what extent, by the presence or absence of the SA?",1,0
+"http://orkg.org/orkg/resource/R280747",2009,"What are the challenges for the effective usage of methods transforming i* goal models into business process models?",1,1
+"http://orkg.org/orkg/resource/R280754",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R280758",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R280765",2009,"Which of the two notations is “smaller” (in the sense of less complexity)?",1,0
+"http://orkg.org/orkg/resource/R280765",2009,"Which notation produces more erroneous process models?",1,0
+"http://orkg.org/orkg/resource/R280765",2009,"Which of the two notations is easier to understand?",1,0
+"http://orkg.org/orkg/resource/R280765",2009,"Which of the two notations makes it possible to find errors more reliably?",1,0
+"http://orkg.org/orkg/resource/R280785",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R280789",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R280793",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R280798",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R280811",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R280818",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R281162",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R281166",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R281172",2009,"Are practitioners doing traceability? ",1,0
+"http://orkg.org/orkg/resource/R281172",2009,"What kinds of companies are doing traceability (i.e., size, domain, project types)? ",1,0
+"http://orkg.org/orkg/resource/R281172",2009,"Why is traceability being undertaken?",1,0
+"http://orkg.org/orkg/resource/R281172",2009,"Who is establishing the traceability, maintaining it and using it?",1,0
+"http://orkg.org/orkg/resource/R281172",2009,"When is the traceability established, maintained and used? ",1,0
+"http://orkg.org/orkg/resource/R281172",2009,"What level and degree of traceability is actually being done?",1,0
+"http://orkg.org/orkg/resource/R281172",2009,"What artifacts are included?",1,0
+"http://orkg.org/orkg/resource/R281172",2009,"What relations are formed?",1,0
+"http://orkg.org/orkg/resource/R281172",2009,"Do practitioners define and follow a traceability process? ",1,0
+"http://orkg.org/orkg/resource/R281172",2009,"What is the role of tools?",1,0
+"http://orkg.org/orkg/resource/R281188",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R281194",2009,"Will the subjects applying Communication Analysis produce functional RS with higher degree of completeness than the subjects applying Use Cases?",1,0
+"http://orkg.org/orkg/resource/R281194",2009,"Will the subjects applying Communication Analysis produce functional RS with a more appropriate level of granularity than the subjects applying Use Cases?",1,0
+"http://orkg.org/orkg/resource/R281210",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R281215",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R283066",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R283069",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R283077",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R283080",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R283089",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R283092",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R283095",2009,"No question",0,0
+"http://orkg.org/orkg/resource/R283098",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R283106",2008,"Is the approach capable of maintaining traceability relations at a level of accuracy comparable to manual maintenance during the evolution and refinement of UML models?",1,0
+"http://orkg.org/orkg/resource/R283106",2008,"How much manual effort can be saved by using automated maintenance and how dependent is that saving on the kind of modeling undertaken?",1,0
+"http://orkg.org/orkg/resource/R285771",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R285776",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R285781",2008,"What kinds of gaps exist, if any, between the Cisco and NCSU requirements and the Accessibility Standards?",1,0
+"http://orkg.org/orkg/resource/R285781",2008,"How are product requirements written to exceed the Accessibility Standards, or how do they fall short of compliance?",1,0
+"http://orkg.org/orkg/resource/R285781",2008,"What knowledge sources are needed to reduce legal ambiguity when refining legal requirements for product development?",1,0
+"http://orkg.org/orkg/resource/R285790",2008,"Are there different types of brokers in interdependent requirements networks?",1,1
+"http://orkg.org/orkg/resource/R285790",2008,"Are there members who are crucial to the information flow in RDSNs and if so, what are their roles?",1,1
+"http://orkg.org/orkg/resource/R285805",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R285808",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R285813",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R285816",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R285826",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R287812",2008,"How can awareness of RE good practices be introduced and reinforced in novice organizations to help build RE competence?",1,0
+"http://orkg.org/orkg/resource/R287825",2008,"Did our model of skill areas and levels accurately reflect requirements engineering expertise?",1,0
+"http://orkg.org/orkg/resource/R287825",2008,"What was missing from our model?",1,0
+"http://orkg.org/orkg/resource/R287825",2008,"What kinds of things did requirements engineers learn through experience?",1,0
+"http://orkg.org/orkg/resource/R287825",2008,"How did people develop as they became expert requirements engineers?",1,0
+"http://orkg.org/orkg/resource/R287825",2008,"What were the kinds of mistakes that people make along the way?",1,0
+"http://orkg.org/orkg/resource/R287836",2008,"What is a reasonable way to measure fairness?",0,0
+"http://orkg.org/orkg/resource/R287836",2008,"To what extent can a solution be shown (to the stake holders) to be a fair allocation of requirements?",0,0
+"http://orkg.org/orkg/resource/R287845",2008,"In which way is requirements prioritization based on benefit and cost estimation currently supported by which published method? ",0,0
+"http://orkg.org/orkg/resource/R287851",2008,"What is the cost of investigating NaPs compared to confirmed defects?",0,0
+"http://orkg.org/orkg/resource/R287851",2008,"Are performance-related defects more likely to be designated as NaPs than non-performance-related defects?",0,0
+"http://orkg.org/orkg/resource/R287851",2008,"Do performance requirements specified with higher precision levels have lower NaP occurrence rates?",0,0
+"http://orkg.org/orkg/resource/R287863",2008,"Can AnTiQue automatically retrieve web services from domains analogical to a specified problem?",1,0
+"http://orkg.org/orkg/resource/R287863",2008,"Can analysts reason with analogical services re- trieved by AnTiQue to invent previously unspeci- fied requirements ranked as more novel?",1,0
+"http://orkg.org/orkg/resource/R287873",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R288432",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R288440",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R288443",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R288450",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R288453",2008,"No question",0,0
+"http://orkg.org/orkg/resource/R288460",2007,"What efforts have been made to model legal texts for use in requirements engineering and system development?",0,0
+"http://orkg.org/orkg/resource/R288476",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R288482",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R288485",2007,"Can a visual simulation of a scenario trigger requirements that might not be discovered with an ART- SCENE scenario walkthrough?",1,1
+"http://orkg.org/orkg/resource/R288485",2007,"Can a scenario walkthrough in the work context trigger requirements that might not be discovered with a scenario workshop?",1,1
+"http://orkg.org/orkg/resource/R288485",2007,"Can a scenario walkthrough in the work context trigger a larger number of requirements than an equivalent scenario workshop?",1,1
+"http://orkg.org/orkg/resource/R288494",2007,"How do small companies manage their requirements?",1,0
+"http://orkg.org/orkg/resource/R288494",2007,"How does the context of these companies affect them? ",1,0
+"http://orkg.org/orkg/resource/R288494",2007,"Which forces shape their requirements management processes?",1,0
+"http://orkg.org/orkg/resource/R288494",2007,"Why do these companies adopt some requirements practices and reject others? ",1,0
+"http://orkg.org/orkg/resource/R288507",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R288513",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R288742",2007,"Who is involved in actual RCSNs?",1,0
+"http://orkg.org/orkg/resource/R288742",2007,"What interactions and information exchange can be found in RCSNs?",1,0
+"http://orkg.org/orkg/resource/R288764",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R288766",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R288783",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R288794",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R288798",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R288801",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R288808",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R369142",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R369238",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R369339",2007,"What are the characteristics of long-term product planning in software product companies?",1,0
+"http://orkg.org/orkg/resource/R369339",2007,"What practices support linking business decisions to requirements engineering?",1,0
+"http://orkg.org/orkg/resource/R369483",2007,"What RE-related challenges companies have faced in their journey of introducing their software product into new market areas?",0,0
+"http://orkg.org/orkg/resource/R369483",2007,"What have the  companies done in their response to their new RE- related challenges?",0,0
+"http://orkg.org/orkg/resource/R369602",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R369685",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R369715",2007,"No question",0,0
+"http://orkg.org/orkg/resource/R596003",2001,"No question",0,0
+"http://orkg.org/orkg/resource/R596015",2001,"No question",0,0
+"http://orkg.org/orkg/resource/R596028",2001,"No question",0,0
+"http://orkg.org/orkg/resource/R596037",2001,"No question",0,0
+"http://orkg.org/orkg/resource/R596045",2001,"No question",0,0
+"http://orkg.org/orkg/resource/R597081",2001,"No question",0,0
+"http://orkg.org/orkg/resource/R597102",2001,"No question",0,0
+"http://orkg.org/orkg/resource/R597176",2001,"No question",0,0
+"http://orkg.org/orkg/resource/R597183",2001,"No question",0,0
+"http://orkg.org/orkg/resource/R597186",2001,"No question",0,0
+"http://orkg.org/orkg/resource/R597383",2001,"No question",0,0
+"http://orkg.org/orkg/resource/R597386",2001,"No question",0,0
+"http://orkg.org/orkg/resource/R597394",2001,"No question",0,0
 "http://orkg.org/orkg/resource/R597400",2001,"No question",0,0
 "http://orkg.org/orkg/resource/R597409",2001,"No question",0,0
 "http://orkg.org/orkg/resource/R597880",2001,"No question",0,0
@@ -596,6 +905,29 @@
 "http://orkg.org/orkg/resource/R647097",1997,"No question",0,0
 "http://orkg.org/orkg/resource/R651407",1997,"No question",0,0
 "http://orkg.org/orkg/resource/R651411",1997,"No question",0,0
+"http://orkg.org/orkg/resource/R708774",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R712785",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R713795",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R713816",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R713822",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R716500",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R716507",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R716516",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R716528",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R716534",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R723993",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R724132",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R725453",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R725474",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R725768",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R725860",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R725892",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R725946",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R734861",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R734867",1994,"No question",0,0
+"http://orkg.org/orkg/resource/R742443",1993,"No question",0,0
+"http://orkg.org/orkg/resource/R752003",1993,"No question",0,0
+"http://orkg.org/orkg/resource/R752108",1993,"No question",0,0
 "http://orkg.org/orkg/resource/R554452",2007,"Can we design an RE process that is accessible and usable for the blind user?",0,0
 "http://orkg.org/orkg/resource/R554460",2007,"No question",0,0
 "http://orkg.org/orkg/resource/R554468",2007,"No question",0,0
@@ -750,59 +1082,14 @@
 "http://orkg.org/orkg/resource/R589029",2002,"Does the order of first determining project choices, making project selection and then performing requirements analysis have an empirical basis? ",0,0
 "http://orkg.org/orkg/resource/R589029",2002,"If not, what are possible relationships between project choice construction, project selection and requirements analysis? ",0,0
 "http://orkg.org/orkg/resource/R589029",2002,"How are they similar or different to current RE views?",0,0
-"http://orkg.org/orkg/resource/R589038",2002,"How well it is defined?",0,0
 "http://orkg.org/orkg/resource/R589038",2002,"What are the risks associated with its application in mature/immature organizations?",0,0
 "http://orkg.org/orkg/resource/R589038",2002,"What are the essential practices that contribute to its success?",0,0
 "http://orkg.org/orkg/resource/R589038",2002,"What are the costs of the process and the quality of the delivered results?",0,0
+"http://orkg.org/orkg/resource/R589038",2002,"How well it is defined?",0,0
 "http://orkg.org/orkg/resource/R589047",2002,"No question",0,0
 "http://orkg.org/orkg/resource/R589055",2002,"No question",0,0
 "http://orkg.org/orkg/resource/R589059",2002,"No question",0,0
 "http://orkg.org/orkg/resource/R589063",2002,"No question",0,0
-"http://orkg.org/orkg/resource/R596003",2001,"No question",0,0
-"http://orkg.org/orkg/resource/R596015",2001,"No question",0,0
-"http://orkg.org/orkg/resource/R596028",2001,"No question",0,0
-"http://orkg.org/orkg/resource/R596037",2001,"No question",0,0
-"http://orkg.org/orkg/resource/R596045",2001,"No question",0,0
-"http://orkg.org/orkg/resource/R597081",2001,"No question",0,0
-"http://orkg.org/orkg/resource/R597102",2001,"No question",0,0
-"http://orkg.org/orkg/resource/R597176",2001,"No question",0,0
-"http://orkg.org/orkg/resource/R597183",2001,"No question",0,0
-"http://orkg.org/orkg/resource/R597186",2001,"No question",0,0
-"http://orkg.org/orkg/resource/R597383",2001,"No question",0,0
-"http://orkg.org/orkg/resource/R597386",2001,"No question",0,0
-"http://orkg.org/orkg/resource/R597394",2001,"No question",0,0
-"http://orkg.org/orkg/resource/R108199",2017,"How accurate are machine learning techniques when automatically classifying tweets relevant to software evolution?",1,0
-"http://orkg.org/orkg/resource/R108199",2017,"How accurate is topic modeling for grouping tweets about software applications according to their content?",1,0
-"http://orkg.org/orkg/resource/R108199",2017,"How accurate is our ranking approach compared to the assessment of technical stakeholders (e.g., developers, requirements engineers and product owners)?",1,0
-"http://orkg.org/orkg/resource/R108199",2017,"Are the results from topic modeling coherent according to  technical stakeholders (e.g., developers, requirements engi- neers and product owners)?",0,0
-"http://orkg.org/orkg/resource/R111988",2016,"What are the relevant characteristics of the tweets in terms of frequency, length, popularity and duplication?",1,0
-"http://orkg.org/orkg/resource/R111988",2016,"What type of content is present in tweets related to software applications?",1,0
-"http://orkg.org/orkg/resource/R111988",2016,"Is the content relevant to software application stakeholders?",1,0
-"http://orkg.org/orkg/resource/R111988",2016,"What are the attitudes that users have when writing about specific content?",1,0
-"http://orkg.org/orkg/resource/R111988",2016,"What is the performance of supervised machine learning techniques when classifying tweets related to software applications according to its relevance for different stakeholders?",1,0
-"http://orkg.org/orkg/resource/R112434",2017,"What quality aspects of software products are raised by users in app reviews?",1,0
-"http://orkg.org/orkg/resource/R112434",2017,"How should language patterns be defined so that quality aspects of software products formulated by users can be automatically detected or extracted?",1,0
-"http://orkg.org/orkg/resource/R113008",2017,"What is the quality of the crowd-acquired annotations?",1,0
-"http://orkg.org/orkg/resource/R113008",2017,"How efficient is the annotation process for the crowd?",1,0
-"http://orkg.org/orkg/resource/R113067",2017,"How do users denote rationale in online reviews, and which concepts (information types) do they include?",1,0
-"http://orkg.org/orkg/resource/R113067",2017,"How is the frequency distribution of the various rationale concepts over the reviews?",1,0
-"http://orkg.org/orkg/resource/R113067",2017,"How accurately can different configurations of machine learning techniques mine rationale concepts from the user reviews and sentences?",1,0
-"http://orkg.org/orkg/resource/R113160",2018,"Can we predict apps’ rating from their claimed features?",1,1
-"http://orkg.org/orkg/resource/R113160",2018,"Does rating predictability vary across app stores’ categories?",1,1
-"http://orkg.org/orkg/resource/R113160",2018,"How robust is our approach to the choice of the number of apps, k, used to form the cases for predictive modelling?",1,1
-"http://orkg.org/orkg/resource/R113204",2018,"To what extent can CLAP help developers with improving the interpretability of explanation sentences?",0,0
-"http://orkg.org/orkg/resource/R74547",2016,"Does it take less time to elicit and elaborate requirements with our ReqVidA approach than by taking notes with a text editor?",1,1
-"http://orkg.org/orkg/resource/R74547",2016,"Can a higher average quality of the elicited and elaborated requirements be achieved with our ReqVidA approach than by taking notes with a text editor?",1,1
-"http://orkg.org/orkg/resource/R76792",2017,"How informative is Twitter data for software engineers?",1,0
-"http://orkg.org/orkg/resource/R76792",2017,"To what extent can informative software-relevant tweets be automatically classified?",1,0
-"http://orkg.org/orkg/resource/R76792",2017,"How can informative tweets be accurately summarized? ",1,0
-"http://orkg.org/orkg/resource/R76818",2018,"No question",0,0
-"http://orkg.org/orkg/resource/R78392",2015,"How should the review metadata, text classification, NLP, and sentiment analysis be combined for the classification of app reviews?",0,0
-"http://orkg.org/orkg/resource/R78392",2015,"Which classifier algorithm works better (N. Bayes vs. D. Tree, vs. MaxEnt)?",0,0
-"http://orkg.org/orkg/resource/R78392",2015,"How much time and training data are needed for an accurate classification and is there a difference when using various review data?",0,0
-"http://orkg.org/orkg/resource/R78432",2016,"How should text be preprocessed for SFR detection?",1,0
-"http://orkg.org/orkg/resource/R78432",2016,"Which combinations of MLFs derived from the NL and ITS meta-data should be used for SFRs detection on different levels of detail?",1,0
-"http://orkg.org/orkg/resource/R78432",2016,"How well can trained prediction models be reused?",1,0
 "http://orkg.org/orkg/resource/R659290",1997,"No question",0,0
 "http://orkg.org/orkg/resource/R659408",1997,"No question",0,0
 "http://orkg.org/orkg/resource/R659413",1997,"No question",0,0
@@ -873,263 +1160,3 @@
 "http://orkg.org/orkg/resource/R684283",1995,"No question",0,0
 "http://orkg.org/orkg/resource/R684287",1995,"No question",0,0
 "http://orkg.org/orkg/resource/R684329",1994,"No question",0,0
-"http://orkg.org/orkg/resource/R221137",2012,"What techniques exist to align requirements from multiple jurisdictions?",1,0
-"http://orkg.org/orkg/resource/R221137",2012,"How do these techniques scale?",1,0
-"http://orkg.org/orkg/resource/R221147",2012,"Can we model the changes that are made to two proposed rules, the HIPAA Security Rule and the EHR Certification Rule, during final rulemaking?",1,0
-"http://orkg.org/orkg/resource/R221147",2012,"Can requirements engineers predict changes that will be made to proposed rules?",1,0
-"http://orkg.org/orkg/resource/R221156",2012,"No question",0,0
-"http://orkg.org/orkg/resource/R221163",2012,"No question",0,0
-"http://orkg.org/orkg/resource/R221169",2012,"Why is certain information (not) shared? ",0,0
-"http://orkg.org/orkg/resource/R221169",2012,"Is it worthwhile to sacrifice a low-priority policy by enlarging the disclosed scope in exchange for some important functionality or gaining trust from friends? ",0,0
-"http://orkg.org/orkg/resource/R221169",2012,"Does information have different values at different times? ",0,0
-"http://orkg.org/orkg/resource/R221169",2012,"What preferences among different norms need to be traded off at runtime?",0,0
-"http://orkg.org/orkg/resource/R221176",2012,"No question",0,0
-"http://orkg.org/orkg/resource/R221183",2012,"No question",0,0
-"http://orkg.org/orkg/resource/R221187",2012,"No question",0,0
-"http://orkg.org/orkg/resource/R221801",2012,"What are typical artifact types that should be contained in an SRS from the viewpoint of downstream development roles in order to accomplish their tasks?",1,0
-"http://orkg.org/orkg/resource/R221801",2012,"Is there a difference between different roles regarding information needs?",1,0
-"http://orkg.org/orkg/resource/R221821",2012,"Does a mix of DIs and DAs perform a RE activity more effectively than only DAs?",1,0
-"http://orkg.org/orkg/resource/R221838",2012,"No question",0,0
-"http://orkg.org/orkg/resource/R222366",2012,"No question",0,0
-"http://orkg.org/orkg/resource/R222372",2012,"No question",0,0
-"http://orkg.org/orkg/resource/R222375",2012,"Can we also consider concepts that have traditionally been used in the i* culture (e.g. goals, soft-goals or goal alternatives), and use them as AHP concepts?",0,0
-"http://orkg.org/orkg/resource/R222375",2012,"If we populate the goal model with the numbers we acquire through AHP, is the visual result comprehensible in a way that it can, for instance, allow gauging the optimal decision?",0,0
-"http://orkg.org/orkg/resource/R222375",2012,"What influences the elicitation process?",0,0
-"http://orkg.org/orkg/resource/R222375",2012,"What effort does the elicitation process require and would it scale for larger examples? ",0,0
-"http://orkg.org/orkg/resource/R225574",2012,"No question",0,0
-"http://orkg.org/orkg/resource/R225580",2012,"What are the types of functional requirements that make up the requirements space in the domain of ES?",1,0
-"http://orkg.org/orkg/resource/R225580",2012,"What are the frequency distributions of the functional requirement types in the domain of ES?",1,0
-"http://orkg.org/orkg/resource/R225580",2012,"Can the shape of the frequency distributions of the functional requirements in a software project be indicative of underlying problems in the development process?",1,0
-"http://orkg.org/orkg/resource/R225580",2012,"Are there phenomena regarding the functional requirements space that are consistently and persistently observable within a software domain or across multiple domains?",1,0
-"http://orkg.org/orkg/resource/R225589",2012,"Can we identify patterns of clarification in requirements discussions?",1,0
-"http://orkg.org/orkg/resource/R225589",2012,"Can we detect and classify these clarification patterns automatically?",1,0
-"http://orkg.org/orkg/resource/R227465",2022,"How well can state-of-the-art machine learning predict the different link types in issue trackers?",1,0
-"http://orkg.org/orkg/resource/R227465",2022,"What are possible explanations for the performance differences between repositories and link types and what can we learn from the differences?",1,0
-"http://orkg.org/orkg/resource/R227482",2022,"How does a remote software organization that adopts CSE practices reach a shared understanding of NFRs?",1,1
-"http://orkg.org/orkg/resource/R227482",2022,"What are the limitations to the shared understanding of NFRs in a remote software organization that adopts CSE practices?",1,1
-"http://orkg.org/orkg/resource/R227501",2022,"Given a minimal reference model (i.e., matched element names), to what extent can we automatically merge the remaining attributes to create a single goal model? ",0,0
-"http://orkg.org/orkg/resource/R227514",2022,"Which text similarity metric is the most accurate for selecting context spans relevant to a given question?",1,1
-"http://orkg.org/orkg/resource/R227514",2022,"Which QA model yields the most accurate answer extraction results? ",1,1
-"http://orkg.org/orkg/resource/R227514",2022,"What is the execution time of our approach?",1,1
-"http://orkg.org/orkg/resource/R227533",2022,"How effectively does our noun phrase identification method extract requirements terms compared with baselines for requirements terminology extraction and general terminology extraction?",1,1
-"http://orkg.org/orkg/resource/R227533",2022,"How effectively does our adaption of TextRank rank more relevant terms in the top positions compared with other TextRank variants?",1,1
-"http://orkg.org/orkg/resource/R227533",2022,"How to use the ranked term list produced by our adaptation of TextRank to help the construction of feature models?",1,1
-"http://orkg.org/orkg/resource/R227551",2022,"In AIS perception tasks, how can we address the problem of specifying dataset requirements?",1,0
-"http://orkg.org/orkg/resource/R227551",2022,"Based on results from RQ1, how can we verify a dataset against the specifications?",1,0
-"http://orkg.org/orkg/resource/R228189",2022,"In what ways is the viewing behavior influenced by additional text information when watching vision videos?",1,1
-"http://orkg.org/orkg/resource/R228189",2022,"What type of text presentation is most suitable for the context of vision videos?",1,1
-"http://orkg.org/orkg/resource/R228211",2022,"How is the feasibility of HSA in distinguishing configurations with respect to safety requirements violations?",1,1
-"http://orkg.org/orkg/resource/R228211",2022,"Are the configurations identified as safer by HSA applicable to most scenarios in a given traffic situation?",1,1
-"http://orkg.org/orkg/resource/R228211",2022,"Can HSA provide useful information for configuring a safe ADS in an industrial setting?",1,1
-"http://orkg.org/orkg/resource/R228222",2022,"No question",0,0
-"http://orkg.org/orkg/resource/R228229",2022,"What are the software engineering use cases for mining app reviews?",1,0
-"http://orkg.org/orkg/resource/R228229",2022,"What reference architecture can realise these use cases?",1,0
-"http://orkg.org/orkg/resource/R228229",2022,"What partial implementations of this reference architecture already exist?",1,0
-"http://orkg.org/orkg/resource/R228262",2022,"To what extent do users discuss privacy in software product forums?",1,1
-"http://orkg.org/orkg/resource/R228262",2022,"What privacy concerns do users discuss in software product forums such as Reddit?",1,1
-"http://orkg.org/orkg/resource/R228262",2022,"How do the number of privacy discussions change over time?",1,1
-"http://orkg.org/orkg/resource/R229273",2022,"What external factors influence the requirements for explanations?",1,0
-"http://orkg.org/orkg/resource/R229273",2022,"What characteristics of explanations need to be observed in the design of explanations?",1,0
-"http://orkg.org/orkg/resource/R229273",2022,"How to evaluate the impact of an explanation on system quality?",1,0
-"http://orkg.org/orkg/resource/R229316",2022,"Is the information retrieved from the forums, including the problem definitions, discussions, conclusions, graphs, and flight logs, sufficient for specifying requirements and identifying time-series attributes needed to design and deploy DLMs capable of effectively detecting the targeted anomalies?",1,0
-"http://orkg.org/orkg/resource/R229316",2022,"Do the DLM’s constructed using data collected from both documentation and forums outperform the rule-based anomaly detectors based on guidance related to threshold values described in the documentation?",1,0
-"http://orkg.org/orkg/resource/R229340",2022,"Which use cases benefit from pre-RS traceability?",1,0
-"http://orkg.org/orkg/resource/R229340",2022,"What are the expected benefits?",1,0
-"http://orkg.org/orkg/resource/R229369",2022,"No question",0,0
-"http://orkg.org/orkg/resource/R229375",2022,"What characterization method is best able to describe and distinguish a cluster compared to a random baseline?",1,1
-"http://orkg.org/orkg/resource/R229375",2022,"What characterization method best communicates requirements relevant information from a cluster?",1,1
-"http://orkg.org/orkg/resource/R249016",2011,"No question",0,0
-"http://orkg.org/orkg/resource/R249021",2011,"The first concerns the size of model this approach can tackle.",0,0
-"http://orkg.org/orkg/resource/R249021",2011,"The second concerns the benefits to using an incremental algorithm for updates, to support requirements model revision.",0,0
-"http://orkg.org/orkg/resource/R249030",2011,"Across change domains is there a significant difference in change cost?",0,1
-"http://orkg.org/orkg/resource/R249030",2011,"Across change domains, is there a significant difference in change value?",0,1
-"http://orkg.org/orkg/resource/R249030",2011,"Across change domains, is there a significant difference in Proportion of opportunity vs. defect related change? ",0,1
-"http://orkg.org/orkg/resource/R249030",2011,"Across change domains, is there a significant difference in The activities during which changes are found? ",0,1
-"http://orkg.org/orkg/resource/R249030",2011,"Across change domains, is there a significant difference in The number of stakeholders involved? ",0,1
-"http://orkg.org/orkg/resource/R249030",2011,"Across change domains, is there a significant difference in The level of project management control? ",0,1
-"http://orkg.org/orkg/resource/R254495",2011,"what causes gaps that hinder the communication of requirements?",0,0
-"http://orkg.org/orkg/resource/R254495",2011,"what are the effects of these gaps?",0,0
-"http://orkg.org/orkg/resource/R254508",2011,"Are there patterns of communication in collaboration driven by work on interdependent requirements?",1,0
-"http://orkg.org/orkg/resource/R254508",2011,"How do the different roles interact in collaboration driven by work on interdependent requirements?",1,0
-"http://orkg.org/orkg/resource/R254521",2011,"What kind of problems do software product companies encounter during roadmapping?",0,0
-"http://orkg.org/orkg/resource/R254521",2011,"How can these problems be solved?",0,0
-"http://orkg.org/orkg/resource/R256580",2011,"How is QR prioritization performed?",1,0
-"http://orkg.org/orkg/resource/R256580",2011,"What criteria are used when QR are prioritized?",1,0
-"http://orkg.org/orkg/resource/R256580",2011,"How does QR prioritization at product and project levels differ?",1,0
-"http://orkg.org/orkg/resource/R263000",2011,"No question",0,0
-"http://orkg.org/orkg/resource/R264011",2011,"No question",0,0
-"http://orkg.org/orkg/resource/R265006",2011,"Can we specify LSs and extract their instances from real-world SRDs?",1,0
-"http://orkg.org/orkg/resource/R265006",2011,"How efficient is the extraction?",1,0
-"http://orkg.org/orkg/resource/R265006",2011,"How complex are the templates?",1,0
-"http://orkg.org/orkg/resource/R265006",2011,"How do instances of an LS vary?",1,0
-"http://orkg.org/orkg/resource/R265006",2011,"How does capturing variability affect the complexity of a template?",1,0
-"http://orkg.org/orkg/resource/R265006",2011,"How critical is the need for human-editable templates?",1,0
-"http://orkg.org/orkg/resource/R265019",2011,"Is the effect of the accuracy of the initial TM on the accuracy of the final TM statistically significant?",1,1
-"http://orkg.org/orkg/resource/R265019",2011,"Are the effects of any observed independent variables on the accuracy of the final TM statistically significant (when controlled by the initial TM accuracy)?",1,1
-"http://orkg.org/orkg/resource/R265019",2011,"Which group of independent variables has a higher effect on the accuracy of the final TM: the variables measuring accuracy of the initial TM or the observed independent variables?",1,1
-"http://orkg.org/orkg/resource/R265028",2011,"No question",0,0
-"http://orkg.org/orkg/resource/R276000",2011,"No question",0,0
-"http://orkg.org/orkg/resource/R276005",2011,"No question",0,0
-"http://orkg.org/orkg/resource/R276009",2011,"We need to investigate is whether the property is useful in terms of quality assurance for requirements resp. discovery of subtle specification errors.",0,0
-"http://orkg.org/orkg/resource/R276015",2011,"No question",0,0
-"http://orkg.org/orkg/resource/R276020",2011,"No question",0,0
-"http://orkg.org/orkg/resource/R276024",2011,"What specific challenges do cross-references present for compliance in requirements engineering?",1,0
-"http://orkg.org/orkg/resource/R276031",2011,"Is there a consensus among subject matter experts on which requirements are LIR?",1,1
-"http://orkg.org/orkg/resource/R276031",2011,"Is there a consensus among graduate students on which requirements are LIR?",1,1
-"http://orkg.org/orkg/resource/R276031",2011,"Can graduate students accurately assess which requirements are LIR?",1,1
-"http://orkg.org/orkg/resource/R276031",2011,"Can we predict which requirements are LIR using attributes of those requirements?",1,1
-"http://orkg.org/orkg/resource/R276031",2011,"How do the categories for the legal requirements metrics affect whether a given requirement is LIR?",1,1
-"http://orkg.org/orkg/resource/R276031",2011,"Can we use our legal requirements triage algorithm for automating the process of predicting whether a requirement is LIR?",1,1
-"http://orkg.org/orkg/resource/R276045",2011,"No question",0,0
-"http://orkg.org/orkg/resource/R276051",2011,"Can feature request failures of the types defined in Section II be predicted from early discussions before the feature request is either assigned or rejected?",1,0
-"http://orkg.org/orkg/resource/R276051",2011,"What classification algorithms, among the four we envisaged, generate the most valuable prediction models?",1,0
-"http://orkg.org/orkg/resource/R276051",2011,"What attributes of early feature requests discussions, if any, can be used as reliable predictors of later failures?",1,0
-"http://orkg.org/orkg/resource/R276059",2011,"No question",0,0
-"http://orkg.org/orkg/resource/R279079",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R279086",2010,"Does the UCA group describe a different number of goals than the FA group?",1,0
-"http://orkg.org/orkg/resource/R279086",2010,"Does the UCA group describe a different number of information elements than the FA group?",1,0
-"http://orkg.org/orkg/resource/R279086",2010,"Do the subjects in the UCA group judge the impact of their approach on the completeness of the specification differently than the subjects in the FA group?",1,0
-"http://orkg.org/orkg/resource/R279109",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R279116",2010,"Are end-users able to document their individual needs in situ with the help of mobile tools?",1,1
-"http://orkg.org/orkg/resource/R279116",2010,"Can analysts transcribe end-user needs into well-defined requirements?",1,1
-"http://orkg.org/orkg/resource/R279126",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R279133",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R279136",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R279141",2010,"What is the impact of an existing system’s architecture on RE decisions?",1,0
-"http://orkg.org/orkg/resource/R279141",2010,"What are the characteristics of the affected decisions?",1,0
-"http://orkg.org/orkg/resource/R279141",2010,"What is the impact of the affected RE decisions on the resultant system and downstream development activities?",1,0
-"http://orkg.org/orkg/resource/R279151",2010,"How the challenges of deciding on a product’s future requirements have evolved in the course of time?",0,0
-"http://orkg.org/orkg/resource/R279158",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R280299",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R280303",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R280308",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R280317",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R280329",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R280335",2010,"Who are the decision makers in the prioritization process?",1,0
-"http://orkg.org/orkg/resource/R280335",2010,"Which value-based criteria do companies use to perform value-driven decisions during agile prioritization?",1,0
-"http://orkg.org/orkg/resource/R280335",2010,"What are the characteristics of the project settings that are essential for the way a requirements prioritization process is carried out in a project?",1,0
-"http://orkg.org/orkg/resource/R280335",2010,"Are there any other ways (beyond the selection of requirements) through which the requirements prioritization process adds value to the project?",1,0
-"http://orkg.org/orkg/resource/R280347",2010,"From the given set of pre-selected product release plans, which of the plans is most robust against the assumed changes?",1,0
-"http://orkg.org/orkg/resource/R280375",2010,"How much does the presentation of requirements influence design?",1,0
-"http://orkg.org/orkg/resource/R280375",2010,"How much does the presentation of design influence requirements? ",1,0
-"http://orkg.org/orkg/resource/R280375",2010,"Are requirement–design traces useful for measuring how much requirements are understood by the requirements receiver?",1,0
-"http://orkg.org/orkg/resource/R280412",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R280448",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R280481",2010,"Does CRAC++ satisfy the criteria?",1,1
-"http://orkg.org/orkg/resource/R280481",2010,"How does CRAC++ compare to alternative treatments?",1,1
-"http://orkg.org/orkg/resource/R280481",2010,"In which contexts is CRAC++ usable?",1,1
-"http://orkg.org/orkg/resource/R280486",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R280498",2010,"Does code complexity impact trace recovery effort?",1,0
-"http://orkg.org/orkg/resource/R280498",2010,"Does code complexity impact the correctness of trace links?",1,0
-"http://orkg.org/orkg/resource/R280498",2010,"What is the impact of trace granularity on effort?",1,0
-"http://orkg.org/orkg/resource/R280498",2010,"What is the impact of trace granularity on quality?",1,0
-"http://orkg.org/orkg/resource/R280498",2010,"Does the correctness of trace links increase with higher tracing effort?",1,0
-"http://orkg.org/orkg/resource/R280511",2010,"How do human analysts transform the requirements traceability information produced by automated methods? ",0,0
-"http://orkg.org/orkg/resource/R280511",2010,"How does the accuracy change in that process?",0,0
-"http://orkg.org/orkg/resource/R280511",2010,"Does the amount of time an analyst spends impact the quality of the results?",0,0
-"http://orkg.org/orkg/resource/R280521",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R280526",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R280529",2010,"No question",0,0
-"http://orkg.org/orkg/resource/R280738",2009,"Which requirement characteristics were affected, and to what extent, by the presence or absence of the SA?",1,0
-"http://orkg.org/orkg/resource/R280747",2009,"What are the challenges for the effective usage of methods transforming i* goal models into business process models?",1,1
-"http://orkg.org/orkg/resource/R280754",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R280758",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R280765",2009,"Which of the two notations is “smaller” (in the sense of less complexity)?",1,0
-"http://orkg.org/orkg/resource/R280765",2009,"Which notation produces more erroneous process models?",1,0
-"http://orkg.org/orkg/resource/R280765",2009,"Which of the two notations is easier to understand?",1,0
-"http://orkg.org/orkg/resource/R280765",2009,"Which of the two notations makes it possible to find errors more reliably?",1,0
-"http://orkg.org/orkg/resource/R280785",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R280789",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R280793",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R280798",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R280811",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R280818",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R281162",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R281166",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R281172",2009,"Are practitioners doing traceability? ",1,0
-"http://orkg.org/orkg/resource/R281172",2009,"What kinds of companies are doing traceability (i.e., size, domain, project types)? ",1,0
-"http://orkg.org/orkg/resource/R281172",2009,"Why is traceability being undertaken?",1,0
-"http://orkg.org/orkg/resource/R281172",2009,"Who is establishing the traceability, maintaining it and using it?",1,0
-"http://orkg.org/orkg/resource/R281172",2009,"When is the traceability established, maintained and used? ",1,0
-"http://orkg.org/orkg/resource/R281172",2009,"What level and degree of traceability is actually being done?",1,0
-"http://orkg.org/orkg/resource/R281172",2009,"What artifacts are included?",1,0
-"http://orkg.org/orkg/resource/R281172",2009,"What relations are formed?",1,0
-"http://orkg.org/orkg/resource/R281172",2009,"Do practitioners define and follow a traceability process? ",1,0
-"http://orkg.org/orkg/resource/R281172",2009,"What is the role of tools?",1,0
-"http://orkg.org/orkg/resource/R281188",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R281194",2009,"Will the subjects applying Communication Analysis produce functional RS with higher degree of completeness than the subjects applying Use Cases?",1,0
-"http://orkg.org/orkg/resource/R281194",2009,"Will the subjects applying Communication Analysis produce functional RS with a more appropriate level of granularity than the subjects applying Use Cases?",1,0
-"http://orkg.org/orkg/resource/R281210",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R281215",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R283066",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R283069",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R283077",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R283080",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R283089",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R283092",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R283095",2009,"No question",0,0
-"http://orkg.org/orkg/resource/R283098",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R283106",2008,"Is the approach capable of maintaining traceability relations at a level of accuracy comparable to manual maintenance during the evolution and refinement of UML models?",1,0
-"http://orkg.org/orkg/resource/R283106",2008,"How much manual effort can be saved by using automated maintenance and how dependent is that saving on the kind of modeling undertaken?",1,0
-"http://orkg.org/orkg/resource/R285771",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R285776",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R285781",2008,"What kinds of gaps exist, if any, between the Cisco and NCSU requirements and the Accessibility Standards?",1,0
-"http://orkg.org/orkg/resource/R285781",2008,"How are product requirements written to exceed the Accessibility Standards, or how do they fall short of compliance?",1,0
-"http://orkg.org/orkg/resource/R285781",2008,"What knowledge sources are needed to reduce legal ambiguity when refining legal requirements for product development?",1,0
-"http://orkg.org/orkg/resource/R285790",2008,"Are there different types of brokers in interdependent requirements networks?",1,1
-"http://orkg.org/orkg/resource/R285790",2008,"Are there members who are crucial to the information flow in RDSNs and if so, what are their roles?",1,1
-"http://orkg.org/orkg/resource/R285805",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R285808",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R285813",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R285816",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R285826",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R287812",2008,"How can awareness of RE good practices be introduced and reinforced in novice organizations to help build RE competence?",1,0
-"http://orkg.org/orkg/resource/R287825",2008,"Did our model of skill areas and levels accurately reflect requirements engineering expertise?",1,0
-"http://orkg.org/orkg/resource/R287825",2008,"What was missing from our model?",1,0
-"http://orkg.org/orkg/resource/R287825",2008,"What kinds of things did requirements engineers learn through experience?",1,0
-"http://orkg.org/orkg/resource/R287825",2008,"How did people develop as they became expert requirements engineers?",1,0
-"http://orkg.org/orkg/resource/R287825",2008,"What were the kinds of mistakes that people make along the way?",1,0
-"http://orkg.org/orkg/resource/R287836",2008,"What is a reasonable way to measure fairness?",0,0
-"http://orkg.org/orkg/resource/R287836",2008,"To what extent can a solution be shown (to the stake holders) to be a fair allocation of requirements?",0,0
-"http://orkg.org/orkg/resource/R287845",2008,"In which way is requirements prioritization based on benefit and cost estimation currently supported by which published method? ",0,0
-"http://orkg.org/orkg/resource/R287851",2008,"What is the cost of investigating NaPs compared to confirmed defects?",0,0
-"http://orkg.org/orkg/resource/R287851",2008,"Are performance-related defects more likely to be designated as NaPs than non-performance-related defects?",0,0
-"http://orkg.org/orkg/resource/R287851",2008,"Do performance requirements specified with higher precision levels have lower NaP occurrence rates?",0,0
-"http://orkg.org/orkg/resource/R287863",2008,"Can AnTiQue automatically retrieve web services from domains analogical to a specified problem?",1,0
-"http://orkg.org/orkg/resource/R287863",2008,"Can analysts reason with analogical services re- trieved by AnTiQue to invent previously unspeci- fied requirements ranked as more novel?",1,0
-"http://orkg.org/orkg/resource/R287873",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R288432",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R288440",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R288443",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R288450",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R288453",2008,"No question",0,0
-"http://orkg.org/orkg/resource/R288460",2007,"What efforts have been made to model legal texts for use in requirements engineering and system development?",0,0
-"http://orkg.org/orkg/resource/R288476",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R288482",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R288485",2007,"Can a visual simulation of a scenario trigger requirements that might not be discovered with an ART- SCENE scenario walkthrough?",1,1
-"http://orkg.org/orkg/resource/R288485",2007,"Can a scenario walkthrough in the work context trigger requirements that might not be discovered with a scenario workshop?",1,1
-"http://orkg.org/orkg/resource/R288485",2007,"Can a scenario walkthrough in the work context trigger a larger number of requirements than an equivalent scenario workshop?",1,1
-"http://orkg.org/orkg/resource/R288494",2007,"How do small companies manage their requirements?",1,0
-"http://orkg.org/orkg/resource/R288494",2007,"How does the context of these companies affect them? ",1,0
-"http://orkg.org/orkg/resource/R288494",2007,"Which forces shape their requirements management processes?",1,0
-"http://orkg.org/orkg/resource/R288494",2007,"Why do these companies adopt some requirements practices and reject others? ",1,0
-"http://orkg.org/orkg/resource/R288507",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R288513",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R288742",2007,"Who is involved in actual RCSNs?",1,0
-"http://orkg.org/orkg/resource/R288742",2007,"What interactions and information exchange can be found in RCSNs?",1,0
-"http://orkg.org/orkg/resource/R288764",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R288766",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R288783",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R288794",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R288798",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R288801",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R288808",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R369142",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R369238",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R369339",2007,"What are the characteristics of long-term product planning in software product companies?",1,0
-"http://orkg.org/orkg/resource/R369339",2007,"What practices support linking business decisions to requirements engineering?",1,0
-"http://orkg.org/orkg/resource/R369483",2007,"What have the  companies done in their response to their new RE- related challenges?",0,0
-"http://orkg.org/orkg/resource/R369483",2007,"What RE-related challenges companies have faced in their journey of introducing their software product into new market areas?",0,0
-"http://orkg.org/orkg/resource/R369602",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R369685",2007,"No question",0,0
-"http://orkg.org/orkg/resource/R369715",2007,"No question",0,0
