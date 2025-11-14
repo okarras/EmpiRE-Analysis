@@ -1,4 +1,40 @@
 "paper","da_label","test"
+"http://orkg.org/orkg/resource/R588979","analysis","correlation"
+"http://orkg.org/orkg/resource/R596028","analysis","chi-square test"
+"http://orkg.org/orkg/resource/R598284","analysis","mann-whitney-u test"
+"http://orkg.org/orkg/resource/R606868","analysis","t-test"
+"http://orkg.org/orkg/resource/R647097","analysis","chi-square test"
+"http://orkg.org/orkg/resource/R1552227","analysis","Friedman test"
+"http://orkg.org/orkg/resource/R1552227","analysis","Nemenyi’s post-hoc test"
+"http://orkg.org/orkg/resource/R1552227","analysis","pearson correlation"
+"http://orkg.org/orkg/resource/R1552227","analysis","Cohen's D"
+"http://orkg.org/orkg/resource/R1556048","analysis","one-way ANOVA"
+"http://orkg.org/orkg/resource/R1556048","analysis","bonferroni correction"
+"http://orkg.org/orkg/resource/R1556048","analysis","shapiro-wilk test"
+"http://orkg.org/orkg/resource/R1556048","analysis","chi-square test"
+"http://orkg.org/orkg/resource/R1556186","analysis","Bayesian data analysis"
+"http://orkg.org/orkg/resource/R1556208","analysis","Wilcoxon paired signed rank test"
+"http://orkg.org/orkg/resource/R1556286","analysis","mann-whitney-u test"
+"http://orkg.org/orkg/resource/R1556286","analysis","shapiro-wilk test"
+"http://orkg.org/orkg/resource/R1556286","analysis","kruskal-wallis test"
+"http://orkg.org/orkg/resource/R1556765","analysis","mixed-effect Bradley-Terry model"
+"http://orkg.org/orkg/resource/R1556765","analysis","shapiro-wilk test"
+"http://orkg.org/orkg/resource/R1556765","analysis","paired two-tailed Student’s t-test"
+"http://orkg.org/orkg/resource/R1556812","analysis","chi-square test"
+"http://orkg.org/orkg/resource/R1556812","analysis","Spearman rank correlation"
+"http://orkg.org/orkg/resource/R1556906","analysis","wilcoxon signed rank test"
+"http://orkg.org/orkg/resource/R1556906","analysis","shapiro-wilk test"
+"http://orkg.org/orkg/resource/R1556946","analysis","shapiro-wilk test"
+"http://orkg.org/orkg/resource/R1556946","analysis","Spearman rank-order correlation"
+"http://orkg.org/orkg/resource/R1556946","analysis","kolmogorow-smirnow test"
+"http://orkg.org/orkg/resource/R113008","analysis","Wilcoxon’s ranksum test"
+"http://orkg.org/orkg/resource/R113067","analysis","Student’s t-test"
+"http://orkg.org/orkg/resource/R113160","analysis","wilcoxon signed rank test"
+"http://orkg.org/orkg/resource/R113160","analysis","shapiro-wilk test"
+"http://orkg.org/orkg/resource/R113160","analysis","bonferroni adjustment"
+"http://orkg.org/orkg/resource/R113204","analysis","t-test"
+"http://orkg.org/orkg/resource/R74547","analysis","ANOVA"
+"http://orkg.org/orkg/resource/R76818","analysis","Wilcoxon’s ranksum test"
 "http://orkg.org/orkg/resource/R192345","analysis","shapiro-wilk test"
 "http://orkg.org/orkg/resource/R192345","analysis","welch t-test"
 "http://orkg.org/orkg/resource/R192345","analysis","levene test"
@@ -86,19 +122,6 @@
 "http://orkg.org/orkg/resource/R211428","analysis","correlation"
 "http://orkg.org/orkg/resource/R1388590","analysis","unpaired t-test"
 "http://orkg.org/orkg/resource/R1500294","analysis","Kruskal-Wallis Rank Sum test"
-"http://orkg.org/orkg/resource/R680058","analysis","unpaired t-test"
-"http://orkg.org/orkg/resource/R680058","analysis","two-way ANOVA"
-"http://orkg.org/orkg/resource/R684258","analysis","L statistic"
-"http://orkg.org/orkg/resource/R684258","analysis","Cronbach alpha coefficient"
-"http://orkg.org/orkg/resource/R684258","analysis","correlation"
-"http://orkg.org/orkg/resource/R113008","analysis","Wilcoxon’s ranksum test"
-"http://orkg.org/orkg/resource/R113067","analysis","Student’s t-test"
-"http://orkg.org/orkg/resource/R113160","analysis","wilcoxon signed rank test"
-"http://orkg.org/orkg/resource/R113160","analysis","shapiro-wilk test"
-"http://orkg.org/orkg/resource/R113160","analysis","bonferroni adjustment"
-"http://orkg.org/orkg/resource/R113204","analysis","t-test"
-"http://orkg.org/orkg/resource/R74547","analysis","ANOVA"
-"http://orkg.org/orkg/resource/R76818","analysis","Wilcoxon’s ranksum test"
 "http://orkg.org/orkg/resource/R220314","analysis","pearson correlation"
 "http://orkg.org/orkg/resource/R220323","analysis","mann-whitney-u test"
 "http://orkg.org/orkg/resource/R220343","analysis","wilcoxon signed rank test"
@@ -161,33 +184,6 @@
 "http://orkg.org/orkg/resource/R288764","analysis","t-test"
 "http://orkg.org/orkg/resource/R288764","analysis","f-test"
 "http://orkg.org/orkg/resource/R369238","analysis","pearson correlation"
-"http://orkg.org/orkg/resource/R596028","analysis","chi-square test"
-"http://orkg.org/orkg/resource/R598284","analysis","mann-whitney-u test"
-"http://orkg.org/orkg/resource/R606868","analysis","t-test"
-"http://orkg.org/orkg/resource/R647097","analysis","chi-square test"
-"http://orkg.org/orkg/resource/R1552227","analysis","pearson correlation"
-"http://orkg.org/orkg/resource/R1552227","analysis","Friedman test"
-"http://orkg.org/orkg/resource/R1552227","analysis","Nemenyi’s post-hoc test"
-"http://orkg.org/orkg/resource/R1552227","analysis","Cohen's D"
-"http://orkg.org/orkg/resource/R1556048","analysis","shapiro-wilk test"
-"http://orkg.org/orkg/resource/R1556048","analysis","chi-square test"
-"http://orkg.org/orkg/resource/R1556048","analysis","one-way ANOVA"
-"http://orkg.org/orkg/resource/R1556048","analysis","bonferroni correction"
-"http://orkg.org/orkg/resource/R1556186","analysis","Bayesian data analysis"
-"http://orkg.org/orkg/resource/R1556208","analysis","Wilcoxon paired signed rank test"
-"http://orkg.org/orkg/resource/R1556286","analysis","mann-whitney-u test"
-"http://orkg.org/orkg/resource/R1556286","analysis","shapiro-wilk test"
-"http://orkg.org/orkg/resource/R1556286","analysis","kruskal-wallis test"
-"http://orkg.org/orkg/resource/R1556765","analysis","shapiro-wilk test"
-"http://orkg.org/orkg/resource/R1556765","analysis","paired two-tailed Student’s t-test"
-"http://orkg.org/orkg/resource/R1556765","analysis","mixed-effect Bradley-Terry model"
-"http://orkg.org/orkg/resource/R1556812","analysis","chi-square test"
-"http://orkg.org/orkg/resource/R1556812","analysis","Spearman rank correlation"
-"http://orkg.org/orkg/resource/R1556906","analysis","wilcoxon signed rank test"
-"http://orkg.org/orkg/resource/R1556906","analysis","shapiro-wilk test"
-"http://orkg.org/orkg/resource/R1556946","analysis","shapiro-wilk test"
-"http://orkg.org/orkg/resource/R1556946","analysis","Spearman rank-order correlation"
-"http://orkg.org/orkg/resource/R1556946","analysis","kolmogorow-smirnow test"
 "http://orkg.org/orkg/resource/R576765","analysis","kruskal-wallis test"
 "http://orkg.org/orkg/resource/R580077","analysis","shapiro-wilk test"
 "http://orkg.org/orkg/resource/R580077","analysis","levene test"
@@ -200,10 +196,115 @@
 "http://orkg.org/orkg/resource/R586519","analysis","paired t-test"
 "http://orkg.org/orkg/resource/R587118","analysis","t-test"
 "http://orkg.org/orkg/resource/R588540","analysis","binomial test"
-"http://orkg.org/orkg/resource/R588979","analysis","correlation"
+"http://orkg.org/orkg/resource/R680058","analysis","unpaired t-test"
+"http://orkg.org/orkg/resource/R680058","analysis","two-way ANOVA"
+"http://orkg.org/orkg/resource/R684258","analysis","correlation"
+"http://orkg.org/orkg/resource/R684258","analysis","L statistic"
+"http://orkg.org/orkg/resource/R684258","analysis","Cronbach alpha coefficient"
 "http://orkg.org/orkg/resource/R1435100","analysis","Cohen's D"
 "http://orkg.org/orkg/resource/R1435100","analysis","unpaired two tailed t-test"
 "http://orkg.org/orkg/resource/R1435100","analysis","Spearman rank correlation"
+"http://orkg.org/orkg/resource/R589002","analysis",
+"http://orkg.org/orkg/resource/R589009","analysis",
+"http://orkg.org/orkg/resource/R589022","analysis",
+"http://orkg.org/orkg/resource/R589029","analysis",
+"http://orkg.org/orkg/resource/R589038","analysis",
+"http://orkg.org/orkg/resource/R589047","analysis",
+"http://orkg.org/orkg/resource/R596003","analysis",
+"http://orkg.org/orkg/resource/R596015","analysis",
+"http://orkg.org/orkg/resource/R596037","analysis",
+"http://orkg.org/orkg/resource/R596045","analysis",
+"http://orkg.org/orkg/resource/R597081","analysis",
+"http://orkg.org/orkg/resource/R597176","analysis",
+"http://orkg.org/orkg/resource/R597186","analysis",
+"http://orkg.org/orkg/resource/R597386","analysis",
+"http://orkg.org/orkg/resource/R597400","analysis",
+"http://orkg.org/orkg/resource/R597409","analysis",
+"http://orkg.org/orkg/resource/R597880","analysis",
+"http://orkg.org/orkg/resource/R597889","analysis",
+"http://orkg.org/orkg/resource/R597910","analysis",
+"http://orkg.org/orkg/resource/R598067","analysis",
+"http://orkg.org/orkg/resource/R598223","analysis",
+"http://orkg.org/orkg/resource/R598230","analysis",
+"http://orkg.org/orkg/resource/R598274","analysis",
+"http://orkg.org/orkg/resource/R598496","analysis",
+"http://orkg.org/orkg/resource/R598506","analysis",
+"http://orkg.org/orkg/resource/R598586","analysis",
+"http://orkg.org/orkg/resource/R598598","analysis",
+"http://orkg.org/orkg/resource/R598606","analysis",
+"http://orkg.org/orkg/resource/R598614","analysis",
+"http://orkg.org/orkg/resource/R598631","analysis",
+"http://orkg.org/orkg/resource/R598694","analysis",
+"http://orkg.org/orkg/resource/R600479","analysis",
+"http://orkg.org/orkg/resource/R601221","analysis",
+"http://orkg.org/orkg/resource/R602865","analysis",
+"http://orkg.org/orkg/resource/R602883","analysis",
+"http://orkg.org/orkg/resource/R603589","analysis",
+"http://orkg.org/orkg/resource/R603600","analysis",
+"http://orkg.org/orkg/resource/R605077","analysis",
+"http://orkg.org/orkg/resource/R605419","analysis",
+"http://orkg.org/orkg/resource/R605866","analysis",
+"http://orkg.org/orkg/resource/R605881","analysis",
+"http://orkg.org/orkg/resource/R606148","analysis",
+"http://orkg.org/orkg/resource/R606247","analysis",
+"http://orkg.org/orkg/resource/R606260","analysis",
+"http://orkg.org/orkg/resource/R606293","analysis",
+"http://orkg.org/orkg/resource/R606302","analysis",
+"http://orkg.org/orkg/resource/R606309","analysis",
+"http://orkg.org/orkg/resource/R606569","analysis",
+"http://orkg.org/orkg/resource/R606576","analysis",
+"http://orkg.org/orkg/resource/R606839","analysis",
+"http://orkg.org/orkg/resource/R606860","analysis",
+"http://orkg.org/orkg/resource/R606919","analysis",
+"http://orkg.org/orkg/resource/R606928","analysis",
+"http://orkg.org/orkg/resource/R606978","analysis",
+"http://orkg.org/orkg/resource/R607051","analysis",
+"http://orkg.org/orkg/resource/R607060","analysis",
+"http://orkg.org/orkg/resource/R644694","analysis",
+"http://orkg.org/orkg/resource/R708774","analysis",
+"http://orkg.org/orkg/resource/R712785","analysis",
+"http://orkg.org/orkg/resource/R713795","analysis",
+"http://orkg.org/orkg/resource/R716500","analysis",
+"http://orkg.org/orkg/resource/R716507","analysis",
+"http://orkg.org/orkg/resource/R716516","analysis",
+"http://orkg.org/orkg/resource/R724132","analysis",
+"http://orkg.org/orkg/resource/R725453","analysis",
+"http://orkg.org/orkg/resource/R725768","analysis",
+"http://orkg.org/orkg/resource/R734867","analysis",
+"http://orkg.org/orkg/resource/R742443","analysis",
+"http://orkg.org/orkg/resource/R1550154","analysis",
+"http://orkg.org/orkg/resource/R1550172","analysis",
+"http://orkg.org/orkg/resource/R1550193","analysis",
+"http://orkg.org/orkg/resource/R1550440","analysis",
+"http://orkg.org/orkg/resource/R1550948","analysis",
+"http://orkg.org/orkg/resource/R1550970","analysis",
+"http://orkg.org/orkg/resource/R1551416","analysis",
+"http://orkg.org/orkg/resource/R1551444","analysis",
+"http://orkg.org/orkg/resource/R1552150","analysis",
+"http://orkg.org/orkg/resource/R1552169","analysis",
+"http://orkg.org/orkg/resource/R1552191","analysis",
+"http://orkg.org/orkg/resource/R1552209","analysis",
+"http://orkg.org/orkg/resource/R1556242","analysis",
+"http://orkg.org/orkg/resource/R1556308","analysis",
+"http://orkg.org/orkg/resource/R1556329","analysis",
+"http://orkg.org/orkg/resource/R1556352","analysis",
+"http://orkg.org/orkg/resource/R1556382","analysis",
+"http://orkg.org/orkg/resource/R1556399","analysis",
+"http://orkg.org/orkg/resource/R1556636","analysis",
+"http://orkg.org/orkg/resource/R1556659","analysis",
+"http://orkg.org/orkg/resource/R1556683","analysis",
+"http://orkg.org/orkg/resource/R1556702","analysis",
+"http://orkg.org/orkg/resource/R1556727","analysis",
+"http://orkg.org/orkg/resource/R1556746","analysis",
+"http://orkg.org/orkg/resource/R1556791","analysis",
+"http://orkg.org/orkg/resource/R1556927","analysis",
+"http://orkg.org/orkg/resource/R1556972","analysis",
+"http://orkg.org/orkg/resource/R108199","analysis",
+"http://orkg.org/orkg/resource/R111988","analysis",
+"http://orkg.org/orkg/resource/R112434","analysis",
+"http://orkg.org/orkg/resource/R76792","analysis",
+"http://orkg.org/orkg/resource/R78392","analysis",
+"http://orkg.org/orkg/resource/R78432","analysis",
 "http://orkg.org/orkg/resource/R159690","analysis",
 "http://orkg.org/orkg/resource/R192386","analysis",
 "http://orkg.org/orkg/resource/R192398","analysis",
@@ -343,50 +444,6 @@
 "http://orkg.org/orkg/resource/R1490995","analysis",
 "http://orkg.org/orkg/resource/R1493955","analysis",
 "http://orkg.org/orkg/resource/R1496437","analysis",
-"http://orkg.org/orkg/resource/R659290","analysis",
-"http://orkg.org/orkg/resource/R659413","analysis",
-"http://orkg.org/orkg/resource/R659470","analysis",
-"http://orkg.org/orkg/resource/R660083","analysis",
-"http://orkg.org/orkg/resource/R660217","analysis",
-"http://orkg.org/orkg/resource/R661887","analysis",
-"http://orkg.org/orkg/resource/R661896","analysis",
-"http://orkg.org/orkg/resource/R661908","analysis",
-"http://orkg.org/orkg/resource/R671037","analysis",
-"http://orkg.org/orkg/resource/R671056","analysis",
-"http://orkg.org/orkg/resource/R675312","analysis",
-"http://orkg.org/orkg/resource/R675329","analysis",
-"http://orkg.org/orkg/resource/R675349","analysis",
-"http://orkg.org/orkg/resource/R675363","analysis",
-"http://orkg.org/orkg/resource/R675399","analysis",
-"http://orkg.org/orkg/resource/R678146","analysis",
-"http://orkg.org/orkg/resource/R678216","analysis",
-"http://orkg.org/orkg/resource/R678227","analysis",
-"http://orkg.org/orkg/resource/R678968","analysis",
-"http://orkg.org/orkg/resource/R680008","analysis",
-"http://orkg.org/orkg/resource/R680028","analysis",
-"http://orkg.org/orkg/resource/R680038","analysis",
-"http://orkg.org/orkg/resource/R680050","analysis",
-"http://orkg.org/orkg/resource/R684186","analysis",
-"http://orkg.org/orkg/resource/R684194","analysis",
-"http://orkg.org/orkg/resource/R684218","analysis",
-"http://orkg.org/orkg/resource/R684242","analysis",
-"http://orkg.org/orkg/resource/R1509792","analysis",
-"http://orkg.org/orkg/resource/R1512925","analysis",
-"http://orkg.org/orkg/resource/R1543447","analysis",
-"http://orkg.org/orkg/resource/R1543479","analysis",
-"http://orkg.org/orkg/resource/R1543501","analysis",
-"http://orkg.org/orkg/resource/R1543521","analysis",
-"http://orkg.org/orkg/resource/R1543544","analysis",
-"http://orkg.org/orkg/resource/R1543565","analysis",
-"http://orkg.org/orkg/resource/R1543592","analysis",
-"http://orkg.org/orkg/resource/R1543618","analysis",
-"http://orkg.org/orkg/resource/R1544000","analysis",
-"http://orkg.org/orkg/resource/R108199","analysis",
-"http://orkg.org/orkg/resource/R111988","analysis",
-"http://orkg.org/orkg/resource/R112434","analysis",
-"http://orkg.org/orkg/resource/R76792","analysis",
-"http://orkg.org/orkg/resource/R78392","analysis",
-"http://orkg.org/orkg/resource/R78432","analysis",
 "http://orkg.org/orkg/resource/R220303","analysis",
 "http://orkg.org/orkg/resource/R220354","analysis",
 "http://orkg.org/orkg/resource/R220371","analysis",
@@ -497,95 +554,6 @@
 "http://orkg.org/orkg/resource/R369339","analysis",
 "http://orkg.org/orkg/resource/R369483","analysis",
 "http://orkg.org/orkg/resource/R369685","analysis",
-"http://orkg.org/orkg/resource/R596003","analysis",
-"http://orkg.org/orkg/resource/R596015","analysis",
-"http://orkg.org/orkg/resource/R596037","analysis",
-"http://orkg.org/orkg/resource/R596045","analysis",
-"http://orkg.org/orkg/resource/R597081","analysis",
-"http://orkg.org/orkg/resource/R597176","analysis",
-"http://orkg.org/orkg/resource/R597186","analysis",
-"http://orkg.org/orkg/resource/R597386","analysis",
-"http://orkg.org/orkg/resource/R597400","analysis",
-"http://orkg.org/orkg/resource/R597409","analysis",
-"http://orkg.org/orkg/resource/R597880","analysis",
-"http://orkg.org/orkg/resource/R597889","analysis",
-"http://orkg.org/orkg/resource/R597910","analysis",
-"http://orkg.org/orkg/resource/R598067","analysis",
-"http://orkg.org/orkg/resource/R598223","analysis",
-"http://orkg.org/orkg/resource/R598230","analysis",
-"http://orkg.org/orkg/resource/R598274","analysis",
-"http://orkg.org/orkg/resource/R598496","analysis",
-"http://orkg.org/orkg/resource/R598506","analysis",
-"http://orkg.org/orkg/resource/R598586","analysis",
-"http://orkg.org/orkg/resource/R598598","analysis",
-"http://orkg.org/orkg/resource/R598606","analysis",
-"http://orkg.org/orkg/resource/R598614","analysis",
-"http://orkg.org/orkg/resource/R598631","analysis",
-"http://orkg.org/orkg/resource/R598694","analysis",
-"http://orkg.org/orkg/resource/R600479","analysis",
-"http://orkg.org/orkg/resource/R601221","analysis",
-"http://orkg.org/orkg/resource/R602865","analysis",
-"http://orkg.org/orkg/resource/R602883","analysis",
-"http://orkg.org/orkg/resource/R603589","analysis",
-"http://orkg.org/orkg/resource/R603600","analysis",
-"http://orkg.org/orkg/resource/R605077","analysis",
-"http://orkg.org/orkg/resource/R605419","analysis",
-"http://orkg.org/orkg/resource/R605866","analysis",
-"http://orkg.org/orkg/resource/R605881","analysis",
-"http://orkg.org/orkg/resource/R606148","analysis",
-"http://orkg.org/orkg/resource/R606247","analysis",
-"http://orkg.org/orkg/resource/R606260","analysis",
-"http://orkg.org/orkg/resource/R606293","analysis",
-"http://orkg.org/orkg/resource/R606302","analysis",
-"http://orkg.org/orkg/resource/R606309","analysis",
-"http://orkg.org/orkg/resource/R606569","analysis",
-"http://orkg.org/orkg/resource/R606576","analysis",
-"http://orkg.org/orkg/resource/R606839","analysis",
-"http://orkg.org/orkg/resource/R606860","analysis",
-"http://orkg.org/orkg/resource/R606919","analysis",
-"http://orkg.org/orkg/resource/R606928","analysis",
-"http://orkg.org/orkg/resource/R606978","analysis",
-"http://orkg.org/orkg/resource/R607051","analysis",
-"http://orkg.org/orkg/resource/R607060","analysis",
-"http://orkg.org/orkg/resource/R644694","analysis",
-"http://orkg.org/orkg/resource/R1550154","analysis",
-"http://orkg.org/orkg/resource/R1550172","analysis",
-"http://orkg.org/orkg/resource/R1550193","analysis",
-"http://orkg.org/orkg/resource/R1550440","analysis",
-"http://orkg.org/orkg/resource/R1550948","analysis",
-"http://orkg.org/orkg/resource/R1550970","analysis",
-"http://orkg.org/orkg/resource/R1551416","analysis",
-"http://orkg.org/orkg/resource/R1551444","analysis",
-"http://orkg.org/orkg/resource/R1552150","analysis",
-"http://orkg.org/orkg/resource/R1552169","analysis",
-"http://orkg.org/orkg/resource/R1552191","analysis",
-"http://orkg.org/orkg/resource/R1552209","analysis",
-"http://orkg.org/orkg/resource/R1556242","analysis",
-"http://orkg.org/orkg/resource/R1556308","analysis",
-"http://orkg.org/orkg/resource/R1556329","analysis",
-"http://orkg.org/orkg/resource/R1556352","analysis",
-"http://orkg.org/orkg/resource/R1556382","analysis",
-"http://orkg.org/orkg/resource/R1556399","analysis",
-"http://orkg.org/orkg/resource/R1556636","analysis",
-"http://orkg.org/orkg/resource/R1556659","analysis",
-"http://orkg.org/orkg/resource/R1556683","analysis",
-"http://orkg.org/orkg/resource/R1556702","analysis",
-"http://orkg.org/orkg/resource/R1556727","analysis",
-"http://orkg.org/orkg/resource/R1556746","analysis",
-"http://orkg.org/orkg/resource/R1556791","analysis",
-"http://orkg.org/orkg/resource/R1556927","analysis",
-"http://orkg.org/orkg/resource/R1556972","analysis",
-"http://orkg.org/orkg/resource/R708774","analysis",
-"http://orkg.org/orkg/resource/R712785","analysis",
-"http://orkg.org/orkg/resource/R713795","analysis",
-"http://orkg.org/orkg/resource/R716500","analysis",
-"http://orkg.org/orkg/resource/R716507","analysis",
-"http://orkg.org/orkg/resource/R716516","analysis",
-"http://orkg.org/orkg/resource/R724132","analysis",
-"http://orkg.org/orkg/resource/R725453","analysis",
-"http://orkg.org/orkg/resource/R725768","analysis",
-"http://orkg.org/orkg/resource/R734867","analysis",
-"http://orkg.org/orkg/resource/R742443","analysis",
 "http://orkg.org/orkg/resource/R554452","analysis",
 "http://orkg.org/orkg/resource/R554460","analysis",
 "http://orkg.org/orkg/resource/R554468","analysis",
@@ -673,10 +641,42 @@
 "http://orkg.org/orkg/resource/R588523","analysis",
 "http://orkg.org/orkg/resource/R588557","analysis",
 "http://orkg.org/orkg/resource/R588573","analysis",
-"http://orkg.org/orkg/resource/R589002","analysis",
-"http://orkg.org/orkg/resource/R589009","analysis",
-"http://orkg.org/orkg/resource/R589022","analysis",
-"http://orkg.org/orkg/resource/R589029","analysis",
-"http://orkg.org/orkg/resource/R589038","analysis",
-"http://orkg.org/orkg/resource/R589047","analysis",
+"http://orkg.org/orkg/resource/R659290","analysis",
+"http://orkg.org/orkg/resource/R659413","analysis",
+"http://orkg.org/orkg/resource/R659470","analysis",
+"http://orkg.org/orkg/resource/R660083","analysis",
+"http://orkg.org/orkg/resource/R660217","analysis",
+"http://orkg.org/orkg/resource/R661887","analysis",
+"http://orkg.org/orkg/resource/R661896","analysis",
+"http://orkg.org/orkg/resource/R661908","analysis",
+"http://orkg.org/orkg/resource/R671037","analysis",
+"http://orkg.org/orkg/resource/R671056","analysis",
+"http://orkg.org/orkg/resource/R675312","analysis",
+"http://orkg.org/orkg/resource/R675329","analysis",
+"http://orkg.org/orkg/resource/R675349","analysis",
+"http://orkg.org/orkg/resource/R675363","analysis",
+"http://orkg.org/orkg/resource/R675399","analysis",
+"http://orkg.org/orkg/resource/R678146","analysis",
+"http://orkg.org/orkg/resource/R678216","analysis",
+"http://orkg.org/orkg/resource/R678227","analysis",
+"http://orkg.org/orkg/resource/R678968","analysis",
+"http://orkg.org/orkg/resource/R680008","analysis",
+"http://orkg.org/orkg/resource/R680028","analysis",
+"http://orkg.org/orkg/resource/R680038","analysis",
+"http://orkg.org/orkg/resource/R680050","analysis",
+"http://orkg.org/orkg/resource/R684186","analysis",
+"http://orkg.org/orkg/resource/R684194","analysis",
+"http://orkg.org/orkg/resource/R684218","analysis",
+"http://orkg.org/orkg/resource/R684242","analysis",
 "http://orkg.org/orkg/resource/R752003","analysis",
+"http://orkg.org/orkg/resource/R1509792","analysis",
+"http://orkg.org/orkg/resource/R1512925","analysis",
+"http://orkg.org/orkg/resource/R1543447","analysis",
+"http://orkg.org/orkg/resource/R1543479","analysis",
+"http://orkg.org/orkg/resource/R1543501","analysis",
+"http://orkg.org/orkg/resource/R1543521","analysis",
+"http://orkg.org/orkg/resource/R1543544","analysis",
+"http://orkg.org/orkg/resource/R1543565","analysis",
+"http://orkg.org/orkg/resource/R1543592","analysis",
+"http://orkg.org/orkg/resource/R1543618","analysis",
+"http://orkg.org/orkg/resource/R1544000","analysis",
