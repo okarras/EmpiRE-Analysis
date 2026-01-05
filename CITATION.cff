@@ -30,7 +30,7 @@ identifiers:
     value: 10.48550/arXiv.2306.16791
     description: The DOI of the ESEM 2023 preprint on arXiv.
   - type: doi
-    value: 10.5281/zenodo.8083528
+    value: 10.5281/zenodo.18154586
     description: The DOI of the corresponding release on Zenodo.
   - type: doi
     value: 10.1109/RE59067.2024.00063
@@ -42,100 +42,6 @@ identifiers:
 repository-code: 'https://github.com/okarras/EmpiRE-Analysis'
 url: >-
   https://orkg.org/observatory/Empirical_Software_Engineering?sort=combined&classesFilter=Paper,Comparison,Visualization
-abstract: >
-  This project contains the constantly updated data,
-  analysis, and results of a sustainanle literature review
-  on the state and evolution of empirical research in
-  requirements engineering (RE) using the developed
-  KG-EmpiRE.
-
-
-  KG-EmpiRE is a community-maintainable knowledge graph (KG)
-  of empirical research in requirements engineering based on
-  scientific data extracted from currently 680 papers
-  published in the research track of the IEEE International
-  Conference on Requirement Engineering from 1994 to 2022.
-  We are currently organizing scientific data in KG-EmpiRE
-  using a defined template for the six themes of research
-  paradigm, research design, research method, data
-  collection, data analysis and bibliographic metadata with
-  the long-term plan to expand the themes.
-
-
-  KG-EmpiRE itself is maintained in the Open Research
-  Knowledge Graph (ORKG). The ORKG is a cross-domain and
-  cross-topic research knowledge graph (RKG) with a
-  corresponding technical infrastructure and services for
-  the organization of Findable, Accessible, Interoperable,
-  and Reusable (FAIR) scientific data from papers in
-  accordance with the FAIR data principles. The TIB -
-  Leibniz Information Centre for Science and Technology
-  developes and maintains the ORKG permaently and has
-  committed itself to the long-term archiving of all data.
-  As a central accees point to all curated papers in
-  KG-EmpiRE, we established a more general ORKG observatory
-  on empirical research in software engineering. In
-  addition, we add a RDF dump of the ORKG to each release of
-  the project published on Zenodo, which includes the most
-  recent analyzed data from KG-EmpiRE.
-
-
-  In this project, we perform the data analysis of
-  KG-EmpiRE, which has two purposes:
-
-      1. We evaluate the coverage of the curated topic of empirical research in RE by KG-EmpiRE.
-
-      2. We gain insights into the state and evolution of empirical research in RE.
-
-
-  The data analysis is based on competency questions
-  regarding empirical research in SE, including RE, derived
-  from the vision of Sjøberg et al. (2007). Sjøberg et al.
-  (2007) describe their vision of the role of empirical
-  methods in SE, including RE, for the period of 2020 – 2025
-  by comparing the "current" state of practice (2007) with
-  their target state (2020 - 2025). We analyzed these
-  descriptions and derived a total of 77 competency
-  questions. The number of competency questions answered
-  reflects the coverage of the curated topic in KG-EmpiRE
-  (1), and the answers to competency questions provide
-  insights into the state and evolution of empirical
-  research in RE (2). For each competency question that can
-  be answered with KG-EmpiRE (currently 16 of 77), we
-  specified a SPARQL query to retrieve and analyze the data
-  of KG-EmpiRE from the ORKG. We provide all details of the
-  analysis with its SPARQL queries, data, visualizations,
-  and explanations in the Jupyter Notebook hosted on
-  mybinder for interactive reproduction and (re-)use, always
-  using the most recent data from KG-EmpiRE.
-
-
-  The analysis of the individual competency questions always
-  follows the same structure:
-
-    1. Data Selection: Explaining the competency question and the required data for the analysis.
-    
-    2. Data Collection: Executing the specified SPARQL query to retrieve the data.
-    
-    3. Data Exploration: Exploring the data, including its cleaning and validation, to prepare the data for data analysis.
-    
-    4. Data Analysis: Analyzing the data and creating visualizations.
-    
-    5. Data Interpretation: Interpreting the data and derive insights.
-
-
-  Overall, this project serves to make the data, analysis,
-  and results openly available in the long term according to
-  the FAIR data principles to enable a reproducible,
-  (re-)usable and thus sustainable literature review.
-
-  In this way, this project can be used to:
-
-      1. Reproduce the results from the Related Publication.
-
-      2. (Re-)use KG-EmpiRE with its data for other research on empirical research in RE.
-
-      3. Replicate our research approach for sustainable literature reviews on other topics.
 keywords:
   - Python
   - Jupyter notebook
@@ -144,6 +50,6 @@ keywords:
   - Requirements engineering
   - Open Research Knowledge Graph
 license: MIT
-commit: 77e4cd8
-version: v1.1
-date-released: '2024-04-30'
+commit: 9e8beef
+version: v2.1
+date-released: '2026-01-05'
