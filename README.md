@@ -11,7 +11,7 @@
 
 [![KG-EmpiRE - Dashboard](https://img.shields.io/badge/KG--EmpiRE-Dashboard-5d99c4)](https://empire-compass.tib.eu/R186491/)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/okarras/EmpiRE-Analysis/HEAD?labpath=%2Fempire-analysis.ipynb)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8083528.svg)](https://doi.org/10.5281/zenodo.8083528) [![ORKG - KG-EmpiRE](https://img.shields.io/badge/ORKG-KG--EmpiRE-e86161)](https://orkg.org/observatory/Empirical_Software_Engineering?sort=combined&classesFilter=Paper,Comparison,Visualization)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18154586.svg)](https://doi.org/10.5281/zenodo.18154586) [![ORKG - KG-EmpiRE](https://img.shields.io/badge/ORKG-KG--EmpiRE-e86161)](https://orkg.org/observatory/Empirical_Software_Engineering?sort=combined&classesFilter=Paper,Comparison,Visualization)
 [![ORKG - RDF dump](https://img.shields.io/badge/ORKG-RDF_dump-e86161)](https://orkg.org/api/rdf/dump)
 </div>
 
@@ -412,9 +412,10 @@ E-Mail: [oliver.karras@tib.eu](mailto:oliver.karras@tib.eu)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # How to Cite
-If you want to cite this project, we suggest to use the following reference:
+If you want to cite this project, we suggest using the following reference:
 >Oliver Karras:<br/>
->[__Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering - A Sustainable Literature Review for Analyzing the State and Evolution of Empirical Research in Requirements Engineering__](https://doi.org/10.5281/zenodo.11092471), Computer Software, Version v1.1, https://github.com/okarras/EmpiRE-Analysis, 2024.
+>[__Divide and Conquer the EmpiRE: A Community-Maintainable Knowledge Graph of Empirical Research in Requirements Engineering - A Sustainable Literature Review for Analyzing the State and Evolution of Empirical Research in Requirements Engineering__](https://doi.org/10.5281/zenodo.18154586), Computer Software, Version v1.1, https://github.com/okarras/EmpiRE-Analysis, 2024.
+
 
 You can also use the "**Cite this repository**" function in the top right menu resulting from the included [citation file format file](CITATION.cff) for human- and machine-readable citation information for software and datasets. Further information can be found on the [Citation File Format (CFF) website](https://citation-file-format.github.io/).
 
